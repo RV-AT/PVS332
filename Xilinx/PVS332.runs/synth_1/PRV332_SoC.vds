@@ -1,0 +1,1741 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov 14 18:38:11 2019
+# Process ID: 14028
+# Current directory: D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1
+# Command line: vivado.exe -log PRV332_SoC.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source PRV332_SoC.tcl
+# Log file: D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/PRV332_SoC.vds
+# Journal file: D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source PRV332_SoC.tcl -notrace
+Command: synth_design -top PRV332_SoC -part xc7s15ftgb196-1 -bufg 100 -fanout_limit 15
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7s15'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7s15'
+INFO: [Device 21-403] Loading part xc7s15ftgb196-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14316 
+WARNING: [Synth 8-2292] literal value truncated to fit in 2 bits [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_CCREG.v:62]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 687.313 ; gain = 184.113
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'PRV332_SoC' [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'prv332sv0' [D:/projects/FPGA/PVS332/RTL/CPU/prv332sv0.v:8]
+	Parameter w8 bound to: 3'b001 
+	Parameter w16 bound to: 3'b010 
+	Parameter w32 bound to: 3'b011 
+	Parameter r8 bound to: 3'b101 
+	Parameter r16 bound to: 3'b110 
+	Parameter r32 bound to: 3'b111 
+INFO: [Synth 8-6157] synthesizing module 'biu' [D:/projects/FPGA/PVS332/RTL/CPU/biu.v:8]
+	Parameter stb bound to: 7'b0000000 
+	Parameter rdy bound to: 7'b0000001 
+	Parameter err bound to: 7'b0000010 
+	Parameter ifnp bound to: 7'b0001000 
+	Parameter ifwp0 bound to: 7'b0010000 
+	Parameter ifwp1 bound to: 7'b0010001 
+	Parameter ifwp2 bound to: 7'b0010010 
+	Parameter ifwp3 bound to: 7'b0010011 
+	Parameter ifwp4 bound to: 7'b0010100 
+	Parameter r32np bound to: 7'b0011000 
+	Parameter r32wp0 bound to: 7'b0100000 
+	Parameter r32wp1 bound to: 7'b0100001 
+	Parameter r32wp2 bound to: 7'b0100010 
+	Parameter r32wp3 bound to: 7'b0100011 
+	Parameter r32wp4 bound to: 7'b0100100 
+	Parameter r16np bound to: 7'b0101000 
+	Parameter r16wp0 bound to: 7'b0110000 
+	Parameter r16wp1 bound to: 7'b0110001 
+	Parameter r16wp2 bound to: 7'b0110010 
+	Parameter r16wp3 bound to: 7'b0110011 
+	Parameter r16wp4 bound to: 7'b0110100 
+	Parameter r8np bound to: 7'b0111000 
+	Parameter r8wp0 bound to: 7'b1000000 
+	Parameter r8wp1 bound to: 7'b1000001 
+	Parameter r8wp2 bound to: 7'b1000010 
+	Parameter r8wp3 bound to: 7'b1000011 
+	Parameter r8wp4 bound to: 7'b1000100 
+	Parameter w32np bound to: 7'b1001000 
+	Parameter w32wp0 bound to: 7'b1010000 
+	Parameter w32wp1 bound to: 7'b1010001 
+	Parameter w32wp2 bound to: 7'b1010010 
+	Parameter w32wp3 bound to: 7'b1010011 
+	Parameter w32wp4 bound to: 7'b1010100 
+	Parameter w16np bound to: 7'b1011000 
+	Parameter w16wp0 bound to: 7'b1100000 
+	Parameter w16wp1 bound to: 7'b1100001 
+	Parameter w16wp2 bound to: 7'b1100010 
+	Parameter w16wp3 bound to: 7'b1100011 
+	Parameter w16wp4 bound to: 7'b1100100 
+	Parameter w8np bound to: 7'b1101000 
+	Parameter w8wp0 bound to: 7'b1110000 
+	Parameter w8wp1 bound to: 7'b1110001 
+	Parameter w8wp2 bound to: 7'b1110010 
+	Parameter w8wp3 bound to: 7'b1110011 
+	Parameter w8wp4 bound to: 7'b1110100 
+	Parameter opw8 bound to: 3'b001 
+	Parameter opw16 bound to: 3'b010 
+	Parameter opw32 bound to: 3'b011 
+	Parameter opr8 bound to: 3'b101 
+	Parameter opr16 bound to: 3'b110 
+	Parameter opr32 bound to: 3'b111 
+INFO: [Synth 8-6157] synthesizing module 'mmu' [D:/projects/FPGA/PVS332/RTL/CPU/mmu.v:1]
+	Parameter stb bound to: 7'b0000000 
+	Parameter rdy bound to: 7'b0000001 
+	Parameter err bound to: 7'b0000010 
+	Parameter ifnp bound to: 7'b0001000 
+	Parameter ifwp0 bound to: 7'b0010000 
+	Parameter ifwp1 bound to: 7'b0010001 
+	Parameter ifwp2 bound to: 7'b0010010 
+	Parameter ifwp3 bound to: 7'b0010011 
+	Parameter ifwp4 bound to: 7'b0010100 
+	Parameter r32np bound to: 7'b0011000 
+	Parameter r32wp0 bound to: 7'b0100000 
+	Parameter r32wp1 bound to: 7'b0100001 
+	Parameter r32wp2 bound to: 7'b0100010 
+	Parameter r32wp3 bound to: 7'b0100011 
+	Parameter r32wp4 bound to: 7'b0100100 
+	Parameter r16np bound to: 7'b0101000 
+	Parameter r16wp0 bound to: 7'b0110000 
+	Parameter r16wp1 bound to: 7'b0110001 
+	Parameter r16wp2 bound to: 7'b0110010 
+	Parameter r16wp3 bound to: 7'b0110011 
+	Parameter r16wp4 bound to: 7'b0110100 
+	Parameter r8np bound to: 7'b0111000 
+	Parameter r8wp0 bound to: 7'b1000000 
+	Parameter r8wp1 bound to: 7'b1000001 
+	Parameter r8wp2 bound to: 7'b1000010 
+	Parameter r8wp3 bound to: 7'b1000011 
+	Parameter r8wp4 bound to: 7'b1000100 
+	Parameter w32np bound to: 7'b1001000 
+	Parameter w32wp0 bound to: 7'b1010000 
+	Parameter w32wp1 bound to: 7'b1010001 
+	Parameter w32wp2 bound to: 7'b1010010 
+	Parameter w32wp3 bound to: 7'b1010011 
+	Parameter w32wp4 bound to: 7'b1010100 
+	Parameter w16np bound to: 7'b1011000 
+	Parameter w16wp0 bound to: 7'b1100000 
+	Parameter w16wp1 bound to: 7'b1100001 
+	Parameter w16wp2 bound to: 7'b1100010 
+	Parameter w16wp3 bound to: 7'b1100011 
+	Parameter w16wp4 bound to: 7'b1100100 
+	Parameter w8np bound to: 7'b1101000 
+	Parameter w8wp0 bound to: 7'b1110000 
+	Parameter w8wp1 bound to: 7'b1110001 
+	Parameter w8wp2 bound to: 7'b1110010 
+	Parameter w8wp3 bound to: 7'b1110011 
+	Parameter w8wp4 bound to: 7'b1110100 
+INFO: [Synth 8-6155] done synthesizing module 'mmu' (2#1) [D:/projects/FPGA/PVS332/RTL/CPU/mmu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ahb' [D:/projects/FPGA/PVS332/RTL/CPU/ahb.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ahb' (3#1) [D:/projects/FPGA/PVS332/RTL/CPU/ahb.v:4]
+WARNING: [Synth 8-689] width (2) of port connection 'hsize' does not match port width (3) of module 'ahb' [D:/projects/FPGA/PVS332/RTL/CPU/biu.v:458]
+INFO: [Synth 8-6157] synthesizing module 'exce_chk' [D:/projects/FPGA/PVS332/RTL/CPU/exce_chk.v:3]
+	Parameter stb bound to: 7'b0000000 
+	Parameter rdy bound to: 7'b0000001 
+	Parameter err bound to: 7'b0000010 
+	Parameter ifnp bound to: 7'b0001000 
+	Parameter ifwp0 bound to: 7'b0010000 
+	Parameter ifwp1 bound to: 7'b0010001 
+	Parameter ifwp2 bound to: 7'b0010010 
+	Parameter ifwp3 bound to: 7'b0010011 
+	Parameter ifwp4 bound to: 7'b0010100 
+	Parameter r32np bound to: 7'b0011000 
+	Parameter r32wp0 bound to: 7'b0100000 
+	Parameter r32wp1 bound to: 7'b0100001 
+	Parameter r32wp2 bound to: 7'b0100010 
+	Parameter r32wp3 bound to: 7'b0100011 
+	Parameter r32wp4 bound to: 7'b0100100 
+	Parameter r16np bound to: 7'b0101000 
+	Parameter r16wp0 bound to: 7'b0110000 
+	Parameter r16wp1 bound to: 7'b0110001 
+	Parameter r16wp2 bound to: 7'b0110010 
+	Parameter r16wp3 bound to: 7'b0110011 
+	Parameter r16wp4 bound to: 7'b0110100 
+	Parameter r8np bound to: 7'b0111000 
+	Parameter r8wp0 bound to: 7'b1000000 
+	Parameter r8wp1 bound to: 7'b1000001 
+	Parameter r8wp2 bound to: 7'b1000010 
+	Parameter r8wp3 bound to: 7'b1000011 
+	Parameter r8wp4 bound to: 7'b1000100 
+	Parameter w32np bound to: 7'b1001000 
+	Parameter w32wp0 bound to: 7'b1010000 
+	Parameter w32wp1 bound to: 7'b1010001 
+	Parameter w32wp2 bound to: 7'b1010010 
+	Parameter w32wp3 bound to: 7'b1010011 
+	Parameter w32wp4 bound to: 7'b1010100 
+	Parameter w16np bound to: 7'b1011000 
+	Parameter w16wp0 bound to: 7'b1100000 
+	Parameter w16wp1 bound to: 7'b1100001 
+	Parameter w16wp2 bound to: 7'b1100010 
+	Parameter w16wp3 bound to: 7'b1100011 
+	Parameter w16wp4 bound to: 7'b1100100 
+	Parameter w8np bound to: 7'b1101000 
+	Parameter w8wp0 bound to: 7'b1110000 
+	Parameter w8wp1 bound to: 7'b1110001 
+	Parameter w8wp2 bound to: 7'b1110010 
+	Parameter w8wp3 bound to: 7'b1110011 
+	Parameter w8wp4 bound to: 7'b1110100 
+INFO: [Synth 8-6155] done synthesizing module 'exce_chk' (4#1) [D:/projects/FPGA/PVS332/RTL/CPU/exce_chk.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'biu' (5#1) [D:/projects/FPGA/PVS332/RTL/CPU/biu.v:8]
+INFO: [Synth 8-6157] synthesizing module 'csr_gpr_iu' [D:/projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v:4]
+	Parameter if0 bound to: 4'b0000 
+	Parameter ex0 bound to: 4'b0001 
+	Parameter mem0 bound to: 4'b0010 
+	Parameter mem1 bound to: 4'b1010 
+	Parameter ex1 bound to: 4'b1001 
+	Parameter wb bound to: 4'b0011 
+	Parameter exc bound to: 4'b1111 
+	Parameter m bound to: 2'b11 
+	Parameter h bound to: 2'b10 
+	Parameter s bound to: 2'b01 
+	Parameter u bound to: 2'b00 
+	Parameter if_ex_mem_wb bound to: 4'b0001 
+	Parameter if_ex_wb bound to: 4'b0010 
+	Parameter if_ex_mem_ex_mem_wb bound to: 4'b0011 
+INFO: [Synth 8-6157] synthesizing module 'ins_dec' [D:/projects/FPGA/PVS332/RTL/CPU/ins_dec.v:4]
+	Parameter if0 bound to: 4'b0000 
+	Parameter ex0 bound to: 4'b0001 
+	Parameter mem0 bound to: 4'b0010 
+	Parameter mem1 bound to: 4'b1010 
+	Parameter ex1 bound to: 4'b1001 
+	Parameter wb bound to: 4'b0011 
+	Parameter exc bound to: 4'b1111 
+	Parameter if_ex_mem_wb bound to: 4'b0001 
+	Parameter if_ex_wb bound to: 4'b0010 
+	Parameter if_ex_mem_ex_mem_wb bound to: 4'b0011 
+	Parameter w8 bound to: 3'b001 
+	Parameter w16 bound to: 3'b010 
+	Parameter w32 bound to: 3'b011 
+	Parameter r8 bound to: 3'b101 
+	Parameter r16 bound to: 3'b110 
+	Parameter r32 bound to: 3'b111 
+INFO: [Synth 8-6155] done synthesizing module 'ins_dec' (6#1) [D:/projects/FPGA/PVS332/RTL/CPU/ins_dec.v:4]
+INFO: [Synth 8-6157] synthesizing module 'int_ctrl' [D:/projects/FPGA/PVS332/RTL/CPU/int_ctrl.v:4]
+	Parameter if0 bound to: 4'b0000 
+	Parameter ex0 bound to: 4'b0001 
+	Parameter mem0 bound to: 4'b0010 
+	Parameter mem1 bound to: 4'b1010 
+	Parameter ex1 bound to: 4'b1001 
+	Parameter wb bound to: 4'b0011 
+	Parameter exc bound to: 4'b1111 
+	Parameter m bound to: 2'b11 
+	Parameter h bound to: 2'b10 
+	Parameter s bound to: 2'b01 
+	Parameter u bound to: 2'b00 
+	Parameter usint bound to: 134217728 - type: integer 
+	Parameter ssint bound to: 134217729 - type: integer 
+	Parameter msint bound to: 134217731 - type: integer 
+	Parameter utint bound to: 134217732 - type: integer 
+	Parameter stint bound to: 134217733 - type: integer 
+	Parameter mtint bound to: 134217735 - type: integer 
+	Parameter ueint bound to: 134217736 - type: integer 
+	Parameter seint bound to: 134217737 - type: integer 
+	Parameter meint bound to: 134217739 - type: integer 
+	Parameter iam bound to: 0 - type: integer 
+	Parameter iaf bound to: 1 - type: integer 
+	Parameter ii bound to: 2 - type: integer 
+	Parameter bk bound to: 3 - type: integer 
+	Parameter lam bound to: 4 - type: integer 
+	Parameter laf bound to: 5 - type: integer 
+	Parameter sam bound to: 6 - type: integer 
+	Parameter saf bound to: 7 - type: integer 
+	Parameter ecu bound to: 8 - type: integer 
+	Parameter ecs bound to: 9 - type: integer 
+	Parameter ecm bound to: 11 - type: integer 
+	Parameter ipf bound to: 12 - type: integer 
+	Parameter lpf bound to: 13 - type: integer 
+	Parameter spf bound to: 15 - type: integer 
+	Parameter mstatus_index bound to: 12'b001100000000 
+	Parameter medeleg_index bound to: 12'b001100000010 
+	Parameter mideleg_index bound to: 12'b001100000011 
+	Parameter mie_index bound to: 12'b001100000100 
+	Parameter mtvec_index bound to: 12'b001100000101 
+	Parameter mscratch_index bound to: 12'b001101000000 
+	Parameter mepc_index bound to: 12'b001101000001 
+	Parameter mcause_index bound to: 12'b001101000010 
+	Parameter mtval_index bound to: 12'b001101000011 
+	Parameter mip_index bound to: 12'b001101000100 
+	Parameter pmpcfg0_index bound to: 12'b001110100000 
+	Parameter pmpcfg1_index bound to: 12'b001110100001 
+	Parameter pmpcfg2_index bound to: 12'b001110100010 
+	Parameter pmpcfg3_index bound to: 12'b001110100011 
+	Parameter pmpaddr0_index bound to: 12'b001110110000 
+	Parameter pmpaddr1_index bound to: 12'b001110110001 
+	Parameter pmpaddr2_index bound to: 12'b001110110010 
+	Parameter pmpaddr3_index bound to: 12'b001110110011 
+	Parameter sstatus_index bound to: 12'b000100000000 
+	Parameter sie_index bound to: 12'b000100000100 
+	Parameter stvec_index bound to: 12'b000100000101 
+	Parameter sscratch_index bound to: 12'b000101000000 
+	Parameter sepc_index bound to: 12'b000101000001 
+	Parameter scause_index bound to: 12'b000101000010 
+	Parameter stval_index bound to: 12'b000101000011 
+	Parameter sip_index bound to: 12'b000101000100 
+	Parameter satp_index bound to: 12'b000110000000 
+INFO: [Synth 8-6155] done synthesizing module 'int_ctrl' (7#1) [D:/projects/FPGA/PVS332/RTL/CPU/int_ctrl.v:4]
+INFO: [Synth 8-6157] synthesizing module 'csr' [D:/projects/FPGA/PVS332/RTL/CPU/csr.v:6]
+	Parameter if0 bound to: 4'b0000 
+	Parameter ex0 bound to: 4'b0001 
+	Parameter mem0 bound to: 4'b0010 
+	Parameter mem1 bound to: 4'b1010 
+	Parameter ex1 bound to: 4'b1001 
+	Parameter wb bound to: 4'b0011 
+	Parameter exc bound to: 4'b1111 
+	Parameter m bound to: 2'b11 
+	Parameter h bound to: 2'b10 
+	Parameter s bound to: 2'b01 
+	Parameter u bound to: 2'b00 
+	Parameter mcycle_index bound to: 12'b101100000000 
+	Parameter minstret_index bound to: 12'b101100000010 
+	Parameter mstatus_index bound to: 12'b001100000000 
+	Parameter medeleg_index bound to: 12'b001100000010 
+	Parameter mideleg_index bound to: 12'b001100000011 
+	Parameter mie_index bound to: 12'b001100000100 
+	Parameter mtvec_index bound to: 12'b001100000101 
+	Parameter mscratch_index bound to: 12'b001101000000 
+	Parameter mepc_index bound to: 12'b001101000001 
+	Parameter mcause_index bound to: 12'b001101000010 
+	Parameter mtval_index bound to: 12'b001101000011 
+	Parameter mip_index bound to: 12'b001101000100 
+	Parameter pmpcfg0_index bound to: 12'b001110100000 
+	Parameter pmpcfg1_index bound to: 12'b001110100001 
+	Parameter pmpcfg2_index bound to: 12'b001110100010 
+	Parameter pmpcfg3_index bound to: 12'b001110100011 
+	Parameter pmpaddr0_index bound to: 12'b001110110000 
+	Parameter pmpaddr1_index bound to: 12'b001110110001 
+	Parameter pmpaddr2_index bound to: 12'b001110110010 
+	Parameter pmpaddr3_index bound to: 12'b001110110011 
+	Parameter sstatus_index bound to: 12'b000100000000 
+	Parameter sie_index bound to: 12'b000100000100 
+	Parameter stvec_index bound to: 12'b000100000101 
+	Parameter sscratch_index bound to: 12'b000101000000 
+	Parameter sepc_index bound to: 12'b000101000001 
+	Parameter scause_index bound to: 12'b000101000010 
+	Parameter stval_index bound to: 12'b000101000011 
+	Parameter sip_index bound to: 12'b000101000100 
+	Parameter satp_index bound to: 12'b000110000000 
+	Parameter usint bound to: 134217728 - type: integer 
+	Parameter ssint bound to: 134217729 - type: integer 
+	Parameter msint bound to: 134217731 - type: integer 
+	Parameter utint bound to: 134217732 - type: integer 
+	Parameter stint bound to: 134217733 - type: integer 
+	Parameter mtint bound to: 134217735 - type: integer 
+	Parameter ueint bound to: 134217736 - type: integer 
+	Parameter seint bound to: 134217737 - type: integer 
+	Parameter meint bound to: 134217739 - type: integer 
+	Parameter iam bound to: 0 - type: integer 
+	Parameter iaf bound to: 1 - type: integer 
+	Parameter ii bound to: 2 - type: integer 
+	Parameter bk bound to: 3 - type: integer 
+	Parameter lam bound to: 4 - type: integer 
+	Parameter laf bound to: 5 - type: integer 
+	Parameter sam bound to: 6 - type: integer 
+	Parameter saf bound to: 7 - type: integer 
+	Parameter ecu bound to: 8 - type: integer 
+	Parameter ecs bound to: 9 - type: integer 
+	Parameter ecm bound to: 11 - type: integer 
+	Parameter ipf bound to: 12 - type: integer 
+	Parameter lpf bound to: 13 - type: integer 
+	Parameter spf bound to: 15 - type: integer 
+	Parameter pc_rst bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'csr' (8#1) [D:/projects/FPGA/PVS332/RTL/CPU/csr.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'csr_gpr_iu' (9#1) [D:/projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v:4]
+INFO: [Synth 8-6157] synthesizing module 'exu' [D:/projects/FPGA/PVS332/RTL/CPU/exu.v:8]
+	Parameter w8 bound to: 3'b001 
+	Parameter w16 bound to: 3'b010 
+	Parameter w32 bound to: 3'b011 
+	Parameter r8 bound to: 3'b101 
+	Parameter r16 bound to: 3'b110 
+	Parameter r32 bound to: 3'b111 
+	Parameter if0 bound to: 4'b0000 
+	Parameter ex0 bound to: 4'b0001 
+	Parameter mem0 bound to: 4'b0010 
+	Parameter mem1 bound to: 4'b1010 
+	Parameter ex1 bound to: 4'b1001 
+	Parameter wb bound to: 4'b0011 
+	Parameter exc bound to: 4'b1111 
+INFO: [Synth 8-6157] synthesizing module 'alu' [D:/projects/FPGA/PVS332/RTL/CPU/alu.v:4]
+	Parameter w8 bound to: 3'b001 
+	Parameter w16 bound to: 3'b010 
+	Parameter w32 bound to: 3'b011 
+	Parameter r8 bound to: 3'b101 
+	Parameter r16 bound to: 3'b110 
+	Parameter r32 bound to: 3'b111 
+	Parameter if0 bound to: 4'b0000 
+	Parameter ex0 bound to: 4'b0001 
+	Parameter mem0 bound to: 4'b0010 
+	Parameter mem1 bound to: 4'b1010 
+	Parameter ex1 bound to: 4'b1001 
+	Parameter wb bound to: 4'b0011 
+	Parameter exc bound to: 4'b1111 
+INFO: [Synth 8-6155] done synthesizing module 'alu' (10#1) [D:/projects/FPGA/PVS332/RTL/CPU/alu.v:4]
+INFO: [Synth 8-6157] synthesizing module 'au' [D:/projects/FPGA/PVS332/RTL/CPU/au.v:4]
+	Parameter w8 bound to: 3'b001 
+	Parameter w16 bound to: 3'b010 
+	Parameter w32 bound to: 3'b011 
+	Parameter r8 bound to: 3'b101 
+	Parameter r16 bound to: 3'b110 
+	Parameter r32 bound to: 3'b111 
+	Parameter if0 bound to: 4'b0000 
+	Parameter ex0 bound to: 4'b0001 
+	Parameter mem0 bound to: 4'b0010 
+	Parameter mem1 bound to: 4'b1010 
+	Parameter ex1 bound to: 4'b1001 
+	Parameter wb bound to: 4'b0011 
+	Parameter exc bound to: 4'b1111 
+INFO: [Synth 8-6155] done synthesizing module 'au' (11#1) [D:/projects/FPGA/PVS332/RTL/CPU/au.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'exu' (12#1) [D:/projects/FPGA/PVS332/RTL/CPU/exu.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'prv332sv0' (13#1) [D:/projects/FPGA/PVS332/RTL/CPU/prv332sv0.v:8]
+WARNING: [Synth 8-689] width (3) of port connection 'hsize' does not match port width (2) of module 'prv332sv0' [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:155]
+WARNING: [Synth 8-689] width (2) of port connection 'hresp' does not match port width (1) of module 'prv332sv0' [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:163]
+INFO: [Synth 8-6157] synthesizing module 'ahb_decoder' [D:/projects/FPGA/PVS332/RTL/AHB_Lite/ahb_decoder.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'ahb_decoder' (14#1) [D:/projects/FPGA/PVS332/RTL/AHB_Lite/ahb_decoder.v:18]
+INFO: [Synth 8-6157] synthesizing module 'ahb_mux_s2m' [D:/projects/FPGA/PVS332/RTL/AHB_Lite/ahb_mux_s2m.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'ahb_mux_s2m' (15#1) [D:/projects/FPGA/PVS332/RTL/AHB_Lite/ahb_mux_s2m.v:34]
+INFO: [Synth 8-6157] synthesizing module 'AHB_ROM' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v:4]
+INFO: [Synth 8-6157] synthesizing module 'BOOTROM' [D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/realtime/BOOTROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'BOOTROM' (16#1) [D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/realtime/BOOTROM_stub.v:6]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (12) of module 'BOOTROM' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'AHB_ROM' (17#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v:4]
+INFO: [Synth 8-6157] synthesizing module 'AHB_OCRAM' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:5]
+INFO: [Synth 8-6157] synthesizing module 'BLKRAM8' [D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/realtime/BLKRAM8_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'BLKRAM8' (18#1) [D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/realtime/BLKRAM8_stub.v:6]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (12) of module 'BLKRAM8' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:54]
+WARNING: [Synth 8-689] width (15) of port connection 'addrb' does not match port width (12) of module 'BLKRAM8' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:59]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (12) of module 'BLKRAM8' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:67]
+WARNING: [Synth 8-689] width (15) of port connection 'addrb' does not match port width (12) of module 'BLKRAM8' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:72]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (12) of module 'BLKRAM8' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:79]
+WARNING: [Synth 8-689] width (15) of port connection 'addrb' does not match port width (12) of module 'BLKRAM8' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:84]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (12) of module 'BLKRAM8' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:91]
+WARNING: [Synth 8-689] width (15) of port connection 'addrb' does not match port width (12) of module 'BLKRAM8' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:96]
+INFO: [Synth 8-6155] done synthesizing module 'AHB_OCRAM' (19#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:5]
+INFO: [Synth 8-6157] synthesizing module 'AHB_CCREG' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_CCREG.v:2]
+INFO: [Synth 8-6157] synthesizing module 'plic_cell' [D:/projects/FPGA/PVS332/RTL/Peripherals/plic_cell.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'plic_cell' (20#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/plic_cell.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pcod16s4' [D:/projects/FPGA/PVS332/RTL/Peripherals/pcod16s4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pcod16s4' (21#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/pcod16s4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'AHB_CCREG' (22#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_CCREG.v:2]
+INFO: [Synth 8-6157] synthesizing module 'AHB_DUMMY' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_DUMMY.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'AHB_DUMMY' (23#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_DUMMY.v:4]
+INFO: [Synth 8-6157] synthesizing module 'ahb_is62' [D:/projects/FPGA/PVS332/RTL/Peripherals/ahb_is62.v:8]
+	Parameter nsq bound to: 2'b10 
+	Parameter idle bound to: 2'b00 
+	Parameter t8 bound to: 3'b000 
+	Parameter t16 bound to: 3'b001 
+	Parameter t32 bound to: 3'b010 
+	Parameter tw bound to: 4'b0000 
+	Parameter rt1 bound to: 4'b0001 
+	Parameter rt2 bound to: 4'b0010 
+	Parameter rt3 bound to: 4'b0011 
+	Parameter rt4 bound to: 4'b0100 
+	Parameter wt1 bound to: 4'b1001 
+	Parameter wt2 bound to: 4'b1010 
+	Parameter wt3 bound to: 4'b1011 
+	Parameter wt4 bound to: 4'b1100 
+INFO: [Synth 8-6155] done synthesizing module 'ahb_is62' (24#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/ahb_is62.v:8]
+WARNING: [Synth 8-689] width (2) of port connection 'hresp' does not match port width (1) of module 'ahb_is62' [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:336]
+INFO: [Synth 8-6157] synthesizing module 'PERI_DECODE' [D:/projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'PERI_DECODE' (25#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v:1]
+INFO: [Synth 8-6157] synthesizing module 'PERI_MUX' [D:/projects/FPGA/PVS332/RTL/Peripherals/PERI_MUX.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'PERI_MUX' (26#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/PERI_MUX.v:1]
+WARNING: [Synth 8-7023] instance 'PERIMUX1' of module 'PERI_MUX' has 21 connections declared, but only 13 given [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:397]
+INFO: [Synth 8-6157] synthesizing module 'ahb_spi_v0' [D:/projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v:29]
+	Parameter nsq bound to: 2'b10 
+	Parameter idle bound to: 2'b00 
+	Parameter t8 bound to: 3'b000 
+	Parameter t16 bound to: 3'b001 
+	Parameter t32 bound to: 3'b010 
+INFO: [Synth 8-6157] synthesizing module 'clk_ctrl' [D:/projects/FPGA/PVS332/RTL/Peripherals/clk_ctrl.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_ctrl' (27#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/clk_ctrl.v:6]
+INFO: [Synth 8-6157] synthesizing module 'spi_module' [D:/projects/FPGA/PVS332/RTL/Peripherals/spi_module.v:4]
+WARNING: [Synth 8-6014] Unused sequential element R_rtx_state_reg was removed.  [D:/projects/FPGA/PVS332/RTL/Peripherals/spi_module.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'spi_module' (28#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/spi_module.v:4]
+WARNING: [Synth 8-689] width (32) of port connection 'O_data_out' does not match port width (8) of module 'spi_module' [D:/projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v:202]
+INFO: [Synth 8-6155] done synthesizing module 'ahb_spi_v0' (29#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v:29]
+WARNING: [Synth 8-7023] instance 'AHB_SPI1' of module 'ahb_spi_v0' has 22 connections declared, but only 19 given [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:415]
+INFO: [Synth 8-6157] synthesizing module 'AHB_UART' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v:83]
+INFO: [Synth 8-6157] synthesizing module 'BaudGen' [D:/projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'BaudGen' (30#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v:2]
+INFO: [Synth 8-6157] synthesizing module 'UART_Tx' [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Tx.v:1]
+	Parameter Idle bound to: 2'b00 
+	Parameter Start bound to: 2'b01 
+	Parameter Tb bound to: 2'b10 
+	Parameter Stop bound to: 2'b11 
+INFO: [Synth 8-6155] done synthesizing module 'UART_Tx' (31#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Tx.v:1]
+INFO: [Synth 8-6157] synthesizing module 'UART_Rx' [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v:1]
+	Parameter Idle bound to: 3'b000 
+	Parameter wait16 bound to: 3'b001 
+	Parameter CLR bound to: 3'b010 
+	Parameter Rb bound to: 3'b100 
+	Parameter Stop bound to: 3'b101 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v:29]
+WARNING: [Synth 8-5788] Register RSTAT_reg in module UART_Rx is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v:77]
+INFO: [Synth 8-6155] done synthesizing module 'UART_Rx' (32#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v:1]
+INFO: [Synth 8-6157] synthesizing module 'SyncFIFO' [D:/projects/FPGA/PVS332/RTL/Peripherals/SyncFIFO.v:1]
+WARNING: [Synth 8-5788] Register ram_reg in module SyncFIFO is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code 
+WARNING: [Synth 8-4767] Trying to implement RAM 'ram_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM is sensitive to asynchronous reset signal. this RTL style is not supported. 
+RAM "ram_reg" dissolved into registers
+INFO: [Synth 8-6155] done synthesizing module 'SyncFIFO' (33#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/SyncFIFO.v:1]
+WARNING: [Synth 8-689] width (32) of port connection 'data_in' does not match port width (8) of module 'SyncFIFO' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v:138]
+WARNING: [Synth 8-7023] instance 'TFIFO1' of module 'SyncFIFO' has 8 connections declared, but only 7 given [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v:133]
+WARNING: [Synth 8-5788] Register TFIFOWR_reg in module AHB_UART is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v:74]
+WARNING: [Synth 8-5788] Register TxReg_reg in module AHB_UART is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'AHB_UART' (34#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v:1]
+WARNING: [Synth 8-7023] instance 'AHB_UART1' of module 'AHB_UART' has 16 connections declared, but only 15 given [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:440]
+INFO: [Synth 8-6157] synthesizing module 'AHB_GPIOC' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_GPIOC.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_GPIOC.v:123]
+WARNING: [Synth 8-5788] Register GPIO1_DO_reg in module AHB_GPIOC is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_GPIOC.v:89]
+INFO: [Synth 8-6155] done synthesizing module 'AHB_GPIOC' (35#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_GPIOC.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ahb_reset_ctrl' [D:/projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'ahb_reset_ctrl' (36#1) [D:/projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v:34]
+INFO: [Synth 8-6157] synthesizing module 'AFIO32' [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'AFIO32' (37#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+WARNING: [Synth 8-3848] Net S68000_DO in module/entity PRV332_SoC does not have driver. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:125]
+WARNING: [Synth 8-3848] Net S68000_CS in module/entity PRV332_SoC does not have driver. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:124]
+WARNING: [Synth 8-3848] Net S68000_WR in module/entity PRV332_SoC does not have driver. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:124]
+WARNING: [Synth 8-3848] Net S68000_CKO in module/entity PRV332_SoC does not have driver. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:124]
+WARNING: [Synth 8-3848] Net SPSEL in module/entity PRV332_SoC does not have driver. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:110]
+WARNING: [Synth 8-3848] Net Dbg in module/entity PRV332_SoC does not have driver. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:121]
+WARNING: [Synth 8-3848] Net S68000_DIR in module/entity PRV332_SoC does not have driver. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:124]
+WARNING: [Synth 8-3848] Net HPDATA_S68000 in module/entity PRV332_SoC does not have driver. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:98]
+WARNING: [Synth 8-3848] Net HPREADY_S68000 in module/entity PRV332_SoC does not have driver. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:104]
+INFO: [Synth 8-6155] done synthesizing module 'PRV332_SoC' (38#1) [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:23]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_DI[31]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_DIR[31]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[63]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[62]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[61]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[60]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[59]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[58]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[57]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[56]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[55]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[54]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[53]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[52]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[51]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[50]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[49]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[48]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[47]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[46]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[45]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[44]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[43]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[42]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[41]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[40]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[39]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[38]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[37]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[36]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[35]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[34]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[33]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[32]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[31]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[30]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[29]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[28]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[27]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[26]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[25]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[24]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[23]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[22]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[21]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[20]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[19]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[18]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[17]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[16]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[15]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[14]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[13]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[12]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[11]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[10]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[9]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[8]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[7]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[6]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[5]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[4]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[3]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[2]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[1]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[0]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[63]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[62]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[61]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[60]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[59]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[58]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[57]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[56]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[55]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[54]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[53]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[52]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[51]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[50]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[49]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[48]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[47]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[46]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[45]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[44]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[43]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[42]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[41]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[40]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[39]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[38]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[37]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[36]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[35]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[34]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[33]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[32]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[31]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[30]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 793.395 ; gain = 290.195
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 793.395 ; gain = 290.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 793.395 ; gain = 290.195
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/BOOTROM/BOOTROM/BOOTROM_in_context.xdc] for cell 'ROM1/BOOTROM1'
+Finished Parsing XDC File [D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/BOOTROM/BOOTROM/BOOTROM_in_context.xdc] for cell 'ROM1/BOOTROM1'
+Parsing XDC File [D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/BLKRAM8_1/BLKRAM8/BLKRAM8_in_context.xdc] for cell 'OCRAM1/OCRAM_L8'
+Finished Parsing XDC File [D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/BLKRAM8_1/BLKRAM8/BLKRAM8_in_context.xdc] for cell 'OCRAM1/OCRAM_L8'
+Parsing XDC File [D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/BLKRAM8_1/BLKRAM8/BLKRAM8_in_context.xdc] for cell 'OCRAM1/OCROM_L16'
+Finished Parsing XDC File [D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/BLKRAM8_1/BLKRAM8/BLKRAM8_in_context.xdc] for cell 'OCRAM1/OCROM_L16'
+Parsing XDC File [D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/BLKRAM8_1/BLKRAM8/BLKRAM8_in_context.xdc] for cell 'OCRAM1/OCROM_H24'
+Finished Parsing XDC File [D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/BLKRAM8_1/BLKRAM8/BLKRAM8_in_context.xdc] for cell 'OCRAM1/OCROM_H24'
+Parsing XDC File [D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/BLKRAM8_1/BLKRAM8/BLKRAM8_in_context.xdc] for cell 'OCRAM1/OCROM_H32'
+Finished Parsing XDC File [D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/BLKRAM8_1/BLKRAM8/BLKRAM8_in_context.xdc] for cell 'OCRAM1/OCROM_H32'
+Parsing XDC File [D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'pll1'
+Finished Parsing XDC File [D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'pll1'
+Parsing XDC File [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc]
+WARNING: [Constraints 18-619] A clock with name 'CLK' already exists, overwriting the previous clock with the same name. [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc:196]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'VIRTUAL_AHB_UART1/u2/BaudOut_reg_0' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc:199]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'VIRTUAL_AHB_UART1/u3/TINT' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc:200]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'VIRTUAL_AHB_UART1/u2/BaudL' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc:217]
+Finished Parsing XDC File [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/PRV332_SoC_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/PRV332_SoC_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 944.496 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 944.496 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 944.496 ; gain = 441.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7s15ftgb196-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 944.496 ; gain = 441.297
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for CLK. (constraint file  D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK. (constraint file  D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/.Xil/Vivado-14028-PC/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property DONT_TOUCH = true for ROM1/BOOTROM1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for OCRAM1/OCRAM_L8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for OCRAM1/OCROM_H24. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for OCRAM1/OCROM_H32. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for OCRAM1/OCROM_L16. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for pll1. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 944.496 ; gain = 441.297
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'statu_biu_reg' in module 'biu'
+INFO: [Synth 8-5546] ROM "p_4_in" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_2_in" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_4_in" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_2_in" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'statu_cpu_reg' in module 'csr_gpr_iu'
+INFO: [Synth 8-5546] ROM "slave_select" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'statu_reg' in module 'ahb_is62'
+INFO: [Synth 8-802] inferred FSM for state register 'rtx_statu_reg' in module 'clk_ctrl'
+INFO: [Synth 8-802] inferred FSM for state register 'rx_statu_reg' in module 'clk_ctrl'
+INFO: [Synth 8-802] inferred FSM for state register 'tx_statu_reg' in module 'clk_ctrl'
+INFO: [Synth 8-5546] ROM "O_spi_sck" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "O_spi_sck" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "O_spi_mosi" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "O_data_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'status_reg' in module 'UART_Tx'
+INFO: [Synth 8-802] inferred FSM for state register 'status_reg' in module 'UART_Rx'
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/projects/FPGA/PVS332/RTL/Peripherals/SyncFIFO.v:29]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                iSTATE16 |                           000001 |                          0000000
+                iSTATE41 |                           010101 |                          0010000
+                iSTATE40 |                           101011 |                          0010001
+                iSTATE35 |                           101000 |                          0010010
+                iSTATE34 |                           100111 |                          0010011
+                iSTATE26 |                           100010 |                          0010100
+                 iSTATE0 |                           000011 |                          0001000
+                  iSTATE |                           000000 |                          1110000
+                iSTATE42 |                           000010 |                          1110001
+                iSTATE39 |                           101010 |                          1110010
+                iSTATE37 |                           101001 |                          1110011
+                iSTATE27 |                           100011 |                          1110100
+                 iSTATE3 |                           001000 |                          1101000
+                iSTATE20 |                           010110 |                          1100000
+                iSTATE18 |                           011101 |                          1100001
+                iSTATE15 |                           010100 |                          1100010
+                iSTATE13 |                           010011 |                          1100011
+                 iSTATE4 |                           001001 |                          1100100
+                iSTATE17 |                           010111 |                          1011000
+                iSTATE31 |                           011000 |                          1010000
+                iSTATE30 |                           100110 |                          1010001
+                iSTATE29 |                           100101 |                          1010010
+                iSTATE28 |                           100100 |                          1010011
+                iSTATE19 |                           011110 |                          1010100
+                iSTATE36 |                           011001 |                          1001000
+                iSTATE10 |                           010000 |                          1000000
+                 iSTATE9 |                           001111 |                          1000001
+                 iSTATE7 |                           001101 |                          1000010
+                 iSTATE5 |                           001010 |                          1000011
+                iSTATE38 |                           001011 |                          1000100
+*
+                iSTATE32 |                           011010 |                          0111000
+                 iSTATE8 |                           001110 |                          0110000
+                 iSTATE6 |                           001100 |                          0110001
+                 iSTATE2 |                           000111 |                          0110010
+                 iSTATE1 |                           000101 |                          0110011
+                iSTATE33 |                           000110 |                          0110100
+                iSTATE11 |                           010001 |                          0101000
+                iSTATE25 |                           011011 |                          0100000
+                iSTATE24 |                           100001 |                          0100001
+                iSTATE22 |                           100000 |                          0100010
+                iSTATE21 |                           011111 |                          0100011
+                iSTATE12 |                           010010 |                          0100100
+                iSTATE23 |                           011100 |                          0011000
+                iSTATE14 |                           000100 |                          0000001
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'statu_biu_reg' using encoding 'sequential' in module 'biu'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE4 |                              000 |                             0000
+                  iSTATE |                              001 |                             0001
+                 iSTATE1 |                              010 |                             1010
+                 iSTATE2 |                              011 |                             1001
+                 iSTATE3 |                              100 |                             0010
+                 iSTATE0 |                              101 |                             0011
+                 iSTATE5 |                              110 |                             1111
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'statu_cpu_reg' using encoding 'sequential' in module 'csr_gpr_iu'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE6 |                        000000001 |                             0000
+                 iSTATE7 |                        000010000 |                             1001
+                 iSTATE4 |                        000001000 |                             1010
+                 iSTATE3 |                        000000010 |                             1011
+                 iSTATE2 |                        000000100 |                             1100
+*
+                 iSTATE5 |                        100000000 |                             0001
+                 iSTATE1 |                        010000000 |                             0010
+                 iSTATE0 |                        001000000 |                             0011
+                  iSTATE |                        000100000 |                             0100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'statu_reg' using encoding 'one-hot' in module 'ahb_is62'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+                  iSTATE |                               01 |                               01
+                 iSTATE0 |                               10 |                               10
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rtx_statu_reg' using encoding 'sequential' in module 'clk_ctrl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+                  iSTATE |                               01 |                               01
+                 iSTATE0 |                               10 |                               10
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rx_statu_reg' using encoding 'sequential' in module 'clk_ctrl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE1 |                               00 |                               00
+                  iSTATE |                               01 |                               01
+                 iSTATE0 |                               10 |                               10
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'tx_statu_reg' using encoding 'sequential' in module 'clk_ctrl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                               00 |                             0000
+                   Start |                               01 |                             0001
+                      Tb |                               10 |                             0010
+                    Stop |                               11 |                             0011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'status_reg' using encoding 'sequential' in module 'UART_Tx'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_next_status_reg' [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v:32]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_next_status_reg' [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v:32]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    Idle |                              000 |                             0000
+                  wait16 |                              001 |                             0001
+                     CLR |                              010 |                             0010
+                      Rb |                              011 |                             0100
+                    Stop |                              100 |                             0101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'status_reg' using encoding 'sequential' in module 'UART_Rx'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_next_status_reg' [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v:32]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 944.496 ; gain = 441.297
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+	   2 Input     34 Bit       Adders := 3     
+	   2 Input     32 Bit       Adders := 10    
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 6     
+	   2 Input      4 Bit       Adders := 7     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 2     
++---XORs : 
+	                8 Bit    Wide XORs := 2     
++---Registers : 
+	               64 Bit    Registers := 5     
+	               34 Bit    Registers := 2     
+	               32 Bit    Registers := 33    
+	               24 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	               15 Bit    Registers := 1     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 29    
+	                5 Bit    Registers := 68    
+	                4 Bit    Registers := 11    
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 156   
++---RAMs : 
+	              992 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 10    
+	   8 Input     64 Bit        Muxes := 2     
+	   2 Input     34 Bit        Muxes := 5     
+	   2 Input     32 Bit        Muxes := 83    
+	  21 Input     32 Bit        Muxes := 1     
+	   8 Input     32 Bit        Muxes := 3     
+	   2 Input     12 Bit        Muxes := 1     
+	   9 Input      9 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 5     
+	   4 Input      9 Bit        Muxes := 1     
+	   5 Input      9 Bit        Muxes := 1     
+	  13 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 4     
+	  44 Input      7 Bit        Muxes := 1     
+	 156 Input      6 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 6     
+	  11 Input      5 Bit        Muxes := 1     
+	  13 Input      5 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	   7 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 9     
+	   5 Input      4 Bit        Muxes := 4     
+	   9 Input      3 Bit        Muxes := 1     
+	  19 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 5     
+	   5 Input      2 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 1     
+	   8 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 12    
+	   4 Input      2 Bit        Muxes := 4     
+	   3 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 171   
+	  45 Input      1 Bit        Muxes := 1     
+	  17 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 12    
+	  23 Input      1 Bit        Muxes := 3     
+	   6 Input      1 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 1     
+	  22 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 15    
+	   7 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 2     
+	  12 Input      1 Bit        Muxes := 2     
+	  13 Input      1 Bit        Muxes := 3     
+	  14 Input      1 Bit        Muxes := 3     
+	  15 Input      1 Bit        Muxes := 1     
+	  16 Input      1 Bit        Muxes := 1     
+	  24 Input      1 Bit        Muxes := 1     
+	  18 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 11    
+	   8 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module mmu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     34 Bit       Adders := 3     
++---Registers : 
+	               34 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     34 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module ahb 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module biu 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     34 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 2     
+	  44 Input      7 Bit        Muxes := 1     
+	 156 Input      6 Bit        Muxes := 1     
+	  45 Input      1 Bit        Muxes := 1     
+Module ins_dec 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module int_ctrl 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
++---Muxes : 
+	  21 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 3     
+	   5 Input      2 Bit        Muxes := 1     
+Module csr 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
++---Registers : 
+	               32 Bit    Registers := 19    
+	                8 Bit    Registers := 8     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 16    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 19    
+	   6 Input      2 Bit        Muxes := 1     
+	   8 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 47    
+	  17 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 3     
+	  23 Input      1 Bit        Muxes := 3     
+	   6 Input      1 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 1     
+	  22 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 2     
+	  12 Input      1 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 1     
+	  14 Input      1 Bit        Muxes := 1     
+	  15 Input      1 Bit        Muxes := 1     
+	  16 Input      1 Bit        Muxes := 1     
+	  24 Input      1 Bit        Muxes := 1     
+	  18 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+Module csr_gpr_iu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 3     
++---Registers : 
+	                1 Bit    Registers := 9     
++---RAMs : 
+	              992 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   7 Input      4 Bit        Muxes := 1     
+	  19 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 1     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 27    
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+Module au 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 5     
+Module prv332sv0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 5     
+Module ahb_mux_s2m 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module AHB_OCRAM 
+Detailed RTL Component Info : 
++---Registers : 
+	               15 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+Module plic_cell 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module AHB_CCREG 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 3     
+	                5 Bit    Registers := 64    
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 6     
+	   4 Input      2 Bit        Muxes := 1     
+Module ahb_is62 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	               24 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   9 Input      9 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 4     
+	   9 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 8     
+Module clk_ctrl 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      2 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 3     
+Module spi_module 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	  13 Input      8 Bit        Muxes := 1     
+	  11 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	  13 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	  13 Input      1 Bit        Muxes := 2     
+	  12 Input      1 Bit        Muxes := 1     
+	  14 Input      1 Bit        Muxes := 2     
+Module ahb_spi_v0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 5     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 3     
+Module BaudGen 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module UART_Tx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	                8 Bit    Wide XORs := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 1     
+	   4 Input      9 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 3     
+	   4 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 6     
+	   4 Input      1 Bit        Muxes := 6     
+Module UART_Rx 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 3     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---XORs : 
+	                8 Bit    Wide XORs := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   5 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   5 Input      4 Bit        Muxes := 4     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 5     
+	   5 Input      1 Bit        Muxes := 9     
+Module SyncFIFO 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	                8 Bit    Registers := 17    
+	                4 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+	   4 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 18    
+	   4 Input      1 Bit        Muxes := 1     
+Module AHB_UART 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+	   4 Input      1 Bit        Muxes := 4     
+Module AHB_GPIOC 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 2     
+	               32 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 31    
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 4     
+	   8 Input     64 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 8     
+	   8 Input     32 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+Module ahb_reset_ctrl 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module AFIO32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 62    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 20 (col length:20)
+BRAMs: 20 (col length: RAMB18 20 RAMB36 10)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "p_4_in" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_0_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_2_in" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "slave_select" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "spi_module/O_spi_sck" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_SPI1/\clk_ctrl/FSM_sequential_rtx_statu_reg[0] )
+INFO: [Synth 8-3886] merging instance 'CPU1/csr_gpr_iu/ins_acc_fault_reg_reg' (FDR) to 'CPU1/csr_gpr_iu/load_acc_fault_reg_reg'
+INFO: [Synth 8-3886] merging instance 'CPU1/csr_gpr_iu/st_acc_fault_reg_reg' (FDR) to 'CPU1/csr_gpr_iu/load_acc_fault_reg_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU1/csr_gpr_iu/load_acc_fault_reg_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[38] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[39] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_SPI1/\write_size_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[55] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[62] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[63] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[47] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[57] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[49] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[41] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[33] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[58] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[50] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[42] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[34] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[59] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[51] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[43] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[35] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[60] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[52] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[44] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[36] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[61] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[53] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[45] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[37] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[46] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[54] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ExtSRAM1/\size_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (BUS_MUX1/\slave_select_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[56] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[48] )
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag1_reg[0]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[40] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (AHB_GPIOC1/\GPIO1_PS_reg[32] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CPU1/biu/\mmu/reg_ag1_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[62][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[62][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[62][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[62][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[62][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[63][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[63][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[63][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[63][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[63][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[61][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[61][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[61][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[61][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[61][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[60][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[60][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[60][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[60][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[60][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[59][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[59][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[59][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[59][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[59][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[58][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[58][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[58][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[58][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[58][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[57][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[57][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[57][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[57][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[57][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[56][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[56][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[56][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[56][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[56][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[55][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[55][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[55][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[55][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[55][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[54][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[54][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[54][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[54][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[54][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[53][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[53][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[53][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[53][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[53][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[52][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[52][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[52][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[52][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[52][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[51][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CREGS1/\IPRIO_reg[51][1] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[33]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[33]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[32]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[32]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[30]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[30]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[31]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[27]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[27]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[17]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[17]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[28]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[28]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[29]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[29]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[20]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[20]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[18]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[18]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[19]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[19]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[21]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[21]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[22]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[22]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[23]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[23]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[24]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[24]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[25]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[25]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[26]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[26]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[14]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[14]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[16]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[16]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[15]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[15]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[12]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[12]'
+INFO: [Synth 8-3886] merging instance 'CPU1/biu/mmu/reg_ag2_reg[13]' (FDRE) to 'CPU1/biu/mmu/reg_ag1_reg[13]'
+WARNING: [Synth 8-3332] Sequential element (clk_ctrl/FSM_sequential_rtx_statu_reg[1]) is unused and will be removed from module ahb_spi_v0.
+WARNING: [Synth 8-3332] Sequential element (clk_ctrl/FSM_sequential_rtx_statu_reg[0]) is unused and will be removed from module ahb_spi_v0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:44 ; elapsed = 00:01:45 . Memory (MB): peak = 982.258 ; gain = 479.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++----------------+------------+-----------+----------------------+---------------+
+|Module Name     | RTL Object | Inference | Size (Depth x Width) | Primitives    | 
++----------------+------------+-----------+----------------------+---------------+
+|CPU1/csr_gpr_iu | gpr_reg    | Implied   | 32 x 32              | RAM32M x 12   | 
++----------------+------------+-----------+----------------------+---------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'pll1/clk_out1' to pin 'pll1/bbstub_clk_out1/O'
+WARNING: [Synth 8-565] redefining clock 'CLK'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:54 ; elapsed = 00:01:54 . Memory (MB): peak = 982.258 ; gain = 479.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+      : OCRAM1/i_1/HSIZE[1]
+      : OCRAM1/HSIZE[1]
+      : CPU1/hsize[1]
+      : CPU1/biu/hsize[1]
+      : CPU1/biu/i_0/hsize[1]
+      : CPU1/biu/i_0/hrdata[0]
+      : CPU1/biu/hrdata[0]
+      : CPU1/hrdata[0]
+      : BUS_MUX1/HRDATA[0]
+      : BUS_MUX1/i_1/HRDATA[0]
+      : BUS_MUX1/i_1/HRDATAx7[0]
+      : BUS_MUX1/HRDATAx7[0]
+      : OCRAM1/HRDATA[0]
+      : OCRAM1/i_1/HRDATA[0]
+      : CPU1/biu/i_0/hrdata[0]
+      : CPU1/biu/hrdata[0]
+      : CPU1/hrdata[0]
+      : BUS_MUX1/HRDATA[0]
+      : BUS_MUX1/i_1/HRDATA[0]
+      : BUS_MUX1/i_1/HRDATAx7[0]
+      : BUS_MUX1/HRDATAx7[0]
+      : OCRAM1/HRDATA[0]
+      : OCRAM1/i_1/HRDATA[0]
+      : OCRAM1/i_1/HSIZE[0]
+      : OCRAM1/HSIZE[0]
+      : CPU1/hsize[0]
+      : CPU1/biu/hsize[0]
+      : CPU1/biu/i_0/hsize[0]
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:14 ; elapsed = 00:02:14 . Memory (MB): peak = 1029.133 ; gain = 525.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++----------------+------------+-----------+----------------------+---------------+
+|Module Name     | RTL Object | Inference | Size (Depth x Width) | Primitives    | 
++----------------+------------+-----------+----------------------+---------------+
+|CPU1/csr_gpr_iu | gpr_reg    | Implied   | 32 x 32              | RAM32M x 12   | 
++----------------+------------+-----------+----------------------+---------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin IOBUFO[30] with 1st driver pin 'GPIO_Ai_11014/z' [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin IOBUFO[30] with 2nd driver pin 'GND' [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net IOBUFO[30] is connected to at least one constant driver which has been preserved, other driver is ignored [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin IOBUFO[29] with 1st driver pin 'GPIO_Ai_11015/z' [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin IOBUFO[29] with 2nd driver pin 'GND' [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net IOBUFO[29] is connected to at least one constant driver which has been preserved, other driver is ignored [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin IOBUFO[28] with 1st driver pin 'GPIO_Ai_11016/z' [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin IOBUFO[28] with 2nd driver pin 'GND' [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net IOBUFO[28] is connected to at least one constant driver which has been preserved, other driver is ignored [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin IOBUFO[27] with 1st driver pin 'GPIO_Ai_11017/z' [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin IOBUFO[27] with 2nd driver pin 'GND' [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net IOBUFO[27] is connected to at least one constant driver which has been preserved, other driver is ignored [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin IOBUFO[26] with 1st driver pin 'GPIO_Ai_11018/z' [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin IOBUFO[26] with 2nd driver pin 'GND' [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net IOBUFO[26] is connected to at least one constant driver which has been preserved, other driver is ignored [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin IOBUFO[25] with 1st driver pin 'GPIO_Ai_11019/z' [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin IOBUFO[25] with 2nd driver pin 'GND' [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net IOBUFO[25] is connected to at least one constant driver which has been preserved, other driver is ignored [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin IOBUFO[24] with 1st driver pin 'GPIO_Ai_11020/z' [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin IOBUFO[24] with 2nd driver pin 'GND' [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net IOBUFO[24] is connected to at least one constant driver which has been preserved, other driver is ignored [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin IOBUFO[23] with 1st driver pin 'GPIO_Ai_11021/z' [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin IOBUFO[23] with 2nd driver pin 'GND' [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net IOBUFO[23] is connected to at least one constant driver which has been preserved, other driver is ignored [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_341/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_931/O'
+INFO: [Synth 8-139] cannot merge instances i_10269 and i_7821 because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances i_7821 and i_10269 because of non-equivalent assertions
+INFO: [Synth 8-3886] merging instance 'OCRAM1/WADDR_reg[0]' (FDCE) to 'AHB_GPIOC1/WADDR_reg[0]'
+INFO: [Synth 8-3886] merging instance 'OCRAM1/WADDR_reg[1]' (FDCE) to 'AHB_GPIOC1/WADDR_reg[1]'
+INFO: [Synth 8-3886] merging instance 'OCRAM1/WADDR_reg[2]' (FDCE) to 'AHB_GPIOC1/WADDR_reg[2]'
+INFO: [Synth 8-3886] merging instance 'OCRAM1/WADDR_reg[3]' (FDCE) to 'AHB_GPIOC1/WADDR_reg[3]'
+INFO: [Synth 8-3886] merging instance 'OCRAM1/WADDR_reg[4]' (FDCE) to 'AHB_GPIOC1/WADDR_reg[4]'
+INFO: [Synth 8-3886] merging instance 'AHB_UART1/WADDR_reg[0]' (FDCE) to 'AHB_GPIOC1/WADDR_reg[0]'
+INFO: [Synth 8-3886] merging instance 'AHB_UART1/WADDR_reg[1]' (FDCE) to 'AHB_GPIOC1/WADDR_reg[1]'
+INFO: [Synth 8-3886] merging instance 'AHB_UART1/WADDR_reg[2]' (FDCE) to 'AHB_GPIOC1/WADDR_reg[2]'
+INFO: [Synth 8-3886] merging instance 'AHB_UART1/WADDR_reg[3]' (FDCE) to 'AHB_GPIOC1/WADDR_reg[3]'
+INFO: [Synth 8-139] cannot merge instances i_10269 and i_7821 because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances i_7821 and i_10269 because of non-equivalent assertions
+Found timing loop:
+     0: i_3454/O (LUT2)
+     1: i_3454/I0 (LUT2)
+     2: i_64/O (LUT3)
+     3: i_64/I1 (LUT3)
+     4: i_76/O (LUT5)
+     5: i_76/I4 (LUT5)
+     6: i_2281/O (LUT6)
+     7: i_2281/I1 (LUT6)
+     8: i_2770/O (LUT6)
+     9: i_2770/I5 (LUT6)
+    10: i_3197/O (LUT3)
+    11: i_3197/I2 (LUT3)
+    12: i_395/O (LUT2)
+    13: i_395/I1 (LUT2)
+    14: i_3454/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:23]
+Inferred a: "set_disable_timing -from I0 -to O i_3454"
+Found timing loop:
+     0: i_3454/O (LUT2)
+     1: i_3454/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:23]
+Found timing loop:
+     0: i_1482/O (LUT2)
+     1: i_1482/I0 (LUT2)
+     2: i_1364/O (LUT5)
+     3: i_1364/I0 (LUT5)
+     4: i_1365/O (LUT4)
+     5: i_1365/I1 (LUT4)
+     6: i_1482/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:23]
+Inferred a: "set_disable_timing -from I0 -to O i_1482"
+Found timing loop:
+     0: i_1480/O (LUT2)
+     1: i_1480/I0 (LUT2)
+     2: i_1368/O (LUT4)
+     3: i_1368/I1 (LUT4)
+     4: i_1480/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:23]
+Inferred a: "set_disable_timing -from I0 -to O i_1480"
+Found timing loop:
+     0: i_1481/O (LUT2)
+     1: i_1481/I0 (LUT2)
+     2: i_1366/O (LUT5)
+     3: i_1366/I3 (LUT5)
+     4: i_1481/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:23]
+Inferred a: "set_disable_timing -from I0 -to O i_1481"
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:22 ; elapsed = 00:02:22 . Memory (MB): peak = 1158.699 ; gain = 655.500
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:25 ; elapsed = 00:02:26 . Memory (MB): peak = 1163.699 ; gain = 660.500
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:25 ; elapsed = 00:02:26 . Memory (MB): peak = 1163.699 ; gain = 660.500
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through ssip_i_3/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through seip_i_2/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through stip_i_1/O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \scause[31]_i_11 /O'
+WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through \FSM_sequential_statu_cpu[2]_i_4 /O'
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:26 ; elapsed = 00:02:27 . Memory (MB): peak = 1163.699 ; gain = 660.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:26 ; elapsed = 00:02:27 . Memory (MB): peak = 1163.699 ; gain = 660.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:26 ; elapsed = 00:02:27 . Memory (MB): peak = 1163.699 ; gain = 660.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:26 ; elapsed = 00:02:27 . Memory (MB): peak = 1163.699 ; gain = 660.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
+|2     |BLKRAM8       |         4|
+|3     |BOOTROM       |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BLKRAM8    |     1|
+|2     |BLKRAM8__4 |     1|
+|3     |BLKRAM8__5 |     1|
+|4     |BLKRAM8__6 |     1|
+|5     |BOOTROM    |     1|
+|6     |clk_wiz_0  |     1|
+|7     |BUFG       |     1|
+|8     |CARRY4     |   169|
+|9     |LUT1       |    83|
+|10    |LUT2       |   383|
+|11    |LUT3       |   550|
+|12    |LUT4       |   372|
+|13    |LUT5       |   720|
+|14    |LUT6       |  1936|
+|15    |MUXF7      |    40|
+|16    |MUXF8      |     8|
+|17    |RAM32M     |    12|
+|18    |FDCE       |   584|
+|19    |FDPE       |     2|
+|20    |FDRE       |  1543|
+|21    |FDSE       |    15|
+|22    |LD         |     5|
+|23    |IBUF       |     3|
+|24    |IOBUF      |    55|
+|25    |OBUF       |    32|
++------+-----------+------+
+
+Report Instance Areas: 
++------+------------------------+---------------+------+
+|      |Instance                |Module         |Cells |
++------+------------------------+---------------+------+
+|1     |top                     |               |  6579|
+|2     |  AHB_GPIOC1            |AHB_GPIOC      |   457|
+|3     |  AHB_SPI1              |ahb_spi_v0     |   211|
+|4     |    clk_ctrl            |clk_ctrl       |    46|
+|5     |    spi_module          |spi_module     |    73|
+|6     |  AHB_UART1             |AHB_UART       |   538|
+|7     |    TFIFO1              |SyncFIFO       |   255|
+|8     |    UBG1                |BaudGen        |    87|
+|9     |    URX1                |UART_Rx        |    90|
+|10    |    UTX1                |UART_Tx        |    45|
+|11    |  BUS_MUX1              |ahb_mux_s2m    |    93|
+|12    |  CPU1                  |prv332sv0      |  4655|
+|13    |    biu                 |biu            |  2950|
+|14    |      ahb               |ahb            |   361|
+|15    |      mmu               |mmu            |   797|
+|16    |    csr_gpr_iu          |csr_gpr_iu     |  1393|
+|17    |      csr               |csr            |  1153|
+|18    |      int_ctrl          |int_ctrl       |     7|
+|19    |    exu                 |exu            |   312|
+|20    |      alu               |alu            |   122|
+|21    |      au                |au             |   190|
+|22    |  CREGS1                |AHB_CCREG      |   311|
+|23    |    \genblk1[1].PCELL1  |plic_cell      |     1|
+|24    |    \genblk1[2].PCELL1  |plic_cell_0    |     1|
+|25    |    \genblk1[4].PCELL1  |plic_cell_1    |     1|
+|26    |  ExtSRAM1              |ahb_is62       |   131|
+|27    |  OCRAM1                |AHB_OCRAM      |    51|
+|28    |  ROM1                  |AHB_ROM        |    33|
+|29    |  RSTCTRL1              |ahb_reset_ctrl |     6|
++------+------------------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:26 ; elapsed = 00:02:27 . Memory (MB): peak = 1163.699 ; gain = 660.500
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 29 critical warnings and 376 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:09 ; elapsed = 00:02:21 . Memory (MB): peak = 1163.699 ; gain = 509.398
+Synthesis Optimization Complete : Time (s): cpu = 00:02:26 ; elapsed = 00:02:27 . Memory (MB): peak = 1163.699 ; gain = 660.500
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 289 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1163.699 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 72 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 55 instances
+  LD => LDCE: 5 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 12 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+274 Infos, 150 Warnings, 29 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:35 ; elapsed = 00:02:36 . Memory (MB): peak = 1163.699 ; gain = 867.734
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1163.699 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/PRV332_SoC.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file PRV332_SoC_utilization_synth.rpt -pb PRV332_SoC_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 14 18:40:55 2019...

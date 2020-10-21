@@ -1,0 +1,31 @@
+
+TimberWolfSC version:v6.0 date:Mon May 25 21:19:07 EDT 1992
+Row-Based Placement and Global Routing Program
+Authors: Carl Sechen, Kai-Win Lee, and Bill Swartz,
+         Yale University
+
+
+
+
+TimberWolf will perform a global route step
+feedThruWidth: 160
+track.pitch: 200
+route2act was not entered in the .par file
+route2act defaulted to track.pitch
+route2act: 200
+
+The random number generator seed is: 12345
+
+
+rowSep: 0.000000
+
+[get_stat_hints]:Found hints in <prv332sv0.stat> file
+[get_stat_hints]:Total cells:20825 Number of nets:20748
+
+[add_extra_cells]:Added 923 spacer cells to the gate array
+ERROR[check_pin]:the pin <clk> assigned to cell <twpin_clk> is
+outside the cell's bounding box:
+	cell l:-100 r:100 b:-2147483568 t:2147483568  pin x:0 y:-2147483648
+
+TimberWolfSC terminated abnormally with 1 error[s] and 0 warning[s]
+

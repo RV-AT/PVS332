@@ -1,0 +1,40 @@
+# Current time Sat Oct 19 13:22:34 2019
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.1c"
+# Version = "2012.07"
+# Date = "Jul 28 2012"
+# Platform = win64
+
+Exception c0000005 has occurred at address 102b2569. Traceback:
+# 0    0x102b2569: 'TkTextCreateDInfo + 0x1149'
+# 1    0x00000002: '<unknown (@0x2)>'
+# 2    0xab041cf0: '<unknown (@0xab041cf0)>'
+# 3    0x42041cfd: '<unknown (@0x42041cfd)>'
+# 4    0x00000e3c: '<unknown (@0xe3c)>'
+# 5    0x0000000f: '<unknown (@0xf)>'
+# 6    0x102b24b8: 'TkTextCreateDInfo + 0x1098'
+# 7    0x102b4fbf: 'TkTextRedrawRegion + 0x6f'
+# 8    0x003d0103: '<unknown (@0x3d0103)>'
+# 9    0x00000103: '<unknown (@0x103)>'
+# 10   0x42041cfd: '<unknown (@0x42041cfd)>'
+# 11   0x102b4f6e: 'TkTextRedrawRegion + 0x1e'
+# 12   0x102a99a2: 'TkTextLostSelection + 0x232'
+# 13   0x10069abb: 'TclSignalExitThread + 0x14b'
+# 14   0x00000104: '<unknown (@0x104)>'
+# 15   0x0000000f: '<unknown (@0xf)>'
+# 16   0x0000003d: '<unknown (@0x3d)>'
+# 17   0x00000007: '<unknown (@0x7)>'
+# 18   0x024d7910: '<unknown (@0x24d7910)>'
+# 19   0x10069a3f: 'TclSignalExitThread + 0xcf'
+# 20   0x0e02c130: '<unknown (@0xe02c130)>'
+# 21   0x10059a72: 'Tcl_ServiceEvent + 0x82'
+# 22   0xffffffff: '<unknown (@0xffffffff)>'
+# 23   0x024d7910: '<unknown (@0x24d7910)>'
+# 24   0x005f5af0: '<unknown (@0x5f5af0)>'
+# 25   0x5daa9d9a: '<unknown (@0x5daa9d9a)>'
+# 26   0x024d7910: '<unknown (@0x24d7910)>'
+# 27   0x10059d52: 'Tcl_DoOneEvent + 0x132'
+StackWalk failed 0
+# End of Stack Trace
+

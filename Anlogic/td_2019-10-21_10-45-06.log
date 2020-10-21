@@ -1,0 +1,221 @@
+============================================================
+   Tang Dynasty, V4.4.433
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = D:/Anlogic/TD4.4.433/bin/td.exe
+   Built at =   17:57:18 Feb 26 2019
+   Run by =     Administrator
+   Run Date =   Mon Oct 21 10:45:06 2019
+
+   Run on =     HONGXY-CYBERLAN
+============================================================
+RUN-1002 : start command "open_project PVS332.al"
+GUI-8003 ERROR: ../RTL/AHB_Lite/ahb_bus_matrix.v is missing!
+GUI-8003 ERROR: ../RTL/Peripherals/AHB_SPI.v is missing!
+GUI-8003 ERROR: ../RTL/Peripherals/AHB_SRAM.v is missing!
+HDL-1007 : analyze verilog file ../RTL/CPU/ahb.v
+HDL-1007 : analyze verilog file ../RTL/CPU/alu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/au.v
+HDL-1007 : analyze verilog file ../RTL/CPU/biu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/csr.v
+HDL-1007 : analyze verilog file ../RTL/CPU/csr_gpr_iu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/exce_chk.v
+HDL-1007 : analyze verilog file ../RTL/CPU/exu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/ins_dec.v
+HDL-1007 : analyze verilog file ../RTL/CPU/int_ctrl.v
+HDL-1007 : analyze verilog file ../RTL/CPU/minidecode.v
+HDL-8007 ERROR: unexpected EOF in ../RTL/CPU/minidecode.v(4)
+HDL-1007 : Verilog file '../RTL/CPU/minidecode.v' ignored due to errors
+HDL-1007 : analyze verilog file ../RTL/CPU/mmu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/prv332sv0.v
+HDL-1007 : analyze verilog file ../RTL/AHB_Lite/ahb_decoder.v
+HDL-1007 : analyze verilog file ../RTL/AHB_Lite/ahb_mux_s2m.v
+HDL-1007 : analyze verilog file ../RTL/AHB_Lite/ahb_reset_ctrl.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/AHB_DUMMY.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/ahb_is62.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/AHB_OCRAM.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/AHB_ROM.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/ahb_spi_v0.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/BaudGen.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/clk_ctrl.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/PERI_DECODE.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/port8080.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/spi_module.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/UART_IP.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/UART_Rx.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/UART_Tx.v
+HDL-1007 : analyze verilog file ../RTL/TOP/PRV332_SoC.v
+GUI-8384 ERROR: Analyze file(s) failed ...
+RUN-1002 : start command "import_device eagle_s20.db -package BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicated  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicated  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+HDL-1007 : analyze verilog file ../RTL/Peripherals/AHB_UART.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/PERI_MUX.v
+HDL-1007 : analyze verilog file ../RTL/CPU/ahb.v
+HDL-1007 : analyze verilog file ../RTL/CPU/alu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/au.v
+HDL-1007 : analyze verilog file ../RTL/CPU/biu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/csr.v
+HDL-1007 : analyze verilog file ../RTL/CPU/csr_gpr_iu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/exce_chk.v
+HDL-1007 : analyze verilog file ../RTL/CPU/exu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/ins_dec.v
+HDL-1007 : analyze verilog file ../RTL/CPU/int_ctrl.v
+HDL-1007 : analyze verilog file ../RTL/CPU/minidecode.v
+HDL-8007 ERROR: unexpected EOF in ../RTL/CPU/minidecode.v(4)
+HDL-1007 : Verilog file '../RTL/CPU/minidecode.v' ignored due to errors
+HDL-1007 : analyze verilog file ../RTL/CPU/mmu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/prv332sv0.v
+HDL-1007 : analyze verilog file ../RTL/AHB_Lite/ahb_decoder.v
+HDL-1007 : analyze verilog file ../RTL/AHB_Lite/ahb_mux_s2m.v
+HDL-1007 : analyze verilog file ../RTL/AHB_Lite/ahb_reset_ctrl.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/AHB_DUMMY.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/ahb_is62.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/AHB_OCRAM.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/AHB_ROM.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/ahb_spi_v0.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/BaudGen.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/clk_ctrl.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/PERI_DECODE.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/port8080.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/spi_module.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/UART_IP.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/UART_Rx.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/UART_Tx.v
+HDL-1007 : analyze verilog file ../RTL/TOP/PRV332_SoC.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/AHB_UART.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/PERI_MUX.v
+HDL-1007 : analyze verilog file ../RTL/CPU/ahb.v
+HDL-1007 : analyze verilog file ../RTL/CPU/alu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/au.v
+HDL-1007 : analyze verilog file ../RTL/CPU/biu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/csr.v
+HDL-1007 : analyze verilog file ../RTL/CPU/csr_gpr_iu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/exce_chk.v
+HDL-1007 : analyze verilog file ../RTL/CPU/exu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/ins_dec.v
+HDL-1007 : analyze verilog file ../RTL/CPU/int_ctrl.v
+HDL-1007 : analyze verilog file ../RTL/CPU/mmu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/prv332sv0.v
+HDL-1007 : analyze verilog file ../RTL/AHB_Lite/ahb_decoder.v
+HDL-1007 : analyze verilog file ../RTL/AHB_Lite/ahb_mux_s2m.v
+HDL-1007 : analyze verilog file ../RTL/AHB_Lite/ahb_reset_ctrl.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/AHB_DUMMY.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/ahb_is62.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/AHB_OCRAM.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/AHB_ROM.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/ahb_spi_v0.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/BaudGen.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/clk_ctrl.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/PERI_DECODE.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/port8080.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/spi_module.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/UART_IP.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/UART_Rx.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/UART_Tx.v
+HDL-1007 : analyze verilog file ../RTL/TOP/PRV332_SoC.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/AHB_UART.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/PERI_MUX.v
+HDL-1007 : analyze verilog file ../RTL/CPU/ahb.v
+HDL-1007 : analyze verilog file ../RTL/CPU/alu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/au.v
+HDL-1007 : analyze verilog file ../RTL/CPU/biu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/csr.v
+HDL-1007 : analyze verilog file ../RTL/CPU/csr_gpr_iu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/exce_chk.v
+HDL-1007 : analyze verilog file ../RTL/CPU/exu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/ins_dec.v
+HDL-1007 : analyze verilog file ../RTL/CPU/int_ctrl.v
+HDL-1007 : analyze verilog file ../RTL/CPU/mmu.v
+HDL-1007 : analyze verilog file ../RTL/CPU/prv332sv0.v
+HDL-1007 : analyze verilog file ../RTL/AHB_Lite/ahb_decoder.v
+HDL-1007 : analyze verilog file ../RTL/AHB_Lite/ahb_mux_s2m.v
+HDL-1007 : analyze verilog file ../RTL/AHB_Lite/ahb_reset_ctrl.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/AHB_DUMMY.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/ahb_is62.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/AHB_OCRAM.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/AHB_ROM.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/ahb_spi_v0.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/BaudGen.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/clk_ctrl.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/PERI_DECODE.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/port8080.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/spi_module.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/UART_IP.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/UART_Rx.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/UART_Tx.v
+HDL-1007 : analyze verilog file ../RTL/TOP/PRV332_SoC.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/AHB_UART.v
+HDL-1007 : analyze verilog file ../RTL/Peripherals/PERI_MUX.v
+RUN-1002 : start command "elaborate -top PRV332_SoC"
+HDL-5007 WARNING: port 'PERIDATA2' remains unconnected for this instance in ../RTL/TOP/PRV332_SoC.v(354)
+HDL-5007 WARNING: port 'hresp' remains unconnected for this instance in ../RTL/TOP/PRV332_SoC.v(381)
+HDL-5007 WARNING: port 'HRESP' remains unconnected for this instance in ../RTL/TOP/PRV332_SoC.v(401)
+HDL-1007 : elaborate module PRV332_SoC in ../RTL/TOP/PRV332_SoC.v(23)
+HDL-1007 : elaborate module prv332sv0 in ../RTL/CPU/prv332sv0.v(8)
+HDL-1007 : elaborate module biu in ../RTL/CPU/biu.v(8)
+HDL-1007 : elaborate module mmu in ../RTL/CPU/mmu.v(1)
+HDL-1007 : elaborate module ahb in ../RTL/CPU/ahb.v(4)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 3 for port 'hsize' in ../RTL/CPU/biu.v(458)
+HDL-1007 : elaborate module exce_chk in ../RTL/CPU/exce_chk.v(3)
+HDL-1007 : elaborate module csr_gpr_iu in ../RTL/CPU/csr_gpr_iu.v(4)
+HDL-1007 : elaborate module ins_dec in ../RTL/CPU/ins_dec.v(4)
+HDL-1007 : elaborate module int_ctrl in ../RTL/CPU/int_ctrl.v(4)
+HDL-1007 : elaborate module csr in ../RTL/CPU/csr.v(6)
+HDL-1007 : elaborate module exu in ../RTL/CPU/exu.v(8)
+HDL-1007 : elaborate module alu in ../RTL/CPU/alu.v(4)
+HDL-1007 : elaborate module au in ../RTL/CPU/au.v(4)
+HDL-1007 : elaborate module ahb_decoder in ../RTL/AHB_Lite/ahb_decoder.v(18)
+HDL-1007 : elaborate module ahb_mux_s2m in ../RTL/AHB_Lite/ahb_mux_s2m.v(34)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 2 for port 'HRESP' in ../RTL/TOP/PRV332_SoC.v(198)
+HDL-1007 : elaborate module AHB_ROM in ../RTL/Peripherals/AHB_ROM.v(4)
+HDL-5007 WARNING: instantiate unknown module BOOTROM in ../RTL/Peripherals/AHB_ROM.v(43)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 3 for port 'HSIZE' in ../RTL/TOP/PRV332_SoC.v(209)
+HDL-1007 : elaborate module AHB_OCRAM in ../RTL/Peripherals/AHB_OCRAM.v(5)
+HDL-5007 WARNING: instantiate unknown module BLKRAM8 in ../RTL/Peripherals/AHB_OCRAM.v(65)
+HDL-5007 WARNING: actual bit length 9 differs from formal bit length 8 for port 'dina' in ../RTL/Peripherals/AHB_OCRAM.v(82)
+HDL-5007 WARNING: actual bit length 8 differs from formal bit length 9 for port 'dina' in ../RTL/Peripherals/AHB_OCRAM.v(94)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 3 for port 'HSIZE' in ../RTL/TOP/PRV332_SoC.v(227)
+HDL-1007 : elaborate module AHB_DUMMY in ../RTL/Peripherals/AHB_DUMMY.v(4)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 3 for port 'HSIZE' in ../RTL/TOP/PRV332_SoC.v(252)
+HDL-1007 : elaborate module ahb_is62 in ../RTL/Peripherals/ahb_is62.v(8)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 3 for port 'hsize' in ../RTL/TOP/PRV332_SoC.v(272)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 1 for port 'hresp' in ../RTL/TOP/PRV332_SoC.v(282)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 3 for port 'HSIZE' in ../RTL/TOP/PRV332_SoC.v(305)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 3 for port 'HSIZE' in ../RTL/TOP/PRV332_SoC.v(323)
+HDL-1007 : elaborate module PERI_DECODE in ../RTL/Peripherals/PERI_DECODE.v(1)
+HDL-1007 : elaborate module PERI_MUX in ../RTL/Peripherals/PERI_MUX.v(1)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 1 for port 'PERIREADY' in ../RTL/TOP/PRV332_SoC.v(348)
+HDL-1007 : elaborate module ahb_spi_v0 in ../RTL/Peripherals/ahb_spi_v0.v(29)
+HDL-1007 : elaborate module clk_ctrl in ../RTL/Peripherals/clk_ctrl.v(6)
+HDL-1007 : elaborate module spi_module in ../RTL/Peripherals/spi_module.v(4)
+HDL-5007 WARNING: actual bit length 32 differs from formal bit length 8 for port 'O_data_out' in ../RTL/Peripherals/ahb_spi_v0.v(202)
+HDL-5007 WARNING: actual bit length 34 differs from formal bit length 32 for port 'haddr' in ../RTL/TOP/PRV332_SoC.v(360)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 3 for port 'hsize' in ../RTL/TOP/PRV332_SoC.v(362)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 32 for port 'hwdata' in ../RTL/TOP/PRV332_SoC.v(367)
+HDL-5007 WARNING: port 'DIV' is not connected on this instance in ../RTL/Peripherals/AHB_UART.v(47)
+HDL-5007 WARNING: port 'ACK' remains unconnected for this instance in ../RTL/Peripherals/AHB_UART.v(47)
+HDL-1007 : elaborate module AHB_UART in ../RTL/Peripherals/AHB_UART.v(1)
+HDL-1007 : elaborate module UART_IP in ../RTL/Peripherals/UART_IP.v(5)
+HDL-8007 ERROR: if-condition does not match any sensitivity list edge in ../RTL/Peripherals/UART_IP.v(22)
+HDL-1007 : module 'UART_IP' remains a black box, due to errors in its contents in ../RTL/Peripherals/UART_IP.v(5)
+HDL-5007 WARNING: actual bit length 2 differs from formal bit length 3 for port 'HSIZE' in ../RTL/TOP/PRV332_SoC.v(390)
+HDL-5007 WARNING: actual bit length 1 differs from formal bit length 32 for port 'HRDATA' in ../RTL/TOP/PRV332_SoC.v(397)
+HDL-1007 : elaborate module ahb_reset_ctrl in ../RTL/AHB_Lite/ahb_reset_ctrl.v(34)
+HDL-5007 WARNING: net 'HSIZE[1]' does not have a driver in ../RTL/TOP/PRV332_SoC.v(47)
+HDL-8007 ERROR: net 'HTRANS[1]' is constantly driven from multiple places in ../RTL/TOP/PRV332_SoC.v(112)
+HDL-8007 ERROR: another driver from here in ../RTL/TOP/PRV332_SoC.v(112)
+HDL-5007 WARNING: input port 'PERIDATA2[31]' remains unconnected for this instance in ../RTL/TOP/PRV332_SoC.v(343)
+HDL-1007 : module 'PRV332_SoC' remains a black box, due to errors in its contents in ../RTL/TOP/PRV332_SoC.v(23)
+HDL-8007 ERROR: PRV332_SoC is a black box in ../RTL/TOP/PRV332_SoC.v(23)
+HDL-8007 ERROR: BOOTROM is a black box
+HDL-8007 ERROR: BLKRAM8 is a black box
+HDL-8007 ERROR: UART_IP is a black box in ../RTL/Peripherals/UART_IP.v(5)

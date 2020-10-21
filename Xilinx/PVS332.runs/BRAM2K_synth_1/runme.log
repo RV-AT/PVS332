@@ -1,0 +1,35 @@
+
+*** Running vivado
+    with args -log BRAM2K.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source BRAM2K.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source BRAM2K.tcl -notrace
+Command: synth_design -top BRAM2K -part xc7a50tftg256-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Device 21-403] Loading part xc7a50tftg256-1
+ERROR: [Runs 36-287] File does not exist or is not accessible:'d:/Projects/FPGA/PVS332/Xilinx/Xilinx_IP/BRAM2K/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd'
+ERROR: [Runs 36-287] File does not exist or is not accessible:'d:/Projects/FPGA/PVS332/Xilinx/Xilinx_IP/BRAM2K/synth/BRAM2K.vhd'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13680 
+ERROR: [Synth 8-1771] cannot open vhdl file d:/Projects/FPGA/PVS332/Xilinx/Xilinx_IP/BRAM2K/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd
+ERROR: [Synth 8-1771] cannot open vhdl file d:/Projects/FPGA/PVS332/Xilinx/Xilinx_IP/BRAM2K/synth/BRAM2K.vhd
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 703.465 ; gain = 190.070
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-439] module 'BRAM2K' not found
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 741.508 ; gain = 228.113
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+3 Infos, 0 Warnings, 0 Critical Warnings and 6 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 27 19:14:33 2019...

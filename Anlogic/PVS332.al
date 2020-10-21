@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+    <Project_Created_Time>2019-10-20 19:19:00</Project_Created_Time>
+    <TD_Version>4.4.433</TD_Version>
+    <Name>PVS332</Name>
+    <HardWare>
+        <Family>EG4</Family>
+        <Device>EG4S20BG256</Device>
+    </HardWare>
+    <Source_Files>
+        <Verilog>
+            <File>../RTL/CPU/ahb.v</File>
+            <File>../RTL/CPU/alu.v</File>
+            <File>../RTL/CPU/au.v</File>
+            <File>../RTL/CPU/biu.v</File>
+            <File>../RTL/CPU/csr.v</File>
+            <File>../RTL/CPU/csr_gpr_iu.v</File>
+            <File>../RTL/CPU/exce_chk.v</File>
+            <File>../RTL/CPU/exu.v</File>
+            <File>../RTL/CPU/ins_dec.v</File>
+            <File>../RTL/CPU/int_ctrl.v</File>
+            <File>../RTL/CPU/mmu.v</File>
+            <File>../RTL/CPU/prv332sv0.v</File>
+            <File>../RTL/AHB_Lite/ahb_decoder.v</File>
+            <File>../RTL/AHB_Lite/ahb_mux_s2m.v</File>
+            <File>../RTL/AHB_Lite/ahb_reset_ctrl.v</File>
+            <File>../RTL/Peripherals/AHB_DUMMY.v</File>
+            <File>../RTL/Peripherals/ahb_is62.v</File>
+            <File>../RTL/Peripherals/AHB_OCRAM.v</File>
+            <File>../RTL/Peripherals/AHB_ROM.v</File>
+            <File>../RTL/Peripherals/ahb_spi_v0.v</File>
+            <File>../RTL/Peripherals/BaudGen.v</File>
+            <File>../RTL/Peripherals/clk_ctrl.v</File>
+            <File>../RTL/Peripherals/PERI_DECODE.v</File>
+            <File>../RTL/Peripherals/port8080.v</File>
+            <File>../RTL/Peripherals/spi_module.v</File>
+            <File>../RTL/Peripherals/UART_IP.v</File>
+            <File>../RTL/Peripherals/UART_Rx.v</File>
+            <File>../RTL/Peripherals/UART_Tx.v</File>
+            <File>../RTL/TOP/PRV332_SoC.v</File>
+            <File>../RTL/Peripherals/AHB_UART.v</File>
+            <File>../RTL/Peripherals/PERI_MUX.v</File>
+        </Verilog>
+        <ADC_FILE/>
+        <SDC_FILE/>
+        <CWC_FILE/>
+    </Source_Files>
+    <TOP_MODULE>
+        <LABEL/>
+        <MODULE>PRV332_SoC</MODULE>
+        <CREATEINDEX>auto</CREATEINDEX>
+    </TOP_MODULE>
+    <Project_Settings>
+        <Step_Last_Change>2019-10-21 10:48:53</Step_Last_Change>
+        <Current_Step>10</Current_Step>
+        <Step_Status>false</Step_Status>
+    </Project_Settings>
+</Project>

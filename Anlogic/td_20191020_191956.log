@@ -1,0 +1,425 @@
+============================================================
+   Tang Dynasty, V4.1.533
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = D:/Anlogic/TD4.1.533/bin/td.exe
+   Built at =   14:11:35 Apr  4 2018
+   Run by =     Administrator
+   Run Date =   Sun Oct 20 19:19:56 2019
+
+   Run on =     HONGXY-CYBERLAN
+============================================================
+RUN-001 : GUI based run...
+CMD-004 : start command "import_device eagle_s20.db -package BG256"
+CMD-005 : finish command "import_device eagle_s20.db -package BG256" in  5.363974s wall, 5.359375s user + 0.281250s system = 5.640625s CPU (105.2%)
+
+CMD-006 : used memory is 151 MB, reserved memory is 132 MB, peak memory is 151 MB
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/ahb.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/alu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/au.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/biu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/csr.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/exce_chk.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/exu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/ins_dec.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/int_ctrl.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/minidecode.v
+VLG-150 ERROR: unexpected EOF in D:/Projects/FPGA/PVS332/RTL/CPU/minidecode.v(4)
+VLG-495 : Verilog file D:/Projects/FPGA/PVS332/RTL/CPU/minidecode.v ignored due to errors
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/mmu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/prv332sv0.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v
+VLG-340 : analyze included file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_defines.v in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(29)
+VLG-149 ERROR: syntax error near ; in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(35)
+VLG-495 : Verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v ignored due to errors
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_decoder.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_mux_s2m.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/ahb.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/alu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/au.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/biu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/csr.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/exce_chk.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/exu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/ins_dec.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/int_ctrl.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/minidecode.v
+VLG-150 ERROR: unexpected EOF in D:/Projects/FPGA/PVS332/RTL/CPU/minidecode.v(4)
+VLG-495 : Verilog file D:/Projects/FPGA/PVS332/RTL/CPU/minidecode.v ignored due to errors
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/mmu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/prv332sv0.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v
+VLG-257 ERROR: cannot open include file ahb_defines.v in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(29)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(153)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(154)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(155)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(156)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(157)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(158)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(159)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(160)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(161)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(162)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(163)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(164)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(166)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(167)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(168)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(169)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(170)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(171)
+(null) : Sorry, too many errors..
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_decoder.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_mux_s2m.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/ahb.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/alu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/au.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/biu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/csr.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/exce_chk.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/exu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/ins_dec.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/int_ctrl.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/minidecode.v
+VLG-150 ERROR: unexpected EOF in D:/Projects/FPGA/PVS332/RTL/CPU/minidecode.v(4)
+VLG-495 : Verilog file D:/Projects/FPGA/PVS332/RTL/CPU/minidecode.v ignored due to errors
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/mmu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/prv332sv0.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(153)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(154)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(155)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(156)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(157)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(158)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(159)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(160)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(161)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(162)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(163)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(164)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(166)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(167)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(168)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(169)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(170)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(171)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(173)
+(null) : Sorry, too many errors..
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_decoder.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_mux_s2m.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_DUMMY.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_is62.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_SPI.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_SRAM.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(42)
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(43)
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(44)
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(45)
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(46)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/clk_ctrl.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v
+VLG-149 ERROR: syntax error near ( in D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v(11)
+VLG-084 ERROR: ignore module PERI_DECODE due to previous errors in D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v(21)
+VLG-495 : Verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v ignored due to errors
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/port8080.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/spi_module.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_IP.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Tx.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/ahb.v
+VLG-218 WARNING: overwrite current module ahb in D:/Projects/FPGA/PVS332/RTL/CPU/ahb.v(75)
+VLG-1154 : previous definition of module ahb is here in D:/Projects/FPGA/PVS332/RTL/CPU/ahb.v(75)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/alu.v
+VLG-218 WARNING: overwrite current module alu in D:/Projects/FPGA/PVS332/RTL/CPU/alu.v(200)
+VLG-1154 : previous definition of module alu is here in D:/Projects/FPGA/PVS332/RTL/CPU/alu.v(200)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/au.v
+VLG-218 WARNING: overwrite current module au in D:/Projects/FPGA/PVS332/RTL/CPU/au.v(88)
+VLG-1154 : previous definition of module au is here in D:/Projects/FPGA/PVS332/RTL/CPU/au.v(88)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/biu.v
+VLG-218 WARNING: overwrite current module biu in D:/Projects/FPGA/PVS332/RTL/CPU/biu.v(521)
+VLG-1154 : previous definition of module biu is here in D:/Projects/FPGA/PVS332/RTL/CPU/biu.v(521)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/csr.v
+VLG-218 WARNING: overwrite current module csr in D:/Projects/FPGA/PVS332/RTL/CPU/csr.v(582)
+VLG-1154 : previous definition of module csr is here in D:/Projects/FPGA/PVS332/RTL/CPU/csr.v(582)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v
+VLG-218 WARNING: overwrite current module csr_gpr_iu in D:/Projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v(554)
+VLG-1154 : previous definition of module csr_gpr_iu is here in D:/Projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v(554)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/exce_chk.v
+VLG-218 WARNING: overwrite current module exce_chk in D:/Projects/FPGA/PVS332/RTL/CPU/exce_chk.v(103)
+VLG-1154 : previous definition of module exce_chk is here in D:/Projects/FPGA/PVS332/RTL/CPU/exce_chk.v(103)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/exu.v
+VLG-218 WARNING: overwrite current module exu in D:/Projects/FPGA/PVS332/RTL/CPU/exu.v(318)
+VLG-1154 : previous definition of module exu is here in D:/Projects/FPGA/PVS332/RTL/CPU/exu.v(318)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/ins_dec.v
+VLG-218 WARNING: overwrite current module ins_dec in D:/Projects/FPGA/PVS332/RTL/CPU/ins_dec.v(245)
+VLG-1154 : previous definition of module ins_dec is here in D:/Projects/FPGA/PVS332/RTL/CPU/ins_dec.v(245)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/int_ctrl.v
+VLG-218 WARNING: overwrite current module int_ctrl in D:/Projects/FPGA/PVS332/RTL/CPU/int_ctrl.v(255)
+VLG-1154 : previous definition of module int_ctrl is here in D:/Projects/FPGA/PVS332/RTL/CPU/int_ctrl.v(255)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/minidecode.v
+VLG-150 ERROR: unexpected EOF in D:/Projects/FPGA/PVS332/RTL/CPU/minidecode.v(4)
+VLG-495 : Verilog file D:/Projects/FPGA/PVS332/RTL/CPU/minidecode.v ignored due to errors
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/mmu.v
+VLG-218 WARNING: overwrite current module mmu in D:/Projects/FPGA/PVS332/RTL/CPU/mmu.v(131)
+VLG-1154 : previous definition of module mmu is here in D:/Projects/FPGA/PVS332/RTL/CPU/mmu.v(131)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/prv332sv0.v
+VLG-218 WARNING: overwrite current module prv332sv0 in D:/Projects/FPGA/PVS332/RTL/CPU/prv332sv0.v(416)
+VLG-1154 : previous definition of module prv332sv0 is here in D:/Projects/FPGA/PVS332/RTL/CPU/prv332sv0.v(416)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(153)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(154)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(155)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(156)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(157)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(158)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(159)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(160)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(161)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(162)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(163)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(164)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(166)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(167)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(168)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(169)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(170)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(171)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(173)
+(null) : Sorry, too many errors..
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_decoder.v
+VLG-218 WARNING: overwrite current module ahb_decoder in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_decoder.v(44)
+VLG-1154 : previous definition of module ahb_decoder is here in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_decoder.v(44)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_mux_s2m.v
+VLG-218 WARNING: overwrite current module ahb_mux_s2m in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_mux_s2m.v(162)
+VLG-1154 : previous definition of module ahb_mux_s2m is here in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_mux_s2m.v(162)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v
+VLG-218 WARNING: overwrite current module ahb_reset_ctrl in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v(73)
+VLG-1154 : previous definition of module ahb_reset_ctrl is here in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v(73)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_DUMMY.v
+VLG-218 WARNING: overwrite current module AHB_DUMMY in D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_DUMMY.v(38)
+VLG-1154 : previous definition of module AHB_DUMMY is here in D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_DUMMY.v(38)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_is62.v
+VLG-218 WARNING: overwrite current module ahb_is62 in D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_is62.v(275)
+VLG-1154 : previous definition of module ahb_is62 is here in D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_is62.v(275)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v
+VLG-218 WARNING: overwrite current module AHB_OCRAM in D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v(150)
+VLG-1154 : previous definition of module AHB_OCRAM is here in D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v(150)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v
+VLG-218 WARNING: overwrite current module AHB_ROM in D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v(56)
+VLG-1154 : previous definition of module AHB_ROM is here in D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v(56)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_SPI.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v
+VLG-218 WARNING: overwrite current module ahb_spi_v0 in D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v(214)
+VLG-1154 : previous definition of module ahb_spi_v0 is here in D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v(214)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_SRAM.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(42)
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(43)
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(44)
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(45)
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(46)
+VLG-218 WARNING: overwrite current module BaudGen in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(62)
+VLG-1154 : previous definition of module BaudGen is here in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(62)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/clk_ctrl.v
+VLG-218 WARNING: overwrite current module clk_ctrl in D:/Projects/FPGA/PVS332/RTL/Peripherals/clk_ctrl.v(97)
+VLG-1154 : previous definition of module clk_ctrl is here in D:/Projects/FPGA/PVS332/RTL/Peripherals/clk_ctrl.v(97)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v
+VLG-149 ERROR: syntax error near ( in D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v(11)
+VLG-084 ERROR: ignore module PERI_DECODE due to previous errors in D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v(21)
+VLG-495 : Verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v ignored due to errors
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/port8080.v
+VLG-218 WARNING: overwrite current module port8080 in D:/Projects/FPGA/PVS332/RTL/Peripherals/port8080.v(92)
+VLG-1154 : previous definition of module port8080 is here in D:/Projects/FPGA/PVS332/RTL/Peripherals/port8080.v(92)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/spi_module.v
+VLG-218 WARNING: overwrite current module spi_module in D:/Projects/FPGA/PVS332/RTL/Peripherals/spi_module.v(303)
+VLG-1154 : previous definition of module spi_module is here in D:/Projects/FPGA/PVS332/RTL/Peripherals/spi_module.v(303)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_IP.v
+VLG-218 WARNING: overwrite current module UART_IP in D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_IP.v(27)
+VLG-1154 : previous definition of module UART_IP is here in D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_IP.v(27)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v
+VLG-218 WARNING: overwrite current module UART_Rx in D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v(113)
+VLG-1154 : previous definition of module UART_Rx is here in D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v(113)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Tx.v
+VLG-218 WARNING: overwrite current module UART_Tx in D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Tx.v(72)
+VLG-1154 : previous definition of module UART_Tx is here in D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Tx.v(72)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v
+VLG-218 WARNING: overwrite current module PRV332_SoC in D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v(292)
+VLG-1154 : previous definition of module PRV332_SoC is here in D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v(292)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/Anlogic/al_ip/BOOTROM1.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/ahb.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/alu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/au.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/biu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/csr.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/exce_chk.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/exu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/ins_dec.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/int_ctrl.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/minidecode.v
+VLG-150 ERROR: unexpected EOF in D:/Projects/FPGA/PVS332/RTL/CPU/minidecode.v(4)
+VLG-495 : Verilog file D:/Projects/FPGA/PVS332/RTL/CPU/minidecode.v ignored due to errors
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/mmu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/prv332sv0.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(153)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(154)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(155)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(156)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(157)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(158)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(159)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(160)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(161)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(162)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(163)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(164)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(166)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(167)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(168)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(169)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(170)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(171)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(173)
+(null) : Sorry, too many errors..
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_decoder.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_mux_s2m.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_DUMMY.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_is62.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_SPI.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_SRAM.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(42)
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(43)
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(44)
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(45)
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(46)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/clk_ctrl.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v
+VLG-149 ERROR: syntax error near ( in D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v(11)
+VLG-084 ERROR: ignore module PERI_DECODE due to previous errors in D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v(21)
+VLG-495 : Verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v ignored due to errors
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/port8080.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/spi_module.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_IP.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Tx.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/ahb.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/alu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/au.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/biu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/csr.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/exce_chk.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/exu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/ins_dec.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/int_ctrl.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/minidecode.v
+VLG-150 ERROR: unexpected EOF in D:/Projects/FPGA/PVS332/RTL/CPU/minidecode.v(4)
+VLG-495 : Verilog file D:/Projects/FPGA/PVS332/RTL/CPU/minidecode.v ignored due to errors
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/mmu.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/CPU/prv332sv0.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(153)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(154)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(155)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(156)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(157)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(158)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(159)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(160)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(161)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(162)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(163)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(164)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(166)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(167)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(168)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(169)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(170)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(171)
+VLG-149 ERROR: syntax error near , in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_bus_matrix.v(173)
+(null) : Sorry, too many errors..
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_decoder.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_mux_s2m.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_DUMMY.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_is62.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_SPI.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_SRAM.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(42)
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(43)
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(44)
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(45)
+VLG-220 WARNING: literal value truncated to fit in 9 bits in D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v(46)
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/clk_ctrl.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v
+VLG-149 ERROR: syntax error near ( in D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v(11)
+VLG-084 ERROR: ignore module PERI_DECODE due to previous errors in D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v(21)
+VLG-495 : Verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v ignored due to errors
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/port8080.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/spi_module.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_IP.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Tx.v
+VLG-002 : analyze verilog file D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v
+CMD-004 : start command "elaborate -top PRV332_SoC"
+VLG-004 : elaborate module PRV332_SoC in D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v(23)
+VLG-004 : elaborate module prv332sv0 in D:/Projects/FPGA/PVS332/RTL/CPU/prv332sv0.v(8)
+VLG-004 : elaborate module biu in D:/Projects/FPGA/PVS332/RTL/CPU/biu.v(8)
+VLG-004 : elaborate module mmu in D:/Projects/FPGA/PVS332/RTL/CPU/mmu.v(1)
+VLG-004 : elaborate module ahb in D:/Projects/FPGA/PVS332/RTL/CPU/ahb.v(4)
+VLG-342 WARNING: actual bit length 2 differs from formal bit length 3 for port hsize in D:/Projects/FPGA/PVS332/RTL/CPU/biu.v(458)
+VLG-004 : elaborate module exce_chk in D:/Projects/FPGA/PVS332/RTL/CPU/exce_chk.v(3)
+VLG-004 : elaborate module csr_gpr_iu in D:/Projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v(4)
+VLG-004 : elaborate module ins_dec in D:/Projects/FPGA/PVS332/RTL/CPU/ins_dec.v(4)
+VLG-004 : elaborate module int_ctrl in D:/Projects/FPGA/PVS332/RTL/CPU/int_ctrl.v(4)
+VLG-004 : elaborate module csr in D:/Projects/FPGA/PVS332/RTL/CPU/csr.v(6)
+VLG-004 : elaborate module exu in D:/Projects/FPGA/PVS332/RTL/CPU/exu.v(8)
+VLG-004 : elaborate module alu in D:/Projects/FPGA/PVS332/RTL/CPU/alu.v(4)
+VLG-004 : elaborate module au in D:/Projects/FPGA/PVS332/RTL/CPU/au.v(4)
+VLG-004 : elaborate module ahb_decoder in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_decoder.v(18)
+VLG-004 : elaborate module ahb_mux_s2m in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_mux_s2m.v(34)
+VLG-342 WARNING: actual bit length 1 differs from formal bit length 2 for port HRESP in D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v(183)
+VLG-004 : elaborate module AHB_ROM in D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v(4)
+VLG-075 WARNING: instantiate unknown module BOOTROM in D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v(43)
+VLG-342 WARNING: actual bit length 2 differs from formal bit length 3 for port HSIZE in D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v(194)
+VLG-004 : elaborate module AHB_OCRAM in D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v(5)
+VLG-075 WARNING: instantiate unknown module BLKRAM8 in D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v(65)
+VLG-342 WARNING: actual bit length 9 differs from formal bit length 8 for port dina in D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v(82)
+VLG-342 WARNING: actual bit length 8 differs from formal bit length 9 for port dina in D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v(94)
+VLG-342 WARNING: actual bit length 2 differs from formal bit length 3 for port HSIZE in D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v(212)
+VLG-004 : elaborate module ahb_is62 in D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_is62.v(8)
+VLG-342 WARNING: actual bit length 2 differs from formal bit length 3 for port hsize in D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v(240)
+VLG-342 WARNING: actual bit length 2 differs from formal bit length 1 for port hresp in D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v(250)
+VLG-004 : elaborate module AHB_DUMMY in D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_DUMMY.v(4)
+VLG-342 WARNING: actual bit length 2 differs from formal bit length 3 for port HSIZE in D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v(273)
+VLG-004 : elaborate module ahb_reset_ctrl in D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v(34)
+VIN-1002 WARNING: net HSIZE[1] does not have a driver in D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v(45)
+VIN-1000 ERROR: net HTRANS[1] is constantly driven from multiple places in D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v(120)
+VIN-1001 ERROR: another driver from here in D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v(120)
+VLG-085 : module PRV332_SoC remains a blackbox, due to errors in its contents in D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v(23)
+RTL-300 ERROR: PRV332_SoC is a black box in D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v(23)
+RTL-300 ERROR: BOOTROM is a black box in (0)
+RTL-300 ERROR: BLKRAM8 is a black box in (0)

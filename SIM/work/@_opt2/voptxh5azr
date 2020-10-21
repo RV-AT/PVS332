@@ -1,0 +1,895 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Projects\FPGA\px_rv32_SoC\sim
+T_opt
+VHnzi]@P=P416Z=Ah_S7b51
+04 6 4 work BUS_TB fast 0
+=1-2c600c9cbd66-5daaa89d-311-2254
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+Z2 OL;O;10.1c;51
+Z3 dD:\Projects\FPGA\px_rv32_SoC\sim
+T_opt1
+V6?S77;4_kZj8]AMn;[`4_0
+Z4 04 15 4 work PVS332_SELFTEST fast 0
+=1-2c600c9cbd66-5dbc2a23-1f7-2488
+R1
+n@_opt1
+R2
+R3
+T_opt2
+Vh>]>D=G?cKB2hMmo5VETE1
+R4
+=1-2c600c9cbd66-5dbe2daa-342-333c
+R1
+n@_opt2
+R2
+vAFIO32
+I>lQkL3BW`@Zcz7ZcjPDEj1
+V;V<354bPdFL<^ZIM=SV;C1
+Z5 dD:\Projects\FPGA\PVS332\SIM
+w1572338456
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v
+L0 1
+Z6 OL;L;10.1c;51
+r1
+31
+Z7 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@a@f@i@o32
+!s100 fU>;E24H;[NDOGNHV1`Gz3
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v|
+!s108 1572697490.245000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v|
+!i10b 1
+!s85 0
+vahb
+IW;64bEGbMCRJn>AK9b8MJ0
+V4k4Kn<o8miCocU`lBJAe=2
+R5
+w1571973271
+8D:/Projects/FPGA/PVS332/RTL/CPU/ahb.v
+FD:/Projects/FPGA/PVS332/RTL/CPU/ahb.v
+L0 4
+R6
+r1
+31
+R7
+!s100 =W0L5nLDMdgOzkNL<632e3
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/CPU/ahb.v|
+!s108 1572697484.614000
+!s107 D:/Projects/FPGA/PVS332/RTL/CPU/ahb.v|
+!i10b 1
+!s85 0
+vAHB_CCREG
+IWXK8?lEoj?<T<im?UAjP]3
+V:SVMz;DJRo@k7ddjzNiij0
+R5
+w1572704914
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_CCREG.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_CCREG.v
+L0 2
+R6
+r1
+31
+R7
+n@a@h@b_@c@c@r@e@g
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_CCREG.v|
+!s100 GAG3z8;HQWh^ig:`dAb1M2
+!s108 1572705311.845000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_CCREG.v|
+!i10b 1
+!s85 0
+vahb_decoder
+IhPBSBzU=jHRR>0`@:SKT32
+V`]ge`[43c^W_CAnaNB=0U3
+R5
+w1571464286
+8D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_decoder.v
+FD:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_decoder.v
+L0 18
+R6
+r1
+31
+R7
+!s100 TA:`53dg681]ZC8QH>7=13
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_decoder.v|
+!s108 1572697486.278000
+!s107 D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_decoder.v|
+!i10b 1
+!s85 0
+vAHB_DUMMY
+IahGEKzLGoDo<i;15zn`nZ0
+VYd;e61dDQ7fYHob71Mz>]1
+R5
+w1571236670
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_DUMMY.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_DUMMY.v
+L0 4
+R6
+r1
+31
+R7
+n@a@h@b_@d@u@m@m@y
+!s100 :@M9fC:h?7g9]ZhaHdZck1
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_DUMMY.v|
+!s108 1572697487.185000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_DUMMY.v|
+!i10b 1
+!s85 0
+vAHB_GPIOC
+I2S^Xb=aJ:fGF@?1k3=0423
+VUZGXEPdI^8ahXIODP24Ml2
+R5
+w1572708857
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_GPIOC.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_GPIOC.v
+L0 1
+R6
+r1
+31
+R7
+n@a@h@b_@g@p@i@o@c
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_GPIOC.v|
+!s100 2elm4f6A;;iXeo3LbjdDJ2
+!s108 1572708878.439000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_GPIOC.v|
+!i10b 1
+!s85 0
+vahb_is62
+Ifl?jlhnRLaTHC>:Z<@h5F1
+V;OFMD5Y1dIU[NlQ`NW5R90
+R5
+w1571217079
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_is62.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_is62.v
+L0 8
+R6
+r1
+31
+R7
+!s100 87UU=n;lAB_cibOcmX6M91
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_is62.v|
+!s108 1572697487.350000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_is62.v|
+!i10b 1
+!s85 0
+vahb_mux_s2m
+Ih4HzYSidOeSG=mB0[Xkog2
+VW4T5PfKiWIHmT4_o@YVn92
+R5
+w1571462835
+8D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_mux_s2m.v
+FD:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_mux_s2m.v
+L0 34
+R6
+r1
+31
+R7
+!s100 2]hYOm^Y1P;X9@TgiUeZz2
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_mux_s2m.v|
+!s108 1572697486.425000
+!s107 D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_mux_s2m.v|
+!i10b 1
+!s85 0
+vAHB_OCRAM
+IJkXM[ea[jK;F7C@41WUSe3
+VHI1VhQDGHjdXP3?W;:eJ>0
+R5
+w1572612463
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v
+L0 5
+R6
+r1
+31
+R7
+n@a@h@b_@o@c@r@a@m
+!s100 8M3eaTdA>IUU24U=KiB`D3
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v|
+!s108 1572697487.521000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v|
+!i10b 1
+!s85 0
+vahb_reset_ctrl
+IJF^7cf6;<AKz:JJ6?UTdZ2
+V^2k<GadndRQ[1AnVKOFz<1
+R5
+w1439410093
+8D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v
+FD:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v
+L0 34
+R6
+r1
+31
+R7
+!s100 o7ld1B2GAI701hCEC7ANK3
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v|
+!s108 1572697486.575000
+!s107 D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v|
+!i10b 1
+!s85 0
+vAHB_ROM
+IGVP38LdK23=4NJ7<>l?:L0
+VFC@^nBXzUNcLT8]g<eU=c3
+R5
+w1572612485
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v
+L0 4
+R6
+r1
+31
+R7
+n@a@h@b_@r@o@m
+!s100 fXRz<di6`b:P@XSa5b;m?3
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v|
+!s108 1572697487.685000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v|
+!i10b 1
+!s85 0
+vahb_spi_v0
+IN`2=S]gdBzLj1H?^PSUB@1
+V16zAzehHIlUm:UYH4:Ra]0
+R5
+w1572705698
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v
+L0 29
+R6
+r1
+31
+R7
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v|
+!s100 9O]Ol<SHUnblzzgNYiR?g3
+!s108 1572705712.490000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v|
+!i10b 1
+!s85 0
+vAHB_UART
+I_I0gjBOz3GhNkN5FUd1UN3
+VUC:;a`W>JTHOFU3=X4hIe3
+R5
+w1572744606
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v
+L0 1
+R6
+r1
+31
+R7
+n@a@h@b_@u@a@r@t
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v|
+!i10b 1
+!s100 egBz>e_Z4?UZ37Ag54<1S3
+!s85 0
+!s108 1572744613.262000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v|
+valu
+Il?hab5BT89`ZhU5]Uke[b0
+VO1DCfELDJ4AAgN@7NKboi1
+R5
+w1572485792
+8D:/Projects/FPGA/PVS332/RTL/CPU/alu.v
+FD:/Projects/FPGA/PVS332/RTL/CPU/alu.v
+L0 4
+R6
+r1
+31
+R7
+!s100 `X2Y`1<bn3lc6n]nofAfV3
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/CPU/alu.v|
+!s108 1572697484.756000
+!s107 D:/Projects/FPGA/PVS332/RTL/CPU/alu.v|
+!i10b 1
+!s85 0
+vau
+IKA>W`S8Kcz:VKoo@hLzXV1
+VJQeABTLC7Wh=X^d`X:4m30
+R5
+w1569680517
+8D:/Projects/FPGA/PVS332/RTL/CPU/au.v
+FD:/Projects/FPGA/PVS332/RTL/CPU/au.v
+L0 4
+R6
+r1
+31
+R7
+!s100 8VUWLo@hO]3]C:WdSOZ[:2
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/CPU/au.v|
+!s108 1572697484.912000
+!s107 D:/Projects/FPGA/PVS332/RTL/CPU/au.v|
+!i10b 1
+!s85 0
+vBaudGen
+IDd_QLdOjo>ZRgZ0O50>ab0
+V8PMIT>ifCbQ8^Sc@DMNXa2
+R5
+w1567080190
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v
+L0 2
+R6
+r1
+31
+R7
+n@baud@gen
+!s100 QL48DV<OALKbYQ[9Y0eh^1
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v|
+!s108 1572697488.181000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v|
+!i10b 1
+!s85 0
+vbiu
+IOVN5mC:7[mQfzi?ND3G1W0
+V0o>eOeV?cQ`R9hA]eS5Zo1
+R5
+w1572492745
+8D:/Projects/FPGA/PVS332/RTL/CPU/biu.v
+FD:/Projects/FPGA/PVS332/RTL/CPU/biu.v
+L0 8
+R6
+r1
+31
+R7
+!s100 hGhmogXC@_>VEhEP;<1o53
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/CPU/biu.v|
+!s108 1572697485.060000
+!s107 D:/Projects/FPGA/PVS332/RTL/CPU/biu.v|
+!i10b 1
+!s85 0
+vBLKRAM8
+ICaOY5S3kFbH:`dKJTRNGG0
+VnBiK=_^j7Y^fbO<@^;5S_2
+R5
+w1572338323
+8D:/Projects/FPGA/PVS332/RTL/SIM/BLKRAM8.v
+FD:/Projects/FPGA/PVS332/RTL/SIM/BLKRAM8.v
+L0 2
+R6
+r1
+31
+R7
+n@b@l@k@r@a@m8
+!s100 FnOPM8;W=l6ObI2ioTE8:2
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/SIM/BLKRAM8.v|
+!s108 1572697489.592000
+!s107 D:/Projects/FPGA/PVS332/RTL/SIM/BLKRAM8.v|
+!i10b 1
+!s85 0
+vBOOTROM
+I0mcb_D^3hZ07moIOb=cHM3
+Vf82d?z7k`Qj;OPV7IKk8i1
+R5
+w1572400785
+8D:/Projects/FPGA/PVS332/RTL/SIM/BOOTROM.v
+FD:/Projects/FPGA/PVS332/RTL/SIM/BOOTROM.v
+L0 2
+R6
+r1
+31
+R7
+n@b@o@o@t@r@o@m
+!s100 LBzZl2Ng^HIC[A=V34X9^3
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/SIM/BOOTROM.v|
+!s108 1572697489.753000
+!s107 D:/Projects/FPGA/PVS332/RTL/SIM/BOOTROM.v|
+!i10b 1
+!s85 0
+vBRAM2K
+I6_]z6j<=MINZb?;GQFSBh0
+ViEi>R_`aBf>:5jl6emD<X2
+R5
+w1571910612
+8D:/Projects/FPGA/PVS332/RTL/SIM/BRAM2K.v
+FD:/Projects/FPGA/PVS332/RTL/SIM/BRAM2K.v
+L0 1
+R6
+r1
+31
+R7
+n@b@r@a@m2@k
+!s100 GMTImhd]3lbQGHag@eD7o3
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/SIM/BRAM2K.v|
+!s108 1572697490.744000
+!s107 D:/Projects/FPGA/PVS332/RTL/SIM/BRAM2K.v|
+!i10b 1
+!s85 0
+vBUS_TB
+I=d:Aed3MfKCG9c>X3oXf80
+VASBaGj`=W:X;c4Rnj7gD73
+R5
+w1571465234
+8D:/Projects/FPGA/PVS332/RTL/SIM/BUS_TB.v
+FD:/Projects/FPGA/PVS332/RTL/SIM/BUS_TB.v
+L0 1
+R6
+r1
+31
+R7
+n@b@u@s_@t@b
+!s100 [mRUEiLFzXYTLmhz5k^NQ3
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/SIM/BUS_TB.v|
+!s108 1572697489.154000
+!s107 D:/Projects/FPGA/PVS332/RTL/SIM/BUS_TB.v|
+!i10b 1
+!s85 0
+vclk_ctrl
+I^cgidlzj0Hb@F:?mc0j];3
+VH7oBW89ULojY1B8oL6;Yo1
+R5
+w1570870020
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/clk_ctrl.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/clk_ctrl.v
+L0 6
+R6
+r1
+31
+R7
+!s100 CLTg0F;L>9fY0T82VQ>oJ3
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/clk_ctrl.v|
+!s108 1572697488.340000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/clk_ctrl.v|
+!i10b 1
+!s85 0
+vcsr
+Ig?NF[8Vm05GoWV0BTQN510
+VU@k<Bo`V^VHK>?36fdzL_1
+R5
+w1569510037
+8D:/Projects/FPGA/PVS332/RTL/CPU/csr.v
+FD:/Projects/FPGA/PVS332/RTL/CPU/csr.v
+L0 6
+R6
+r1
+31
+R7
+!s100 9O4g3QC?]27@k=o=[<UT73
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/CPU/csr.v|
+!s108 1572697485.209000
+!s107 D:/Projects/FPGA/PVS332/RTL/CPU/csr.v|
+!i10b 1
+!s85 0
+vcsr_gpr_iu
+I_PRJfi`C]RPO=<eFE]G`c0
+Ve^lB0zAa_:07;iz[A1C6I0
+R5
+w1570638023
+8D:/Projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v
+FD:/Projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v
+L0 4
+R6
+r1
+31
+R7
+!s100 zS8d7onEa6WOm>ZUjPk<c0
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v|
+!s108 1572697485.357000
+!s107 D:/Projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v|
+!i10b 1
+!s85 0
+vexce_chk
+I_[CFo51B4NV98;m43fb`<1
+Vd@A6>5YNG`>SJjC:4na?A1
+R5
+w1568466742
+8D:/Projects/FPGA/PVS332/RTL/CPU/exce_chk.v
+FD:/Projects/FPGA/PVS332/RTL/CPU/exce_chk.v
+L0 3
+R6
+r1
+31
+R7
+!s100 ngQLK=ml75Bc<`_<N4:iD2
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/CPU/exce_chk.v|
+!s108 1572697485.502000
+!s107 D:/Projects/FPGA/PVS332/RTL/CPU/exce_chk.v|
+!i10b 1
+!s85 0
+vexu
+Io]NDKNhZAE4]b8@LAnQXj3
+V`4K9IQYldEXWQ18cOEQW=1
+R5
+w1569726313
+8D:/Projects/FPGA/PVS332/RTL/CPU/exu.v
+FD:/Projects/FPGA/PVS332/RTL/CPU/exu.v
+L0 8
+R6
+r1
+31
+R7
+!s100 IC=6Fn=W[O];`AY`:dJa93
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/CPU/exu.v|
+!s108 1572697485.660000
+!s107 D:/Projects/FPGA/PVS332/RTL/CPU/exu.v|
+!i10b 1
+!s85 0
+vins_dec
+I?OW5K5[WfFSaB694AMVX@1
+VZHjMagPBR^jKKe7IPG2FR0
+R5
+w1570638151
+8D:/Projects/FPGA/PVS332/RTL/CPU/ins_dec.v
+FD:/Projects/FPGA/PVS332/RTL/CPU/ins_dec.v
+L0 4
+R6
+r1
+31
+R7
+!s100 mJz0b>Wm_]XI6zSWP5H[U2
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/CPU/ins_dec.v|
+!s108 1572697485.819000
+!s107 D:/Projects/FPGA/PVS332/RTL/CPU/ins_dec.v|
+!i10b 1
+!s85 0
+vint_ctrl
+IY6QhlH12Y5fJgHQ2A16_O3
+V=TI:U_emSnfZQlGA[gm]80
+R5
+w1569468032
+8D:/Projects/FPGA/PVS332/RTL/CPU/int_ctrl.v
+FD:/Projects/FPGA/PVS332/RTL/CPU/int_ctrl.v
+L0 4
+R6
+r1
+31
+R7
+!s100 ]Ed4O<WIE5zhgEidOBNRc0
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/CPU/int_ctrl.v|
+!s108 1572697485.968000
+!s107 D:/Projects/FPGA/PVS332/RTL/CPU/int_ctrl.v|
+!i10b 1
+!s85 0
+vmmu
+IY6ngNJh9fA2OA2?1dZAOQ1
+Vbf6zhnd<3E=LWgM@iBU9c1
+R5
+w1568362172
+8D:/Projects/FPGA/PVS332/RTL/CPU/mmu.v
+FD:/Projects/FPGA/PVS332/RTL/CPU/mmu.v
+L0 1
+R6
+r1
+31
+R7
+!s100 _]g?B:b<R:`lYn^3G6>Qz0
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/CPU/mmu.v|
+!s108 1572697486.123000
+!s107 D:/Projects/FPGA/PVS332/RTL/CPU/mmu.v|
+!i10b 1
+!s85 0
+vmtime
+IVf^iGhWn]ec<EONFKWe@11
+VHATGHU4KRPaTh8HfVc;5f1
+R5
+w1561115590
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/mtime.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/mtime.v
+L0 1
+R6
+r1
+31
+R7
+!s100 3;`P9C:0[_b]IUgI>M_880
+!s108 1571624256.619000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/mtime.v|
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/mtime.v|
+!i10b 1
+!s85 0
+vmtimecmp
+IF_PRYUnMNfA8X6OgXWAbd1
+VgKnDSoocgggX:PWEc5h9M0
+R5
+w1561108748
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/mtimecmp.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/mtimecmp.v
+L0 1
+R6
+r1
+31
+R7
+!s100 n]QA1zQ>CZb;BLk8c[dFe2
+!s108 1571624256.755000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/mtimecmp.v|
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/mtimecmp.v|
+!i10b 1
+!s85 0
+vpcod16s4
+IMCLf_MAY3M>3?`[fHFI_<0
+VcFB@WPnzXn7KY41]:A<Yh1
+R5
+w1572093251
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/pcod16s4.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/pcod16s4.v
+L0 1
+R6
+r1
+31
+R7
+!s100 OVTQJgd<:XS^HETak2oaX2
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/pcod16s4.v|
+!s108 1572697490.088000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/pcod16s4.v|
+!i10b 1
+!s85 0
+vPERI_DECODE
+If9d8nCKK10U]`DFY>Q=X@1
+VT0ZELTPNTV06EZBjRfAf_2
+R5
+w1572702886
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v
+L0 1
+R6
+r1
+31
+R7
+n@p@e@r@i_@d@e@c@o@d@e
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v|
+!s100 ]8Y0Bel;Kf1ACf0CcFnkf1
+!s108 1572702922.211000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v|
+!i10b 1
+!s85 0
+vPERI_MUX
+IVF=2@;O1RVF<2NQ>WUbB]2
+V:oM?b:@AOaA4CRJQ206RP0
+R5
+w1572706534
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_MUX.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_MUX.v
+L0 1
+R6
+r1
+31
+R7
+n@p@e@r@i_@m@u@x
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_MUX.v|
+!s100 c;EG5g=dd;D?L=hh9K^^h2
+!s108 1572706551.671000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_MUX.v|
+!i10b 1
+!s85 0
+vplic
+InWNa5TmZh304:eIWNMJn61
+VgJm]mR16PUeWln;5N1XNh1
+R5
+w1562248940
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/plic.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/plic.v
+L0 10
+R6
+r1
+31
+R7
+!s100 9]a[2i@OYGeQjc3]<;mLK3
+!s108 1571624256.891000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/plic.v|
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/plic.v|
+!i10b 1
+!s85 0
+vplic_cell
+I2hNmSm_XUiDHXC?Ib^]]J2
+VlZUGOLQ5XWG`oA4e6DSIo0
+R5
+w1572701759
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/plic_cell.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/plic_cell.v
+L0 1
+R6
+r1
+31
+R7
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/plic_cell.v|
+!s100 ki6ZAFZ31l]?VVXde1OE[3
+!s108 1572702335.355000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/plic_cell.v|
+!i10b 1
+!s85 0
+vport8080
+IV7@C7TjdZAobIh]PQzKag3
+VEDWRK@J;BeQ>?PRAb87491
+R5
+w1554515754
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/port8080.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/port8080.v
+L0 1
+R6
+r1
+31
+R7
+!s100 LCCcIWPWciKRIXl7`_]:o0
+!s108 1571624257.187000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/port8080.v|
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/port8080.v|
+!i10b 1
+!s85 0
+vPRV332_SoC
+Ijk8G>BPK`fQ4Ih8mkJEAz1
+Vehig6Vb@V9P_X4:=V:0B62
+R5
+w1572703097
+8D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v
+FD:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v
+L0 23
+R6
+r1
+31
+R7
+n@p@r@v332_@so@c
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v|
+!s100 RHhTHin=THME2dDRc^IfV1
+!s108 1572703103.658000
+!s107 D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v|
+!i10b 1
+!s85 0
+vprv332sv0
+ISGAn9<o^`iL289N29T[kM2
+VQlE;<;L:eh>0g_DZTdZCd2
+R5
+w1570638630
+8D:/Projects/FPGA/PVS332/RTL/CPU/prv332sv0.v
+FD:/Projects/FPGA/PVS332/RTL/CPU/prv332sv0.v
+L0 8
+R6
+r1
+31
+R7
+!s100 2KDBc4_6J1PaJ_I8d:ZQH0
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/CPU/prv332sv0.v|
+!s108 1572697484.461000
+!s107 D:/Projects/FPGA/PVS332/RTL/CPU/prv332sv0.v|
+!i10b 1
+!s85 0
+vprv332sv0_tb
+I[S7Ic=Ac27j;bIRbH`O=d0
+VlK5;n<;E1M4BzDF>8KiiZ3
+dD:\Projects\FPGA\PRV332_VIVADO\SIM
+w1571137039
+8D:\Projects\FPGA\PRV332_VIVADO\SIM\PVS332_KrnlTest.v
+FD:\Projects\FPGA\PRV332_VIVADO\SIM\PVS332_KrnlTest.v
+L0 3
+R6
+r1
+31
+R7
+!s100 8<lUo[Dj1:z1zbaEF9oU62
+!s90 -reportprogress|300|-work|work|-vopt|D:\Projects\FPGA\PRV332_VIVADO\SIM\PVS332_KrnlTest.v|
+!s108 1571137597.405000
+!s107 D:\Projects\FPGA\PRV332_VIVADO\SIM\PVS332_KrnlTest.v|
+!i10b 1
+!s85 0
+vPVS332_SELFTEST
+I_2fRBJM<C93N4_TO6;Agf2
+V:B5zGXgAmQZcMNa85EOQR2
+R5
+w1572424521
+8D:/Projects/FPGA/PVS332/RTL/SIM/PVS332_SELFTEST.v
+FD:/Projects/FPGA/PVS332/RTL/SIM/PVS332_SELFTEST.v
+L0 4
+R6
+r1
+31
+R7
+n@p@v@s332_@s@e@l@f@t@e@s@t
+!s100 @oNlfh`3ZOoALA6JGPcj52
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/SIM/PVS332_SELFTEST.v|
+!s108 1572697489.450000
+!s107 D:/Projects/FPGA/PVS332/RTL/SIM/PVS332_SELFTEST.v|
+!i10b 1
+!s85 0
+vspi_module
+IidRcb1l`95EZK3YYklV]Z3
+VOg8^e`jNMR5XMVn^k;4>F0
+R5
+w1570872021
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/spi_module.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/spi_module.v
+L0 4
+R6
+r1
+31
+R7
+!s100 ><8[2LKU>X18M5j62?]dm0
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/spi_module.v|
+!s108 1572697488.653000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/spi_module.v|
+!i10b 1
+!s85 0
+vSyncFIFO
+I]L_WVVd9Zej@0gzMVMRSE2
+V6ZW_oZkIVB:CCezjdXgKk2
+R5
+w1572667096
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/SyncFIFO.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/SyncFIFO.v
+L0 1
+R6
+r1
+31
+R7
+n@sync@f@i@f@o
+!s100 f1VHeE2cf0Xj8oF6_U53;3
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/SyncFIFO.v|
+!s108 1572697490.581000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/SyncFIFO.v|
+!i10b 1
+!s85 0
+vUART_IP
+IL7Palh;kc7nM_N3BXeUI90
+VT6Kk@<SQlDe3VW]2F^KMQ1
+R5
+w1567080166
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_IP.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/UART_IP.v
+L0 5
+R6
+r1
+31
+R7
+n@u@a@r@t_@i@p
+!s100 cgM@[FMNOhkT^fb?kB6b10
+!s108 1571624257.489000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_IP.v|
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_IP.v|
+!i10b 1
+!s85 0
+vUART_Rx
+IedhmYOE6e0]j@H0]H8Ll_2
+VENTKnk?j2JJoNKz5hJ7^V2
+R5
+w1571974991
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v
+L0 1
+R6
+r1
+31
+R7
+n@u@a@r@t_@rx
+!s100 Y477kd[agiK]dWA71b@Kg1
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v|
+!s108 1572697488.813000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v|
+!i10b 1
+!s85 0
+vUART_Tx
+IRHT;oMYnLGVE98G^=aQCP2
+V3URN]fg:F6XUh`<V7;?111
+R5
+w1572423021
+8D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Tx.v
+FD:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Tx.v
+L0 1
+R6
+r1
+31
+R7
+n@u@a@r@t_@tx
+!s100 :mJg1:`zXEZI`W]JVLWW[1
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Tx.v|
+!s108 1572697488.990000
+!s107 D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Tx.v|
+!i10b 1
+!s85 0
+vVIS62
+IgbRcdN_0]`?2CkcRPXEL?2
+VQ=:z[;29jco0LkE02TCZY0
+R5
+w1571624313
+8D:/Projects/FPGA/PVS332/RTL/SIM/VIS62.v
+FD:/Projects/FPGA/PVS332/RTL/SIM/VIS62.v
+L0 2
+R6
+r1
+31
+R7
+n@v@i@s62
+!s100 TLRZj=DCI1Kb?f0KnB^S62
+!s90 -reportprogress|300|-work|work|-vopt|D:/Projects/FPGA/PVS332/RTL/SIM/VIS62.v|
+!s108 1572697489.912000
+!s107 D:/Projects/FPGA/PVS332/RTL/SIM/VIS62.v|
+!i10b 1
+!s85 0

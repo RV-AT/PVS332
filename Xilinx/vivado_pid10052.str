@@ -1,0 +1,901 @@
+/*
+
+Xilinx Vivado v2019.1 (64-bit) [Major: 2019, Minor: 1]
+SW Build: 2552052 on Fri May 24 14:49:42 MDT 2019
+IP Build: 2548770 on Fri May 24 18:01:18 MDT 2019
+
+Process ID (PID): 10052
+License: Customer
+
+Current time: 	Tue Nov 12 14:39:53 CST 2019
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 8.1
+OS Version: 6.3
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 100
+Available screens: 1
+Available disk space: 36 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	USER
+User home directory: C:/Users/USER
+User working directory: D:/projects/FPGA/PVS332/Xilinx
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.1
+RDI_DATADIR: C:/Xilinx/Vivado/2019.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.1/bin
+
+Vivado preferences file location: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2019.1/vivado.xml
+Vivado preferences directory: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2019.1/
+Vivado layouts directory: C:/Users/USER/AppData/Roaming/Xilinx/Vivado/2019.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.1/lib/classes/planAhead.jar
+Vivado log file location: 	D:/projects/FPGA/PVS332/Xilinx/vivado.log
+Vivado journal file location: 	D:/projects/FPGA/PVS332/Xilinx/vivado.jou
+Engine tmp dir: 	D:/projects/FPGA/PVS332/Xilinx/.Xil/Vivado-10052-PC
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.1
+XILINX_SDK: C:/Xilinx/SDK/2019.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.1
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 564 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// by (cl):  Open Project : addNotify
+// Opening Vivado Project: D:\projects\FPGA\PVS332\Xilinx\PVS332.xpr. Version: Vivado v2019.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/projects/FPGA/PVS332/Xilinx/PVS332.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 566 MB. GUI used memory: 46 MB. Current time: 11/12/19, 2:39:55 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 58 MB (+57988kb) [00:00:17]
+// [Engine Memory]: 609 MB (+487438kb) [00:00:17]
+// [GUI Memory]: 84 MB (+24172kb) [00:00:17]
+// WARNING: HEventQueue.dispatchEvent() is taking  4734 ms.
+// [Engine Memory]: 659 MB (+20190kb) [00:00:20]
+// Tcl Message: open_project D:/projects/FPGA/PVS332/Xilinx/PVS332.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:10 . Memory (MB): peak = 688.293 ; gain = 101.750 
+// Project name: PVS332; location: D:/projects/FPGA/PVS332/Xilinx; part: xc7s15ftgb196-1
+dismissDialog("Open Project"); // by (cl)
+// [GUI Memory]: 105 MB (+18170kb) [00:00:22]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 14 seconds
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u (O, cl)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u (O, cl)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u (O, cl)
+// [Engine Memory]: 693 MB (+481kb) [00:00:40]
+// HMemoryUtils.trashcanNow. Engine heap size: 693 MB. GUI used memory: 51 MB. Current time: 11/12/19, 2:40:20 PM CST
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v)]", 1); // B (F, cl)
+// PAPropertyPanels.initPanels (PRV332_SoC.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v)]", 1, true); // B (F, cl) - Node
+// Elapsed time: 10 seconds
+selectCodeEditor("PRV332_SoC.v", 392, 135); // cl (w, cl)
+selectCodeEditor("PRV332_SoC.v", 394, 126); // cl (w, cl)
+selectCodeEditor("PRV332_SoC.v", 431, 282); // cl (w, cl)
+// Elapsed time: 13 seconds
+selectCodeEditor("PRV332_SoC.v", 253, 70); // cl (w, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v)]", 1); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v)]", 5); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// O (cl):  Re-customize IP : addNotify
+// r (cl): Re-customize IP: addNotify
+// [Engine Memory]: 760 MB (+34146kb) [00:01:29]
+// WARNING: HEventQueue.dispatchEvent() is taking  1514 ms.
+dismissDialog("Re-customize IP"); // O (cl)
+selectCodeEditor("PRV332_SoC.v", 366, 93); // cl (w, cl)
+// HMemoryUtils.trashcanNow. Engine heap size: 760 MB. GUI used memory: 54 MB. Current time: 11/12/19, 2:41:10 PM CST
+// [GUI Memory]: 115 MB (+5080kb) [00:01:44]
+// Elapsed time: 14 seconds
+dismissDialog("Re-customize IP"); // r (cl)
+selectCodeEditor("PRV332_SoC.v", 379, 233); // cl (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v)]", 5, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v)]", 5, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("AHB_ROM.v", 257, 124); // cl (w, cl)
+selectCodeEditor("AHB_ROM.v", 265, 164); // cl (w, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v)]", 5); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6); // B (F, cl)
+// A (cl): Show IP Hierarchy: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Show IP Hierarchy"); // A (cl)
+selectCodeEditor("AHB_ROM.v", 254, 141); // cl (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, false); // B (F, cl)
+selectCodeEditor("AHB_ROM.v", 184, 120); // cl (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, false, false, false, false, false, true); // B (F, cl) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cl): Re-customize IP: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1014 ms.
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bg (E, r)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 5410 ms. Increasing delay to 16230 ms.
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectCheckBox((HResource) null, "Load Init File", true); // g (o, r): TRUE
+selectCheckBox((HResource) null, "Load Init File", false); // g (o, r): FALSE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 51 ms. Decreasing delay to 2051 ms.
+// Elapsed time: 57 seconds
+dismissDialog("Re-customize IP"); // r (cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7); // B (F, cl)
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cl): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // r (cl)
+// Elapsed time: 10 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v)]", 5); // B (F, cl)
+// [GUI Memory]: 123 MB (+2486kb) [00:03:37]
+// Elapsed time: 29 seconds
+selectCodeEditor("AHB_ROM.v", 206, 180); // cl (w, cl)
+selectCodeEditor("AHB_ROM.v", 191, 179); // cl (w, cl)
+selectCodeEditor("AHB_ROM.v", 188, 207); // cl (w, cl)
+selectCodeEditor("AHB_ROM.v", 207, 196); // cl (w, cl)
+selectCodeEditor("AHB_ROM.v", 213, 226); // cl (w, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v)]", 5); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7, true); // B (F, cl) - Node
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd), U0 : blk_mem_gen_v8_4_3(xilinx)]", 8, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("BOOTROM.vhd", 324, 138); // D (w, cl)
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cl): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectCheckBox((HResource) null, "Load Init File", true); // g (o, r): TRUE
+selectButton(PAResourceEtoH.HACGCCoeFileWidget_BROWSE, "Browse"); // a (E, r)
+selectComboBox(RDIResource.HJFileChooserRecentListPreview_RECENT_DIRECTORIES, "D:/verilog/PVS332/Xilinx", 2); // ak (ag, JDialog)
+// Elapsed time: 21 seconds
+dismissFileChooser();
+// Elapsed time: 27 seconds
+selectCheckBox((HResource) null, "Load Init File", false); // g (o, r): FALSE
+// Elapsed time: 159 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bg (E, r)
+// Elapsed time: 14 seconds
+dismissDialog("Re-customize IP"); // r (cl)
+selectCodeEditor("BOOTROM.vhd", 482, 186); // D (w, cl)
+selectCodeEditor("BOOTROM.vhd", 477, 199); // D (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v)]", 5, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v)]", 5, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("AHB_ROM.v", 336, 154); // cl (w, cl)
+selectCodeEditor("AHB_ROM.v", 337, 155); // cl (w, cl)
+selectCodeEditor("AHB_ROM.v", 342, 225); // cl (w, cl)
+selectCodeEditor("AHB_ROM.v", 310, 246); // cl (w, cl)
+selectCodeEditor("AHB_ROM.v", 253, 208); // cl (w, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v)]", 5); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cl): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bg (E, r)
+// Elapsed time: 22 seconds
+dismissDialog("Re-customize IP"); // r (cl)
+selectCodeEditor("AHB_ROM.v", 410, 156); // cl (w, cl)
+selectCodeEditor("AHB_ROM.v", 320, 185); // cl (w, cl)
+// Elapsed time: 19 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7, true); // B (F, cl) - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7); // B (F, cl)
+// [GUI Memory]: 133 MB (+3441kb) [00:10:44]
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7); // B (F, cl)
+selectCodeEditor("BOOTROM.vhd", 518, 198); // D (w, cl)
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true); // B (F, cl) - Node
+selectCodeEditor("BOOTROM.vhd", 255, 128); // D (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cl): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Power Estimation", 1); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "IP Symbol", 0); // bg (E, r)
+selectCheckBox(PAResourceEtoH.HACGCIPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", false); // g (as, r): FALSE
+dismissDialog("Re-customize IP"); // r (cl)
+selectCodeEditor("BOOTROM.vhd", 461, 130); // D (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v)]", 5, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v)]", 5, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("AHB_ROM.v", 346, 219); // cl (w, cl)
+selectCodeEditor("AHB_ROM.v", 331, 209); // cl (w, cl)
+// Elapsed time: 20 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v)]", 5); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cl): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bg (E, r)
+// Elapsed time: 124 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // bg (E, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+selectCodeEditor("AHB_ROM.v", 298, 223); // cl (w, cl)
+// Elapsed time: 18 seconds
+selectCodeEditor("AHB_ROM.v", 99, 323); // cl (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cl): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // r (cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd), U0 : blk_mem_gen_v8_4_3(xilinx)]", 8, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd), U0 : blk_mem_gen_v8_4_3(xilinx)]", 8, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd), U0 : blk_mem_gen_v8_4_3(xilinx)]", 8, false); // B (F, cl)
+// [GUI Memory]: 140 MB (+370kb) [00:14:50]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd), U0 : blk_mem_gen_v8_4_3(xilinx)]", 8, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectCodeEditor("BOOTROM.vhd", 135, 132); // D (w, cl)
+// Elapsed time: 57 seconds
+selectCodeEditor("BOOTROM.vhd", 409, 266); // D (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true, false, false, false, true, false); // B (F, cl) - Popup Trigger - Node
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // ae (an, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // ae (an, Popup.HeavyWeightWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ae (an, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ae (an, Popup.HeavyWeightWindow)
+selectCodeEditor("BOOTROM.vhd", 313, 175); // D (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cl): Re-customize IP: addNotify
+// Elapsed time: 12 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+// Elapsed time: 80 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // bg (E, r)
+// Elapsed time: 25 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cl): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // r (cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v)]", 5, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v)]", 5, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("AHB_ROM.v", 301, 206); // cl (w, cl)
+selectCodeEditor("AHB_ROM.v", 220, 203); // cl (w, cl)
+selectCodeEditor("AHB_ROM.v", 212, 337); // cl (w, cl)
+selectCodeEditor("AHB_ROM.v", 210, 258); // cl (w, cl)
+selectCodeEditor("AHB_ROM.v", 207, 279); // cl (w, cl)
+selectCodeEditor("AHB_ROM.v", 201, 299); // cl (w, cl)
+selectCodeEditor("AHB_ROM.v", 206, 283); // cl (w, cl)
+selectCodeEditor("AHB_ROM.v", 161, 297); // cl (w, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v)]", 5); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd), U0 : blk_mem_gen_v8_4_3(xilinx)]", 8, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd), U0 : blk_mem_gen_v8_4_3(xilinx)]", 8, false, false, false, false, true, false); // B (F, cl) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ae (an, cl)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ae (an, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd), U0 : blk_mem_gen_v8_4_3(xilinx)]", 8, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd), U0 : blk_mem_gen_v8_4_3(xilinx)]", 8, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd), U0 : blk_mem_gen_v8_4_3(xilinx)]", 8, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd), U0 : blk_mem_gen_v8_4_3(xilinx)]", 8, false); // B (F, cl)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// [GUI Memory]: 148 MB (+1249kb) [00:19:45]
+// Elapsed time: 34 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cl): Re-customize IP: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 782 MB. GUI used memory: 93 MB. Current time: 11/12/19, 2:59:30 PM CST
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectCheckBox((HResource) null, "Fill Remaining Memory Locations", true); // g (o, r): TRUE
+selectCheckBox((HResource) null, "Fill Remaining Memory Locations", false); // g (o, r): FALSE
+selectCheckBox((HResource) null, "Load Init File", true); // g (o, r): TRUE
+selectCheckBox((HResource) null, "Fill Remaining Memory Locations", true); // g (o, r): TRUE
+selectButton(PAResourceEtoH.HACGCCoeFileWidget_BROWSE, "Browse"); // a (E, r)
+// HMemoryUtils.trashcanNow. Engine heap size: 810 MB. GUI used memory: 95 MB. Current time: 11/12/19, 2:59:50 PM CST
+// Elapsed time: 39 seconds
+selectComboBox(RDIResource.HJFileChooserRecentListPreview_RECENT_DIRECTORIES, "d:/projects/FPGA/PVS332/Xilinx/Xilinx_IP", 0); // ak (ag, JDialog)
+// [Engine Memory]: 810 MB (+13140kb) [00:20:58]
+// Elapsed time: 14 seconds
+setFileChooser("D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// I (r): Error Found: addNotify
+selectList(PAResourceAtoD.CustomizeErrorDialog_MESSAGES, "Validation failed for parameter 'Coe File(Coe_File)' with value 'D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe' for IP 'BOOTROM'. Invalid COE File- Missing coefficient Name: memory_initialization_vector", 0); // a (O, I)
+// Elapsed time: 78 seconds
+selectList(PAResourceAtoD.CustomizeErrorDialog_MESSAGES, "Validation failed for parameter 'Coe File(Coe_File)' with value 'D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe' for IP 'BOOTROM'. Invalid COE File- Missing coefficient Name: memory_initialization_vector", 0); // a (O, I)
+selectList(PAResourceAtoD.CustomizeErrorDialog_MESSAGES, "Validation failed for parameter 'Coe File(Coe_File)' with value 'D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe' for IP 'BOOTROM'. Invalid COE File- Missing coefficient Name: memory_initialization_vector", 0); // a (O, I)
+selectList(PAResourceAtoD.CustomizeErrorDialog_MESSAGES, "Validation failed for parameter 'Coe File(Coe_File)' with value 'D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe' for IP 'BOOTROM'. Invalid COE File- Missing coefficient Name: memory_initialization_vector", 0); // a (O, I)
+// Elapsed time: 12 seconds
+dismissDialog("Error Found"); // I (r)
+// Elapsed time: 124 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// I (r): Error Found: addNotify
+selectButton(PAResourceAtoD.CustomizeErrorDialog_OK, "OK"); // a (I)
+dismissDialog("Error Found"); // I (r)
+selectCodeEditor("BOOTROM.vhd", 533, 303); // D (w, cl)
+dismissDialog("Re-customize IP"); // r (cl)
+selectCodeEditor("BOOTROM.vhd", 362, 178); // D (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cl): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectCheckBox((HResource) null, "Load Init File", true); // g (o, r): TRUE
+selectButton(PAResourceEtoH.HACGCCoeFileWidget_EDIT, "Edit"); // a (E, r)
+selectButton(PAResourceEtoH.HACGCCoeFileWidget_BROWSE, "Browse"); // a (E, r)
+setFileChooser("d:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe");
+selectCheckBox((HResource) null, "Fill Remaining Memory Locations", true); // g (o, r): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property -dict [list CONFIG.Load_Init_File {true} CONFIG.Coe_File {d:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe} CONFIG.Fill_Remaining_Memory_Locations {true}] [get_ips BOOTROM] 
+// Tcl Message: INFO: [IP_Flow 19-3484] Absolute path of file 'd:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe' provided. It will be converted relative to IP Instance files '../spi.coe' 
+// TclEventType: FILE_SET_CHANGE
+// r (cl): Re-customize IP: addNotify
+// by (r):  Re-customize IP : addNotify
+// TclEventType: FILESET_UPDATE_IP
+// [GUI Memory]: 156 MB (+858kb) [00:25:22]
+// aI (cl): Generate Output Products: addNotify
+dismissDialog("Re-customize IP"); // by (r)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// by (cl):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/BOOTROM/BOOTROM.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'BOOTROM'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'BOOTROM'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'BOOTROM'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'BOOTROM'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'BOOTROM'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 809.770 ; gain = 0.000 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all BOOTROM] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/BOOTROM/BOOTROM.xci] -no_script -sync -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run BOOTROM_synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs -jobs 4 BOOTROM_synth_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Nov 12 15:05:32 2019] Launched BOOTROM_synth_1... Run output will be captured here: D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/BOOTROM_synth_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: export_simulation -of_objects [get_files D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/BOOTROM/BOOTROM.xci] -directory D:/projects/FPGA/PVS332/Xilinx/PVS332.ip_user_files/sim_scripts -ip_user_files_dir D:/projects/FPGA/PVS332/Xilinx/PVS332.ip_user_files -ipstatic_source_dir D:/projects/FPGA/PVS332/Xilinx/PVS332.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/modelsim} {questa=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/questa} {riviera=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/riviera} {activehdl=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 41 seconds
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+selectCodeEditor("BOOTROM.vhd", 320, 216); // D (w, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6); // B (F, cl)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7); // B (F, cl)
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cl): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectButton(PAResourceEtoH.HACGCCoeFileWidget_EDIT, "Edit"); // a (E, r)
+selectButton(PAResourceEtoH.HACGCCoeFileDialog_VALIDATE, "Validate"); // a (w)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 14203 ms. Increasing delay to 42609 ms.
+selectButton("OptionPane.button", "Save"); // JButton (A, H)
+selectButton(PAResourceEtoH.HACGCCoeFileDialog_VALIDATE, "Validate"); // a (w)
+selectButton("OptionPane.button", "OK"); // JButton (A, H)
+selectButton(PAResourceEtoH.HACGCCoeFileDialog_CLOSE, "Close"); // a (w)
+selectButton("OptionPane.button", "Cancel"); // JButton (A, H)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 94 ms. Decreasing delay to 2094 ms.
+// Elapsed time: 26 seconds
+selectButton(PAResourceEtoH.HACGCCoeFileWidget_EDIT, "Edit"); // a (E, r)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 50 seconds
+selectButton(PAResourceEtoH.HACGCCoeFileDialog_CLOSE, "Close"); // a (w)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+selectCodeEditor("BOOTROM.vhd", 337, 244); // D (w, cl)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 13436 ms. Increasing delay to 40308 ms.
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 129 ms. Decreasing delay to 2129 ms.
+// [GUI Memory]: 169 MB (+4496kb) [00:30:45]
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 159 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cl): Re-customize IP: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 838 MB. GUI used memory: 115 MB. Current time: 11/12/19, 3:10:40 PM CST
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectButton(PAResourceEtoH.HACGCCoeFileWidget_BROWSE, "Browse"); // a (E, r)
+setFileChooser("D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Coe_File {D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe}] [get_ips BOOTROM] 
+// Tcl Message: INFO: [IP_Flow 19-3484] Absolute path of file 'd:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe' provided. It will be converted relative to IP Instance files '../spi.coe' 
+// aI (cl): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// by (cl):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/BOOTROM/BOOTROM.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'BOOTROM'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'BOOTROM'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'BOOTROM'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'BOOTROM'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'BOOTROM'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 835.980 ; gain = 0.000 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all BOOTROM] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/BOOTROM/BOOTROM.xci] -no_script -sync -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run BOOTROM_synth_1 
+// Tcl Message: launch_runs -jobs 4 BOOTROM_synth_1 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Nov 12 15:11:17 2019] Launched BOOTROM_synth_1... Run output will be captured here: D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/BOOTROM_synth_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 835.980 ; gain = 0.000 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: export_simulation -of_objects [get_files D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/BOOTROM/BOOTROM.xci] -directory D:/projects/FPGA/PVS332/Xilinx/PVS332.ip_user_files/sim_scripts -ip_user_files_dir D:/projects/FPGA/PVS332/Xilinx/PVS332.ip_user_files -ipstatic_source_dir D:/projects/FPGA/PVS332/Xilinx/PVS332.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/modelsim} {questa=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/questa} {riviera=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/riviera} {activehdl=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 47 seconds
+selectButton("OptionPane.button", "OK"); // JButton (A, G)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true); // B (F, cl) - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cl): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 13076 ms. Increasing delay to 39228 ms.
+// Elapsed time: 14 seconds
+selectButton(PAResourceEtoH.HACGCCoeFileWidget_EDIT, "Edit"); // a (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (cl)
+// [GUI Memory]: 180 MB (+3533kb) [00:32:39]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd), U0 : blk_mem_gen_v8_4_3(xilinx)]", 8, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd), U0 : blk_mem_gen_v8_4_3(xilinx)]", 8, false); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd), U0 : blk_mem_gen_v8_4_3(xilinx)]", 8, false, false, false, false, false, true); // B (F, cl) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+selectCodeEditor("BOOTROM.vhd", 392, 166); // D (w, cl)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 23 ms. Decreasing delay to 2023 ms.
+// Elapsed time: 24 seconds
+selectCodeEditor("BOOTROM.vhd", 280, 348); // D (w, cl)
+// Elapsed time: 11 seconds
+selectCodeEditor("BOOTROM.vhd", 381, 284); // D (w, cl)
+selectCodeEditor("BOOTROM.vhd", 261, 74); // D (w, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci), BOOTROM(BOOTROM_arch) (BOOTROM.vhd)]", 7); // B (F, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (cl): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Power Estimation", 1); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "IP Symbol", 0); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 3); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+dismissDialog("Re-customize IP"); // r (cl)
+selectCodeEditor("BOOTROM.vhd", 324, 95); // D (w, cl)
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // az (f, cl)
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // az (f, cl)
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // az (f, cl)
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // az (f, cl)
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // az (f, cl)
+selectCodeEditor("BOOTROM.vhd", 327, 142); // D (w, cl)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// by (cl):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cl): Launch Runs: addNotify
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3978 ms. Increasing delay to 11934 ms.
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// by (cl):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cl)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Tue Nov 12 15:13:48 2019] Launched synth_1... Run output will be captured here: D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 9 seconds
+dismissDialog("Starting Design Runs"); // by (cl)
+// TclEventType: RUN_STATUS_CHANGE
+selectCodeEditor("BOOTROM.vhd", 275, 205); // D (w, cl)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 74 ms. Decreasing delay to 2074 ms.
+// Elapsed time: 23 seconds
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Out-of-Context Module Runs ;  ;  ;  ; ", 4, "Out-of-Context Module Runs", 0, true); // O (O, cl) - Node
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "synth_1_synth_synthesis_report_0 ;  ;  ; Tue Nov 12 15:14:09 CST 2019 ; 46856", 3, "synth_1_synth_synthesis_report_0", 0, false); // O (O, cl)
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PRV332_SoC.v", 1); // k (j, cl)
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v)]", 1, true, false, false, false, true, false); // B (F, cl) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ae (an, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ae (an, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ah (an, Popup.HeavyWeightWindow)
+selectCodeEditor("PRV332_SoC.v", 266, 170); // cl (w, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v)]", 1, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v)]", 1, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// 'k' command handler elapsed time: 4 seconds
+selectButton("OptionPane.button", "Cancel"); // JButton (A, G)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+// Elapsed time: 23 seconds
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "103 warnings"); // h (Q, cl)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// ah (cl): Synthesis Completed: addNotify
+// Elapsed time: 59 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Synthesis Completed"); // ah (cl)
+// Elapsed time: 56 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "BOOTROM_synth_1 ; BOOTROM ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 0 ; 0 ; 4.0 ; 0 ; 0 ; Tue Nov 12 15:11:24 CST 2019 ; 00:02:04 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7s15ftgb196-1 ; Vivado Synthesis Defaults", 3, "BOOTROM_synth_1", 0, false); // ay (O, cl)
+// PAPropertyPanels.initPanels (BOOTROM_synth_1) elapsed time: 0.5s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "BOOTROM_synth_1 ; BOOTROM ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 0 ; 0 ; 4.0 ; 0 ; 0 ; Tue Nov 12 15:11:24 CST 2019 ; 00:02:04 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7s15ftgb196-1 ; Vivado Synthesis Defaults", 3, "BOOTROM_synth_1", 0, false, false, false, false, false, true); // ay (O, cl) - Double Click
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "BOOTROM_synth_1 ; BOOTROM ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 0 ; 0 ; 4.0 ; 0 ; 0 ; Tue Nov 12 15:11:24 CST 2019 ; 00:02:04 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7s15ftgb196-1 ; Vivado Synthesis Defaults", 3, "BOOTROM_synth_1", 0, false); // ay (O, cl)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "BOOTROM_synth_1 ; BOOTROM ; synth_design Complete! ;  ;  ;  ;  ;  ;  ;  ; 0 ; 0 ; 4.0 ; 0 ; 0 ; Tue Nov 12 15:11:24 CST 2019 ; 00:02:04 ; Vivado Synthesis Defaults (Vivado Synthesis 2019) ; Vivado Synthesis Default Reports (Vivado Synthesis 2019) ; xc7s15ftgb196-1 ; Vivado Synthesis Defaults", 3, "BOOTROM_synth_1", 0, false, false, false, false, false, true); // ay (O, cl) - Double Click
+// [GUI Memory]: 190 MB (+780kb) [00:38:25]
+// Elapsed time: 20 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // Z (q, cl)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // Z (q, cl)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // Z (q, cl)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // Z (q, cl)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // ae (cl)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // Z (cl)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // Z (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BOOTROM.vhd", 3); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AHB_ROM.v", 2); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PRV332_SoC.v", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, cl)
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v)]", 1); // B (F, cl)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6); // B (F, cl)
+// Elapsed time: 39 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "PRV332_SoC.v", 1); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AHB_ROM.v", 2); // k (j, cl)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "BOOTROM.vhd", 3); // k (j, cl)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true); // B (F, cl) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, PRV332_SoC (PRV332_SoC.v), ROM1 : AHB_ROM (AHB_ROM.v), BOOTROM1 : BOOTROM (BOOTROM.xci)]", 6, true, false, false, false, false, true); // B (F, cl) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// [Engine Memory]: 854 MB (+3351kb) [00:40:06]
+// r (cl): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bg (E, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 2); // bg (E, r)
+selectCodeEditor("BOOTROM.vhd", 588, 186); // D (w, cl)
+dismissDialog("Re-customize IP"); // r (cl)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "AHB_ROM.v", 2); // k (j, cl)
+selectCodeEditor("AHB_ROM.v", 357, 91); // cl (w, cl)
+// Elapsed time: 138 seconds
+selectCodeEditor("AHB_ROM.v", 309, 171); // cl (w, cl)
+// Elapsed time: 25 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Elapsed time: 40 seconds
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // Z (q, cl)
+// Elapsed time: 47 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // ae (cl)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // Z (cl)
+selectMenuItem(PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN, "Open Elaborated Design"); // ah (cl)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // Z (q, cl)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (cl): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// by (cl):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (cl)
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7s15ftgb196-1 Top: PRV332_SoC 
+// WARNING: HEventQueue.dispatchEvent() is taking  1004 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,127 MB. GUI used memory: 130 MB. Current time: 11/12/19, 3:24:41 PM CST
+// TclEventType: ELABORATE_START
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// HMemoryUtils.trashcanNow. Engine heap size: 1,361 MB. GUI used memory: 130 MB. Current time: 11/12/19, 3:24:55 PM CST
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,378 MB. GUI used memory: 130 MB. Current time: 11/12/19, 3:24:57 PM CST
+// [Engine Memory]: 1,378 MB (+504952kb) [00:45:17]
+// Xgd.load filename: C:/Xilinx/Vivado/2019.1/data/parts/xilinx/spartan7/devint/spartan7/xc7s15/xc7s15.xgd; ZipEntry: xc7s15_detail.xgd elapsed time: 1.1s
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.9s
+// Schematic: addNotify
+// [Engine Memory]: 1,448 MB (+977kb) [00:45:20]
+// PAPropertyPanels.initPanels (BOOTROM.xci) elapsed time: 0.2s
+// WARNING: HEventQueue.dispatchEvent() is taking  2415 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7s15ftgb196-1 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1220.090 ; gain = 182.586 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'PRV332_SoC' [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:23] INFO: [Synth 8-6157] synthesizing module 'prv332sv0' [D:/projects/FPGA/PVS332/RTL/CPU/prv332sv0.v:8] 
+// Tcl Message: 	Parameter w8 bound to: 3'b001  	Parameter w16 bound to: 3'b010  	Parameter w32 bound to: 3'b011  	Parameter r8 bound to: 3'b101  	Parameter r16 bound to: 3'b110  	Parameter r32 bound to: 3'b111  
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'biu' [D:/projects/FPGA/PVS332/RTL/CPU/biu.v:8] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'mmu' [D:/projects/FPGA/PVS332/RTL/CPU/mmu.v:1] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'mmu' (1#1) [D:/projects/FPGA/PVS332/RTL/CPU/mmu.v:1] INFO: [Synth 8-6157] synthesizing module 'ahb' [D:/projects/FPGA/PVS332/RTL/CPU/ahb.v:4] INFO: [Synth 8-6155] done synthesizing module 'ahb' (2#1) [D:/projects/FPGA/PVS332/RTL/CPU/ahb.v:4] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'exce_chk' [D:/projects/FPGA/PVS332/RTL/CPU/exce_chk.v:3] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'exce_chk' (3#1) [D:/projects/FPGA/PVS332/RTL/CPU/exce_chk.v:3] INFO: [Synth 8-6155] done synthesizing module 'biu' (4#1) [D:/projects/FPGA/PVS332/RTL/CPU/biu.v:8] INFO: [Synth 8-6157] synthesizing module 'csr_gpr_iu' [D:/projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v:4] 
+// Tcl Message: 	Parameter if0 bound to: 4'b0000  	Parameter ex0 bound to: 4'b0001  	Parameter mem0 bound to: 4'b0010  	Parameter mem1 bound to: 4'b1010  	Parameter ex1 bound to: 4'b1001  	Parameter wb bound to: 4'b0011  	Parameter exc bound to: 4'b1111  	Parameter m bound to: 2'b11  	Parameter h bound to: 2'b10  	Parameter s bound to: 2'b01  	Parameter u bound to: 2'b00  	Parameter if_ex_mem_wb bound to: 4'b0001  	Parameter if_ex_wb bound to: 4'b0010  	Parameter if_ex_mem_ex_mem_wb bound to: 4'b0011  
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'ins_dec' [D:/projects/FPGA/PVS332/RTL/CPU/ins_dec.v:4] 
+// Tcl Message: 	Parameter if0 bound to: 4'b0000  	Parameter ex0 bound to: 4'b0001  	Parameter mem0 bound to: 4'b0010  	Parameter mem1 bound to: 4'b1010  	Parameter ex1 bound to: 4'b1001  	Parameter wb bound to: 4'b0011  	Parameter exc bound to: 4'b1111  	Parameter if_ex_mem_wb bound to: 4'b0001  	Parameter if_ex_wb bound to: 4'b0010  	Parameter if_ex_mem_ex_mem_wb bound to: 4'b0011  	Parameter w8 bound to: 3'b001  	Parameter w16 bound to: 3'b010  	Parameter w32 bound to: 3'b011  	Parameter r8 bound to: 3'b101  	Parameter r16 bound to: 3'b110  	Parameter r32 bound to: 3'b111  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'ins_dec' (5#1) [D:/projects/FPGA/PVS332/RTL/CPU/ins_dec.v:4] INFO: [Synth 8-6157] synthesizing module 'int_ctrl' [D:/projects/FPGA/PVS332/RTL/CPU/int_ctrl.v:4] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'int_ctrl' (6#1) [D:/projects/FPGA/PVS332/RTL/CPU/int_ctrl.v:4] INFO: [Synth 8-6157] synthesizing module 'csr' [D:/projects/FPGA/PVS332/RTL/CPU/csr.v:6] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'csr' (7#1) [D:/projects/FPGA/PVS332/RTL/CPU/csr.v:6] INFO: [Synth 8-6155] done synthesizing module 'csr_gpr_iu' (8#1) [D:/projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v:4] INFO: [Synth 8-6157] synthesizing module 'exu' [D:/projects/FPGA/PVS332/RTL/CPU/exu.v:8] 
+// Tcl Message: 	Parameter w8 bound to: 3'b001  	Parameter w16 bound to: 3'b010  	Parameter w32 bound to: 3'b011  	Parameter r8 bound to: 3'b101  	Parameter r16 bound to: 3'b110  	Parameter r32 bound to: 3'b111  	Parameter if0 bound to: 4'b0000  	Parameter ex0 bound to: 4'b0001  	Parameter mem0 bound to: 4'b0010  	Parameter mem1 bound to: 4'b1010  	Parameter ex1 bound to: 4'b1001  	Parameter wb bound to: 4'b0011  	Parameter exc bound to: 4'b1111  
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'alu' [D:/projects/FPGA/PVS332/RTL/CPU/alu.v:4] 
+// Tcl Message: 	Parameter w8 bound to: 3'b001  	Parameter w16 bound to: 3'b010  	Parameter w32 bound to: 3'b011  	Parameter r8 bound to: 3'b101  	Parameter r16 bound to: 3'b110  	Parameter r32 bound to: 3'b111  	Parameter if0 bound to: 4'b0000  	Parameter ex0 bound to: 4'b0001  	Parameter mem0 bound to: 4'b0010  	Parameter mem1 bound to: 4'b1010  	Parameter ex1 bound to: 4'b1001  	Parameter wb bound to: 4'b0011  	Parameter exc bound to: 4'b1111  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'alu' (9#1) [D:/projects/FPGA/PVS332/RTL/CPU/alu.v:4] INFO: [Synth 8-6157] synthesizing module 'au' [D:/projects/FPGA/PVS332/RTL/CPU/au.v:4] 
+// Tcl Message: 	Parameter w8 bound to: 3'b001  	Parameter w16 bound to: 3'b010  	Parameter w32 bound to: 3'b011  	Parameter r8 bound to: 3'b101  	Parameter r16 bound to: 3'b110  	Parameter r32 bound to: 3'b111  	Parameter if0 bound to: 4'b0000  	Parameter ex0 bound to: 4'b0001  	Parameter mem0 bound to: 4'b0010  	Parameter mem1 bound to: 4'b1010  	Parameter ex1 bound to: 4'b1001  	Parameter wb bound to: 4'b0011  	Parameter exc bound to: 4'b1111  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'au' (10#1) [D:/projects/FPGA/PVS332/RTL/CPU/au.v:4] INFO: [Synth 8-6155] done synthesizing module 'exu' (11#1) [D:/projects/FPGA/PVS332/RTL/CPU/exu.v:8] INFO: [Synth 8-6155] done synthesizing module 'prv332sv0' (12#1) [D:/projects/FPGA/PVS332/RTL/CPU/prv332sv0.v:8] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'AHB_ROM' (16#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v:4] INFO: [Synth 8-6157] synthesizing module 'AHB_OCRAM' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:5] INFO: [Synth 8-6157] synthesizing module 'BLKRAM8' [D:/projects/FPGA/PVS332/Xilinx/.Xil/Vivado-10052-PC/realtime/BLKRAM8_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'BLKRAM8' (17#1) [D:/projects/FPGA/PVS332/Xilinx/.Xil/Vivado-10052-PC/realtime/BLKRAM8_stub.v:6] 
+// Tcl Message: 	Parameter nsq bound to: 2'b10  	Parameter idle bound to: 2'b00  	Parameter t8 bound to: 3'b000  	Parameter t16 bound to: 3'b001  	Parameter t32 bound to: 3'b010  	Parameter tw bound to: 4'b0000  	Parameter rt1 bound to: 4'b0001  	Parameter rt2 bound to: 4'b0010  	Parameter rt3 bound to: 4'b0011  	Parameter rt4 bound to: 4'b0100  	Parameter wt1 bound to: 4'b1001  	Parameter wt2 bound to: 4'b1010  	Parameter wt3 bound to: 4'b1011  	Parameter wt4 bound to: 4'b1100  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'ahb_is62' (23#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/ahb_is62.v:8] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'PERI_DECODE' [D:/projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v:1] INFO: [Synth 8-6155] done synthesizing module 'PERI_DECODE' (24#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v:1] INFO: [Synth 8-6157] synthesizing module 'PERI_MUX' [D:/projects/FPGA/PVS332/RTL/Peripherals/PERI_MUX.v:1] INFO: [Synth 8-6155] done synthesizing module 'PERI_MUX' (25#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/PERI_MUX.v:1] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'ahb_spi_v0' [D:/projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v:29] 
+// Tcl Message: 	Parameter nsq bound to: 2'b10  	Parameter idle bound to: 2'b00  	Parameter t8 bound to: 3'b000  	Parameter t16 bound to: 3'b001  	Parameter t32 bound to: 3'b010  
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'clk_ctrl' [D:/projects/FPGA/PVS332/RTL/Peripherals/clk_ctrl.v:6] INFO: [Synth 8-6155] done synthesizing module 'clk_ctrl' (26#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/clk_ctrl.v:6] INFO: [Synth 8-6157] synthesizing module 'spi_module' [D:/projects/FPGA/PVS332/RTL/Peripherals/spi_module.v:4] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'spi_module' (27#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/spi_module.v:4] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'ahb_spi_v0' (28#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v:29] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'AHB_UART' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v:1] INFO: [Synth 8-155] case statement is not full and has no default [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v:83] INFO: [Synth 8-6157] synthesizing module 'BaudGen' [D:/projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v:2] INFO: [Synth 8-6155] done synthesizing module 'BaudGen' (29#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v:2] INFO: [Synth 8-6157] synthesizing module 'UART_Tx' [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Tx.v:1] 
+// Tcl Message: 	Parameter Idle bound to: 2'b00  	Parameter Start bound to: 2'b01  	Parameter Tb bound to: 2'b10  	Parameter Stop bound to: 2'b11  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'UART_Tx' (30#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Tx.v:1] INFO: [Synth 8-6157] synthesizing module 'UART_Rx' [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v:1] 
+// Tcl Message: 	Parameter Idle bound to: 3'b000  	Parameter wait16 bound to: 3'b001  	Parameter CLR bound to: 3'b010  	Parameter Rb bound to: 3'b100  	Parameter Stop bound to: 3'b101  
+// Tcl Message: INFO: [Synth 8-155] case statement is not full and has no default [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v:29] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'UART_Rx' (31#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v:1] INFO: [Synth 8-6157] synthesizing module 'SyncFIFO' [D:/projects/FPGA/PVS332/RTL/Peripherals/SyncFIFO.v:1] 
+// Tcl Message: Reason is one or more of the following : 	1: RAM is sensitive to asynchronous reset signal. this RTL style is not supported.  RAM "ram_reg" dissolved into registers 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'SyncFIFO' (32#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/SyncFIFO.v:1] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'AHB_UART' (33#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v:1] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'AHB_GPIOC' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_GPIOC.v:1] INFO: [Synth 8-155] case statement is not full and has no default [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_GPIOC.v:123] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'AHB_GPIOC' (34#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_GPIOC.v:1] INFO: [Synth 8-6157] synthesizing module 'ahb_reset_ctrl' [D:/projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v:34] INFO: [Synth 8-6155] done synthesizing module 'ahb_reset_ctrl' (35#1) [D:/projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v:34] INFO: [Synth 8-6157] synthesizing module 'AFIO32' [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1] INFO: [Synth 8-6155] done synthesizing module 'AFIO32' (36#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'PRV332_SoC' (37#1) [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:23] 
+// Tcl Message: INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1325.043 ; gain = 287.539 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1345.445 ; gain = 307.941 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1345.445 ; gain = 307.941 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint 'D:/projects/FPGA/PVS332/Xilinx/.Xil/Vivado-10052-PC/BOOTROM/BOOTROM.dcp' for cell 'ROM1/BOOTROM1' INFO: [Project 1-454] Reading design checkpoint 'D:/projects/FPGA/PVS332/Xilinx/.Xil/Vivado-10052-PC/BLKRAM8_1/BLKRAM8.dcp' for cell 'OCRAM1/OCRAM_L8' INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2019.1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers. 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc] 
+// Tcl Message: Finished Parsing XDC File [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc] 
+// Tcl Message: Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1482.906 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:29 ; elapsed = 00:00:19 . Memory (MB): peak = 1482.906 ; gain = 445.402 
+// Tcl Message: 91 Infos, 143 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:25 . Memory (MB): peak = 1482.906 ; gain = 633.668 
+// 'dR' command handler elapsed time: 28 seconds
+// Elapsed time: 26 seconds
+dismissDialog("Open Elaborated Design"); // by (cl)
+// [GUI Memory]: 207 MB (+7949kb) [00:45:27]
+// PAPropertyPanels.initPanels (CLK_IBUF) elapsed time: 0.6s
+// Elapsed time: 107 seconds
+closeMainWindow("PVS332 - [D:/projects/FPGA/PVS332/Xilinx/PVS332.xpr] - Vivado 2019.1"); // cl
+// A (cl): Exit Vivado: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (A)
+dismissDialog("Exit Vivado"); // A (cl)
+// WARNING: HEventQueue.dispatchEvent() is taking  1019479 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1104 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,462 MB. GUI used memory: 146 MB. Current time: 11/12/19, 4:09:52 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,477 MB. GUI used memory: 140 MB. Current time: 11/12/19, 4:10:12 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  2265085 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1166 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,482 MB. GUI used memory: 137 MB. Current time: 11/12/19, 4:56:12 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  3602734 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1202 ms. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,484 MB. GUI used memory: 137 MB. Current time: 11/12/19, 6:19:34 PM CST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3604599 ms. Increasing delay to 10813797 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  9460495 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,484 MB. GUI used memory: 137 MB. Current time: 11/12/19, 8:57:25 PM CST

@@ -1,0 +1,2 @@
+BOOTROM.v,verilog,xil_defaultlib,../../../ip/BOOTROM/sim/BOOTROM.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

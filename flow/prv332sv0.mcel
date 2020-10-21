@@ -1,0 +1,972 @@
+cluster 1 name core
+corners 4 0 0   0 187862  187862 187862   187862 0
+asplb 0.5 aspub 2.0
+class 0 orientations 0 1 2 3 4 5 6 7
+softpin name pin1 signal hreset_n
+softpin name pin2 signal timer_int
+softpin name pin3 signal soft_int
+softpin name pin4 signal ext_int
+softpin name pin5 signal hresp
+softpin name pin6 signal hrdata<31>
+softpin name pin7 signal hrdata<30>
+softpin name pin8 signal hrdata<29>
+softpin name pin9 signal hrdata<28>
+softpin name pin10 signal hrdata<27>
+softpin name pin11 signal hrdata<26>
+softpin name pin12 signal hrdata<25>
+softpin name pin13 signal hrdata<24>
+softpin name pin14 signal hrdata<23>
+softpin name pin15 signal hrdata<22>
+softpin name pin16 signal hrdata<21>
+softpin name pin17 signal hrdata<20>
+softpin name pin18 signal hrdata<19>
+softpin name pin19 signal hrdata<18>
+softpin name pin20 signal hrdata<17>
+softpin name pin21 signal hrdata<16>
+softpin name pin22 signal hrdata<15>
+softpin name pin23 signal hrdata<14>
+softpin name pin24 signal hrdata<13>
+softpin name pin25 signal hrdata<12>
+softpin name pin26 signal hrdata<11>
+softpin name pin27 signal hrdata<10>
+softpin name pin28 signal hrdata<9>
+softpin name pin29 signal hrdata<8>
+softpin name pin30 signal hrdata<7>
+softpin name pin31 signal hrdata<6>
+softpin name pin32 signal hrdata<5>
+softpin name pin33 signal hrdata<4>
+softpin name pin34 signal hrdata<3>
+softpin name pin35 signal hrdata<2>
+softpin name pin36 signal hrdata<1>
+softpin name pin37 signal hrdata<0>
+softpin name pin38 signal hready
+softpin name pin39 signal hwrite
+softpin name pin40 signal hwdata<31>
+softpin name pin41 signal hwdata<30>
+softpin name pin42 signal hwdata<29>
+softpin name pin43 signal hwdata<28>
+softpin name pin44 signal hwdata<27>
+softpin name pin45 signal hwdata<26>
+softpin name pin46 signal hwdata<25>
+softpin name pin47 signal hwdata<24>
+softpin name pin48 signal hwdata<23>
+softpin name pin49 signal hwdata<22>
+softpin name pin50 signal hwdata<21>
+softpin name pin51 signal hwdata<20>
+softpin name pin52 signal hwdata<19>
+softpin name pin53 signal hwdata<18>
+softpin name pin54 signal hwdata<17>
+softpin name pin55 signal hwdata<16>
+softpin name pin56 signal hwdata<15>
+softpin name pin57 signal hwdata<14>
+softpin name pin58 signal hwdata<13>
+softpin name pin59 signal hwdata<12>
+softpin name pin60 signal hwdata<11>
+softpin name pin61 signal hwdata<10>
+softpin name pin62 signal hwdata<9>
+softpin name pin63 signal hwdata<8>
+softpin name pin64 signal hwdata<7>
+softpin name pin65 signal hwdata<6>
+softpin name pin66 signal hwdata<5>
+softpin name pin67 signal hwdata<4>
+softpin name pin68 signal hwdata<3>
+softpin name pin69 signal hwdata<2>
+softpin name pin70 signal hwdata<1>
+softpin name pin71 signal hwdata<0>
+softpin name pin72 signal htrans<1>
+softpin name pin73 signal htrans<0>
+softpin name pin74 signal hsize<1>
+softpin name pin75 signal hsize<0>
+softpin name pin76 signal hprot<3>
+softpin name pin77 signal hprot<2>
+softpin name pin78 signal hprot<1>
+softpin name pin79 signal hprot<0>
+softpin name pin80 signal hmastlock
+softpin name pin81 signal hburst<2>
+softpin name pin82 signal hburst<1>
+softpin name pin83 signal hburst<0>
+softpin name pin84 signal haddr<33>
+softpin name pin85 signal haddr<32>
+softpin name pin86 signal haddr<31>
+softpin name pin87 signal haddr<30>
+softpin name pin88 signal haddr<29>
+softpin name pin89 signal haddr<28>
+softpin name pin90 signal haddr<27>
+softpin name pin91 signal haddr<26>
+softpin name pin92 signal haddr<25>
+softpin name pin93 signal haddr<24>
+softpin name pin94 signal haddr<23>
+softpin name pin95 signal haddr<22>
+softpin name pin96 signal haddr<21>
+softpin name pin97 signal haddr<20>
+softpin name pin98 signal haddr<19>
+softpin name pin99 signal haddr<18>
+softpin name pin100 signal haddr<17>
+softpin name pin101 signal haddr<16>
+softpin name pin102 signal haddr<15>
+softpin name pin103 signal haddr<14>
+softpin name pin104 signal haddr<13>
+softpin name pin105 signal haddr<12>
+softpin name pin106 signal haddr<11>
+softpin name pin107 signal haddr<10>
+softpin name pin108 signal haddr<9>
+softpin name pin109 signal haddr<8>
+softpin name pin110 signal haddr<7>
+softpin name pin111 signal haddr<6>
+softpin name pin112 signal haddr<5>
+softpin name pin113 signal haddr<4>
+softpin name pin114 signal haddr<3>
+softpin name pin115 signal haddr<2>
+softpin name pin116 signal haddr<1>
+softpin name pin117 signal haddr<0>
+softpin name pin118 signal rst
+softpin name pin119 signal clk
+
+instance core_L
+corners 6 0 0 0 216924 108462 216924 108462 108462 216924 108462 216924 0
+asplb 0.5 aspub 2.0
+class 0 orientations 0 1 2 3 4 5 6 7
+softpin name pin1 signal hreset_n
+softpin name pin2 signal timer_int
+softpin name pin3 signal soft_int
+softpin name pin4 signal ext_int
+softpin name pin5 signal hresp
+softpin name pin6 signal hrdata<31>
+softpin name pin7 signal hrdata<30>
+softpin name pin8 signal hrdata<29>
+softpin name pin9 signal hrdata<28>
+softpin name pin10 signal hrdata<27>
+softpin name pin11 signal hrdata<26>
+softpin name pin12 signal hrdata<25>
+softpin name pin13 signal hrdata<24>
+softpin name pin14 signal hrdata<23>
+softpin name pin15 signal hrdata<22>
+softpin name pin16 signal hrdata<21>
+softpin name pin17 signal hrdata<20>
+softpin name pin18 signal hrdata<19>
+softpin name pin19 signal hrdata<18>
+softpin name pin20 signal hrdata<17>
+softpin name pin21 signal hrdata<16>
+softpin name pin22 signal hrdata<15>
+softpin name pin23 signal hrdata<14>
+softpin name pin24 signal hrdata<13>
+softpin name pin25 signal hrdata<12>
+softpin name pin26 signal hrdata<11>
+softpin name pin27 signal hrdata<10>
+softpin name pin28 signal hrdata<9>
+softpin name pin29 signal hrdata<8>
+softpin name pin30 signal hrdata<7>
+softpin name pin31 signal hrdata<6>
+softpin name pin32 signal hrdata<5>
+softpin name pin33 signal hrdata<4>
+softpin name pin34 signal hrdata<3>
+softpin name pin35 signal hrdata<2>
+softpin name pin36 signal hrdata<1>
+softpin name pin37 signal hrdata<0>
+softpin name pin38 signal hready
+softpin name pin39 signal hwrite
+softpin name pin40 signal hwdata<31>
+softpin name pin41 signal hwdata<30>
+softpin name pin42 signal hwdata<29>
+softpin name pin43 signal hwdata<28>
+softpin name pin44 signal hwdata<27>
+softpin name pin45 signal hwdata<26>
+softpin name pin46 signal hwdata<25>
+softpin name pin47 signal hwdata<24>
+softpin name pin48 signal hwdata<23>
+softpin name pin49 signal hwdata<22>
+softpin name pin50 signal hwdata<21>
+softpin name pin51 signal hwdata<20>
+softpin name pin52 signal hwdata<19>
+softpin name pin53 signal hwdata<18>
+softpin name pin54 signal hwdata<17>
+softpin name pin55 signal hwdata<16>
+softpin name pin56 signal hwdata<15>
+softpin name pin57 signal hwdata<14>
+softpin name pin58 signal hwdata<13>
+softpin name pin59 signal hwdata<12>
+softpin name pin60 signal hwdata<11>
+softpin name pin61 signal hwdata<10>
+softpin name pin62 signal hwdata<9>
+softpin name pin63 signal hwdata<8>
+softpin name pin64 signal hwdata<7>
+softpin name pin65 signal hwdata<6>
+softpin name pin66 signal hwdata<5>
+softpin name pin67 signal hwdata<4>
+softpin name pin68 signal hwdata<3>
+softpin name pin69 signal hwdata<2>
+softpin name pin70 signal hwdata<1>
+softpin name pin71 signal hwdata<0>
+softpin name pin72 signal htrans<1>
+softpin name pin73 signal htrans<0>
+softpin name pin74 signal hsize<1>
+softpin name pin75 signal hsize<0>
+softpin name pin76 signal hprot<3>
+softpin name pin77 signal hprot<2>
+softpin name pin78 signal hprot<1>
+softpin name pin79 signal hprot<0>
+softpin name pin80 signal hmastlock
+softpin name pin81 signal hburst<2>
+softpin name pin82 signal hburst<1>
+softpin name pin83 signal hburst<0>
+softpin name pin84 signal haddr<33>
+softpin name pin85 signal haddr<32>
+softpin name pin86 signal haddr<31>
+softpin name pin87 signal haddr<30>
+softpin name pin88 signal haddr<29>
+softpin name pin89 signal haddr<28>
+softpin name pin90 signal haddr<27>
+softpin name pin91 signal haddr<26>
+softpin name pin92 signal haddr<25>
+softpin name pin93 signal haddr<24>
+softpin name pin94 signal haddr<23>
+softpin name pin95 signal haddr<22>
+softpin name pin96 signal haddr<21>
+softpin name pin97 signal haddr<20>
+softpin name pin98 signal haddr<19>
+softpin name pin99 signal haddr<18>
+softpin name pin100 signal haddr<17>
+softpin name pin101 signal haddr<16>
+softpin name pin102 signal haddr<15>
+softpin name pin103 signal haddr<14>
+softpin name pin104 signal haddr<13>
+softpin name pin105 signal haddr<12>
+softpin name pin106 signal haddr<11>
+softpin name pin107 signal haddr<10>
+softpin name pin108 signal haddr<9>
+softpin name pin109 signal haddr<8>
+softpin name pin110 signal haddr<7>
+softpin name pin111 signal haddr<6>
+softpin name pin112 signal haddr<5>
+softpin name pin113 signal haddr<4>
+softpin name pin114 signal haddr<3>
+softpin name pin115 signal haddr<2>
+softpin name pin116 signal haddr<1>
+softpin name pin117 signal haddr<0>
+softpin name pin118 signal rst
+softpin name pin119 signal clk
+
+instance core_T
+corners 8 93931 0 93931 93931 0 93931 0 187862 281793 187862 281793 93931 187862 93931 187862 0
+asplb 0.5 aspub 2.0
+class 0 orientations 0 1 2 3 4 5 6 7
+softpin name pin1 signal hreset_n
+softpin name pin2 signal timer_int
+softpin name pin3 signal soft_int
+softpin name pin4 signal ext_int
+softpin name pin5 signal hresp
+softpin name pin6 signal hrdata<31>
+softpin name pin7 signal hrdata<30>
+softpin name pin8 signal hrdata<29>
+softpin name pin9 signal hrdata<28>
+softpin name pin10 signal hrdata<27>
+softpin name pin11 signal hrdata<26>
+softpin name pin12 signal hrdata<25>
+softpin name pin13 signal hrdata<24>
+softpin name pin14 signal hrdata<23>
+softpin name pin15 signal hrdata<22>
+softpin name pin16 signal hrdata<21>
+softpin name pin17 signal hrdata<20>
+softpin name pin18 signal hrdata<19>
+softpin name pin19 signal hrdata<18>
+softpin name pin20 signal hrdata<17>
+softpin name pin21 signal hrdata<16>
+softpin name pin22 signal hrdata<15>
+softpin name pin23 signal hrdata<14>
+softpin name pin24 signal hrdata<13>
+softpin name pin25 signal hrdata<12>
+softpin name pin26 signal hrdata<11>
+softpin name pin27 signal hrdata<10>
+softpin name pin28 signal hrdata<9>
+softpin name pin29 signal hrdata<8>
+softpin name pin30 signal hrdata<7>
+softpin name pin31 signal hrdata<6>
+softpin name pin32 signal hrdata<5>
+softpin name pin33 signal hrdata<4>
+softpin name pin34 signal hrdata<3>
+softpin name pin35 signal hrdata<2>
+softpin name pin36 signal hrdata<1>
+softpin name pin37 signal hrdata<0>
+softpin name pin38 signal hready
+softpin name pin39 signal hwrite
+softpin name pin40 signal hwdata<31>
+softpin name pin41 signal hwdata<30>
+softpin name pin42 signal hwdata<29>
+softpin name pin43 signal hwdata<28>
+softpin name pin44 signal hwdata<27>
+softpin name pin45 signal hwdata<26>
+softpin name pin46 signal hwdata<25>
+softpin name pin47 signal hwdata<24>
+softpin name pin48 signal hwdata<23>
+softpin name pin49 signal hwdata<22>
+softpin name pin50 signal hwdata<21>
+softpin name pin51 signal hwdata<20>
+softpin name pin52 signal hwdata<19>
+softpin name pin53 signal hwdata<18>
+softpin name pin54 signal hwdata<17>
+softpin name pin55 signal hwdata<16>
+softpin name pin56 signal hwdata<15>
+softpin name pin57 signal hwdata<14>
+softpin name pin58 signal hwdata<13>
+softpin name pin59 signal hwdata<12>
+softpin name pin60 signal hwdata<11>
+softpin name pin61 signal hwdata<10>
+softpin name pin62 signal hwdata<9>
+softpin name pin63 signal hwdata<8>
+softpin name pin64 signal hwdata<7>
+softpin name pin65 signal hwdata<6>
+softpin name pin66 signal hwdata<5>
+softpin name pin67 signal hwdata<4>
+softpin name pin68 signal hwdata<3>
+softpin name pin69 signal hwdata<2>
+softpin name pin70 signal hwdata<1>
+softpin name pin71 signal hwdata<0>
+softpin name pin72 signal htrans<1>
+softpin name pin73 signal htrans<0>
+softpin name pin74 signal hsize<1>
+softpin name pin75 signal hsize<0>
+softpin name pin76 signal hprot<3>
+softpin name pin77 signal hprot<2>
+softpin name pin78 signal hprot<1>
+softpin name pin79 signal hprot<0>
+softpin name pin80 signal hmastlock
+softpin name pin81 signal hburst<2>
+softpin name pin82 signal hburst<1>
+softpin name pin83 signal hburst<0>
+softpin name pin84 signal haddr<33>
+softpin name pin85 signal haddr<32>
+softpin name pin86 signal haddr<31>
+softpin name pin87 signal haddr<30>
+softpin name pin88 signal haddr<29>
+softpin name pin89 signal haddr<28>
+softpin name pin90 signal haddr<27>
+softpin name pin91 signal haddr<26>
+softpin name pin92 signal haddr<25>
+softpin name pin93 signal haddr<24>
+softpin name pin94 signal haddr<23>
+softpin name pin95 signal haddr<22>
+softpin name pin96 signal haddr<21>
+softpin name pin97 signal haddr<20>
+softpin name pin98 signal haddr<19>
+softpin name pin99 signal haddr<18>
+softpin name pin100 signal haddr<17>
+softpin name pin101 signal haddr<16>
+softpin name pin102 signal haddr<15>
+softpin name pin103 signal haddr<14>
+softpin name pin104 signal haddr<13>
+softpin name pin105 signal haddr<12>
+softpin name pin106 signal haddr<11>
+softpin name pin107 signal haddr<10>
+softpin name pin108 signal haddr<9>
+softpin name pin109 signal haddr<8>
+softpin name pin110 signal haddr<7>
+softpin name pin111 signal haddr<6>
+softpin name pin112 signal haddr<5>
+softpin name pin113 signal haddr<4>
+softpin name pin114 signal haddr<3>
+softpin name pin115 signal haddr<2>
+softpin name pin116 signal haddr<1>
+softpin name pin117 signal haddr<0>
+softpin name pin118 signal rst
+softpin name pin119 signal clk
+
+instance core_L2
+corners 6 0 0 0 168028 168028 168028 168028 84014 252042 84014 252042 0
+asplb 0.5 aspub 2.0
+class 0 orientations 0 1 2 3 4 5 6 7
+softpin name pin1 signal hreset_n
+softpin name pin2 signal timer_int
+softpin name pin3 signal soft_int
+softpin name pin4 signal ext_int
+softpin name pin5 signal hresp
+softpin name pin6 signal hrdata<31>
+softpin name pin7 signal hrdata<30>
+softpin name pin8 signal hrdata<29>
+softpin name pin9 signal hrdata<28>
+softpin name pin10 signal hrdata<27>
+softpin name pin11 signal hrdata<26>
+softpin name pin12 signal hrdata<25>
+softpin name pin13 signal hrdata<24>
+softpin name pin14 signal hrdata<23>
+softpin name pin15 signal hrdata<22>
+softpin name pin16 signal hrdata<21>
+softpin name pin17 signal hrdata<20>
+softpin name pin18 signal hrdata<19>
+softpin name pin19 signal hrdata<18>
+softpin name pin20 signal hrdata<17>
+softpin name pin21 signal hrdata<16>
+softpin name pin22 signal hrdata<15>
+softpin name pin23 signal hrdata<14>
+softpin name pin24 signal hrdata<13>
+softpin name pin25 signal hrdata<12>
+softpin name pin26 signal hrdata<11>
+softpin name pin27 signal hrdata<10>
+softpin name pin28 signal hrdata<9>
+softpin name pin29 signal hrdata<8>
+softpin name pin30 signal hrdata<7>
+softpin name pin31 signal hrdata<6>
+softpin name pin32 signal hrdata<5>
+softpin name pin33 signal hrdata<4>
+softpin name pin34 signal hrdata<3>
+softpin name pin35 signal hrdata<2>
+softpin name pin36 signal hrdata<1>
+softpin name pin37 signal hrdata<0>
+softpin name pin38 signal hready
+softpin name pin39 signal hwrite
+softpin name pin40 signal hwdata<31>
+softpin name pin41 signal hwdata<30>
+softpin name pin42 signal hwdata<29>
+softpin name pin43 signal hwdata<28>
+softpin name pin44 signal hwdata<27>
+softpin name pin45 signal hwdata<26>
+softpin name pin46 signal hwdata<25>
+softpin name pin47 signal hwdata<24>
+softpin name pin48 signal hwdata<23>
+softpin name pin49 signal hwdata<22>
+softpin name pin50 signal hwdata<21>
+softpin name pin51 signal hwdata<20>
+softpin name pin52 signal hwdata<19>
+softpin name pin53 signal hwdata<18>
+softpin name pin54 signal hwdata<17>
+softpin name pin55 signal hwdata<16>
+softpin name pin56 signal hwdata<15>
+softpin name pin57 signal hwdata<14>
+softpin name pin58 signal hwdata<13>
+softpin name pin59 signal hwdata<12>
+softpin name pin60 signal hwdata<11>
+softpin name pin61 signal hwdata<10>
+softpin name pin62 signal hwdata<9>
+softpin name pin63 signal hwdata<8>
+softpin name pin64 signal hwdata<7>
+softpin name pin65 signal hwdata<6>
+softpin name pin66 signal hwdata<5>
+softpin name pin67 signal hwdata<4>
+softpin name pin68 signal hwdata<3>
+softpin name pin69 signal hwdata<2>
+softpin name pin70 signal hwdata<1>
+softpin name pin71 signal hwdata<0>
+softpin name pin72 signal htrans<1>
+softpin name pin73 signal htrans<0>
+softpin name pin74 signal hsize<1>
+softpin name pin75 signal hsize<0>
+softpin name pin76 signal hprot<3>
+softpin name pin77 signal hprot<2>
+softpin name pin78 signal hprot<1>
+softpin name pin79 signal hprot<0>
+softpin name pin80 signal hmastlock
+softpin name pin81 signal hburst<2>
+softpin name pin82 signal hburst<1>
+softpin name pin83 signal hburst<0>
+softpin name pin84 signal haddr<33>
+softpin name pin85 signal haddr<32>
+softpin name pin86 signal haddr<31>
+softpin name pin87 signal haddr<30>
+softpin name pin88 signal haddr<29>
+softpin name pin89 signal haddr<28>
+softpin name pin90 signal haddr<27>
+softpin name pin91 signal haddr<26>
+softpin name pin92 signal haddr<25>
+softpin name pin93 signal haddr<24>
+softpin name pin94 signal haddr<23>
+softpin name pin95 signal haddr<22>
+softpin name pin96 signal haddr<21>
+softpin name pin97 signal haddr<20>
+softpin name pin98 signal haddr<19>
+softpin name pin99 signal haddr<18>
+softpin name pin100 signal haddr<17>
+softpin name pin101 signal haddr<16>
+softpin name pin102 signal haddr<15>
+softpin name pin103 signal haddr<14>
+softpin name pin104 signal haddr<13>
+softpin name pin105 signal haddr<12>
+softpin name pin106 signal haddr<11>
+softpin name pin107 signal haddr<10>
+softpin name pin108 signal haddr<9>
+softpin name pin109 signal haddr<8>
+softpin name pin110 signal haddr<7>
+softpin name pin111 signal haddr<6>
+softpin name pin112 signal haddr<5>
+softpin name pin113 signal haddr<4>
+softpin name pin114 signal haddr<3>
+softpin name pin115 signal haddr<2>
+softpin name pin116 signal haddr<1>
+softpin name pin117 signal haddr<0>
+softpin name pin118 signal rst
+softpin name pin119 signal clk
+
+pad 1 name twpin_clk
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name clk signal clk layer 1 0 0
+
+pad 2 name twpin_rst
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name rst signal rst layer 1 0 0
+
+pad 3 name twpin_timer_int
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name timer_int signal timer_int layer 1 0 0
+
+pad 4 name twpin_soft_int
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name soft_int signal soft_int layer 1 0 0
+
+pad 5 name twpin_ext_int
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name ext_int signal ext_int layer 1 0 0
+
+pad 6 name twpin_hready
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hready signal hready layer 1 0 0
+
+pad 7 name twpin_hresp
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hresp signal hresp layer 1 0 0
+
+pad 8 name twpin_hreset_n
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hreset_n signal hreset_n layer 1 0 0
+
+pad 9 name twpin_hrdata<0>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<0> signal hrdata<0> layer 1 0 0
+
+pad 10 name twpin_hrdata<1>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<1> signal hrdata<1> layer 1 0 0
+
+pad 11 name twpin_hrdata<2>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<2> signal hrdata<2> layer 1 0 0
+
+pad 12 name twpin_hrdata<3>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<3> signal hrdata<3> layer 1 0 0
+
+pad 13 name twpin_hrdata<4>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<4> signal hrdata<4> layer 1 0 0
+
+pad 14 name twpin_hrdata<5>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<5> signal hrdata<5> layer 1 0 0
+
+pad 15 name twpin_hrdata<6>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<6> signal hrdata<6> layer 1 0 0
+
+pad 16 name twpin_hrdata<7>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<7> signal hrdata<7> layer 1 0 0
+
+pad 17 name twpin_hrdata<8>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<8> signal hrdata<8> layer 1 0 0
+
+pad 18 name twpin_hrdata<9>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<9> signal hrdata<9> layer 1 0 0
+
+pad 19 name twpin_hrdata<10>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<10> signal hrdata<10> layer 1 0 0
+
+pad 20 name twpin_hrdata<11>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<11> signal hrdata<11> layer 1 0 0
+
+pad 21 name twpin_hrdata<12>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<12> signal hrdata<12> layer 1 0 0
+
+pad 22 name twpin_hrdata<13>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<13> signal hrdata<13> layer 1 0 0
+
+pad 23 name twpin_hrdata<14>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<14> signal hrdata<14> layer 1 0 0
+
+pad 24 name twpin_hrdata<15>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<15> signal hrdata<15> layer 1 0 0
+
+pad 25 name twpin_hrdata<16>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<16> signal hrdata<16> layer 1 0 0
+
+pad 26 name twpin_hrdata<17>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<17> signal hrdata<17> layer 1 0 0
+
+pad 27 name twpin_hrdata<18>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<18> signal hrdata<18> layer 1 0 0
+
+pad 28 name twpin_hrdata<19>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<19> signal hrdata<19> layer 1 0 0
+
+pad 29 name twpin_hrdata<20>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<20> signal hrdata<20> layer 1 0 0
+
+pad 30 name twpin_hrdata<21>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<21> signal hrdata<21> layer 1 0 0
+
+pad 31 name twpin_hrdata<22>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<22> signal hrdata<22> layer 1 0 0
+
+pad 32 name twpin_hrdata<23>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<23> signal hrdata<23> layer 1 0 0
+
+pad 33 name twpin_hrdata<24>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<24> signal hrdata<24> layer 1 0 0
+
+pad 34 name twpin_hrdata<25>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<25> signal hrdata<25> layer 1 0 0
+
+pad 35 name twpin_hrdata<26>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<26> signal hrdata<26> layer 1 0 0
+
+pad 36 name twpin_hrdata<27>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<27> signal hrdata<27> layer 1 0 0
+
+pad 37 name twpin_hrdata<28>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<28> signal hrdata<28> layer 1 0 0
+
+pad 38 name twpin_hrdata<29>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<29> signal hrdata<29> layer 1 0 0
+
+pad 39 name twpin_hrdata<30>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<30> signal hrdata<30> layer 1 0 0
+
+pad 40 name twpin_hrdata<31>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hrdata<31> signal hrdata<31> layer 1 0 0
+
+pad 41 name twpin_haddr<0>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<0> signal haddr<0> layer 1 0 0
+
+pad 42 name twpin_haddr<1>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<1> signal haddr<1> layer 1 0 0
+
+pad 43 name twpin_haddr<2>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<2> signal haddr<2> layer 1 0 0
+
+pad 44 name twpin_haddr<3>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<3> signal haddr<3> layer 1 0 0
+
+pad 45 name twpin_haddr<4>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<4> signal haddr<4> layer 1 0 0
+
+pad 46 name twpin_haddr<5>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<5> signal haddr<5> layer 1 0 0
+
+pad 47 name twpin_haddr<6>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<6> signal haddr<6> layer 1 0 0
+
+pad 48 name twpin_haddr<7>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<7> signal haddr<7> layer 1 0 0
+
+pad 49 name twpin_haddr<8>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<8> signal haddr<8> layer 1 0 0
+
+pad 50 name twpin_haddr<9>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<9> signal haddr<9> layer 1 0 0
+
+pad 51 name twpin_haddr<10>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<10> signal haddr<10> layer 1 0 0
+
+pad 52 name twpin_haddr<11>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<11> signal haddr<11> layer 1 0 0
+
+pad 53 name twpin_haddr<12>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<12> signal haddr<12> layer 1 0 0
+
+pad 54 name twpin_haddr<13>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<13> signal haddr<13> layer 1 0 0
+
+pad 55 name twpin_haddr<14>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<14> signal haddr<14> layer 1 0 0
+
+pad 56 name twpin_haddr<15>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<15> signal haddr<15> layer 1 0 0
+
+pad 57 name twpin_haddr<16>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<16> signal haddr<16> layer 1 0 0
+
+pad 58 name twpin_haddr<17>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<17> signal haddr<17> layer 1 0 0
+
+pad 59 name twpin_haddr<18>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<18> signal haddr<18> layer 1 0 0
+
+pad 60 name twpin_haddr<19>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<19> signal haddr<19> layer 1 0 0
+
+pad 61 name twpin_haddr<20>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<20> signal haddr<20> layer 1 0 0
+
+pad 62 name twpin_haddr<21>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<21> signal haddr<21> layer 1 0 0
+
+pad 63 name twpin_haddr<22>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<22> signal haddr<22> layer 1 0 0
+
+pad 64 name twpin_haddr<23>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<23> signal haddr<23> layer 1 0 0
+
+pad 65 name twpin_haddr<24>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<24> signal haddr<24> layer 1 0 0
+
+pad 66 name twpin_haddr<25>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<25> signal haddr<25> layer 1 0 0
+
+pad 67 name twpin_haddr<26>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<26> signal haddr<26> layer 1 0 0
+
+pad 68 name twpin_haddr<27>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<27> signal haddr<27> layer 1 0 0
+
+pad 69 name twpin_haddr<28>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<28> signal haddr<28> layer 1 0 0
+
+pad 70 name twpin_haddr<29>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<29> signal haddr<29> layer 1 0 0
+
+pad 71 name twpin_haddr<30>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<30> signal haddr<30> layer 1 0 0
+
+pad 72 name twpin_haddr<31>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<31> signal haddr<31> layer 1 0 0
+
+pad 73 name twpin_haddr<32>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<32> signal haddr<32> layer 1 0 0
+
+pad 74 name twpin_haddr<33>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name haddr<33> signal haddr<33> layer 1 0 0
+
+pad 75 name twpin_hwrite
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwrite signal hwrite layer 1 0 0
+
+pad 76 name twpin_hsize<0>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hsize<0> signal hsize<0> layer 1 0 0
+
+pad 77 name twpin_hsize<1>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hsize<1> signal hsize<1> layer 1 0 0
+
+pad 78 name twpin_hburst<0>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hburst<0> signal hburst<0> layer 1 0 0
+
+pad 79 name twpin_hburst<1>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hburst<1> signal hburst<1> layer 1 0 0
+
+pad 80 name twpin_hburst<2>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hburst<2> signal hburst<2> layer 1 0 0
+
+pad 81 name twpin_hprot<0>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hprot<0> signal hprot<0> layer 1 0 0
+
+pad 82 name twpin_hprot<1>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hprot<1> signal hprot<1> layer 1 0 0
+
+pad 83 name twpin_hprot<2>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hprot<2> signal hprot<2> layer 1 0 0
+
+pad 84 name twpin_hprot<3>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hprot<3> signal hprot<3> layer 1 0 0
+
+pad 85 name twpin_htrans<0>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name htrans<0> signal htrans<0> layer 1 0 0
+
+pad 86 name twpin_htrans<1>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name htrans<1> signal htrans<1> layer 1 0 0
+
+pad 87 name twpin_hmastlock
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hmastlock signal hmastlock layer 1 0 0
+
+pad 88 name twpin_hwdata<0>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<0> signal hwdata<0> layer 1 0 0
+
+pad 89 name twpin_hwdata<1>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<1> signal hwdata<1> layer 1 0 0
+
+pad 90 name twpin_hwdata<2>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<2> signal hwdata<2> layer 1 0 0
+
+pad 91 name twpin_hwdata<3>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<3> signal hwdata<3> layer 1 0 0
+
+pad 92 name twpin_hwdata<4>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<4> signal hwdata<4> layer 1 0 0
+
+pad 93 name twpin_hwdata<5>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<5> signal hwdata<5> layer 1 0 0
+
+pad 94 name twpin_hwdata<6>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<6> signal hwdata<6> layer 1 0 0
+
+pad 95 name twpin_hwdata<7>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<7> signal hwdata<7> layer 1 0 0
+
+pad 96 name twpin_hwdata<8>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<8> signal hwdata<8> layer 1 0 0
+
+pad 97 name twpin_hwdata<9>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<9> signal hwdata<9> layer 1 0 0
+
+pad 98 name twpin_hwdata<10>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<10> signal hwdata<10> layer 1 0 0
+
+pad 99 name twpin_hwdata<11>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<11> signal hwdata<11> layer 1 0 0
+
+pad 100 name twpin_hwdata<12>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<12> signal hwdata<12> layer 1 0 0
+
+pad 101 name twpin_hwdata<13>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<13> signal hwdata<13> layer 1 0 0
+
+pad 102 name twpin_hwdata<14>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<14> signal hwdata<14> layer 1 0 0
+
+pad 103 name twpin_hwdata<15>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<15> signal hwdata<15> layer 1 0 0
+
+pad 104 name twpin_hwdata<16>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<16> signal hwdata<16> layer 1 0 0
+
+pad 105 name twpin_hwdata<17>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<17> signal hwdata<17> layer 1 0 0
+
+pad 106 name twpin_hwdata<18>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<18> signal hwdata<18> layer 1 0 0
+
+pad 107 name twpin_hwdata<19>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<19> signal hwdata<19> layer 1 0 0
+
+pad 108 name twpin_hwdata<20>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<20> signal hwdata<20> layer 1 0 0
+
+pad 109 name twpin_hwdata<21>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<21> signal hwdata<21> layer 1 0 0
+
+pad 110 name twpin_hwdata<22>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<22> signal hwdata<22> layer 1 0 0
+
+pad 111 name twpin_hwdata<23>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<23> signal hwdata<23> layer 1 0 0
+
+pad 112 name twpin_hwdata<24>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<24> signal hwdata<24> layer 1 0 0
+
+pad 113 name twpin_hwdata<25>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<25> signal hwdata<25> layer 1 0 0
+
+pad 114 name twpin_hwdata<26>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<26> signal hwdata<26> layer 1 0 0
+
+pad 115 name twpin_hwdata<27>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<27> signal hwdata<27> layer 1 0 0
+
+pad 116 name twpin_hwdata<28>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<28> signal hwdata<28> layer 1 0 0
+
+pad 117 name twpin_hwdata<29>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<29> signal hwdata<29> layer 1 0 0
+
+pad 118 name twpin_hwdata<30>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<30> signal hwdata<30> layer 1 0 0
+
+pad 119 name twpin_hwdata<31>
+corners 4 -80 -100 -80 100 80 100 80 -100
+pin name hwdata<31> signal hwdata<31> layer 1 0 0
+

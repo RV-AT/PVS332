@@ -1,0 +1,291 @@
+D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ahb_reset_ctrl
+
+Top level modules:
+	ahb_reset_ctrl
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ahb_spi_v0
+
+Top level modules:
+	ahb_spi_v0
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/CPU/exce_chk.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/CPU/exce_chk.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module exce_chk
+
+Top level modules:
+	exce_chk
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/SIM/PVS332_SELFTEST.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/SIM/PVS332_SELFTEST.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module PVS332_SELFTEST
+
+Top level modules:
+	PVS332_SELFTEST
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/SIM/BOOTROM.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/SIM/BOOTROM.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module BOOTROM
+
+Top level modules:
+	BOOTROM
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/SIM/VIS62.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/SIM/VIS62.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module VIS62
+
+Top level modules:
+	VIS62
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module AHB_OCRAM
+
+Top level modules:
+	AHB_OCRAM
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/CPU/ahb.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/CPU/ahb.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ahb
+
+Top level modules:
+	ahb
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module BaudGen
+
+Top level modules:
+	BaudGen
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module csr_gpr_iu
+
+Top level modules:
+	csr_gpr_iu
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/Peripherals/clk_ctrl.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/Peripherals/clk_ctrl.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module clk_ctrl
+
+Top level modules:
+	clk_ctrl
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module AHB_UART
+
+Top level modules:
+	AHB_UART
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_CCREG.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_CCREG.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module AHB_CCREG
+
+Top level modules:
+	AHB_CCREG
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/Peripherals/plic_cell.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/Peripherals/plic_cell.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module plic_cell
+
+Top level modules:
+	plic_cell
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module AHB_ROM
+
+Top level modules:
+	AHB_ROM
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module PRV332_SoC
+
+Top level modules:
+	PRV332_SoC
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/SIM/BRAM2K.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/SIM/BRAM2K.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module BRAM2K
+
+Top level modules:
+	BRAM2K
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/Peripherals/SyncFIFO.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/Peripherals/SyncFIFO.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module SyncFIFO
+
+Top level modules:
+	SyncFIFO
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/CPU/csr.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/CPU/csr.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module csr
+
+Top level modules:
+	csr
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_MUX.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_MUX.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module PERI_MUX
+
+Top level modules:
+	PERI_MUX
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/Peripherals/spi_module.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/Peripherals/spi_module.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module spi_module
+
+Top level modules:
+	spi_module
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/SIM/BUS_TB.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/SIM/BUS_TB.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module BUS_TB
+
+Top level modules:
+	BUS_TB
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/CPU/prv332sv0.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/CPU/prv332sv0.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module prv332sv0
+
+Top level modules:
+	prv332sv0
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/SIM/BLKRAM8.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/SIM/BLKRAM8.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module BLKRAM8
+
+Top level modules:
+	BLKRAM8
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/CPU/alu.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/CPU/alu.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/CPU/exu.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/CPU/exu.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module exu
+
+Top level modules:
+	exu
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module PERI_DECODE
+
+Top level modules:
+	PERI_DECODE
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/SIM/compile_param.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/SIM/compile_param.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_GPIOC.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_GPIOC.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module AHB_GPIOC
+
+Top level modules:
+	AHB_GPIOC
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module AFIO32
+
+Top level modules:
+	AFIO32
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/Peripherals/pcod16s4.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/Peripherals/pcod16s4.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module pcod16s4
+
+Top level modules:
+	pcod16s4
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module UART_Rx
+
+Top level modules:
+	UART_Rx
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/CPU/ins_dec.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/CPU/ins_dec.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ins_dec
+
+Top level modules:
+	ins_dec
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_mux_s2m.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_mux_s2m.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ahb_mux_s2m
+
+Top level modules:
+	ahb_mux_s2m
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_DUMMY.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/Peripherals/AHB_DUMMY.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module AHB_DUMMY
+
+Top level modules:
+	AHB_DUMMY
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_is62.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/Peripherals/ahb_is62.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ahb_is62
+
+Top level modules:
+	ahb_is62
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/CPU/au.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/CPU/au.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module au
+
+Top level modules:
+	au
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Tx.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/Peripherals/UART_Tx.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module UART_Tx
+
+Top level modules:
+	UART_Tx
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/CPU/int_ctrl.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/CPU/int_ctrl.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module int_ctrl
+
+Top level modules:
+	int_ctrl
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/CPU/mmu.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/CPU/mmu.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module mmu
+
+Top level modules:
+	mmu
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_decoder.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/AHB_Lite/ahb_decoder.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module ahb_decoder
+
+Top level modules:
+	ahb_decoder
+
+} {} {}} D:/Projects/FPGA/PVS332/RTL/CPU/biu.v {1 {vlog -work work -vopt D:/Projects/FPGA/PVS332/RTL/CPU/biu.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module biu
+
+Top level modules:
+	biu
+
+} {} {}}

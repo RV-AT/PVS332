@@ -1,0 +1,14 @@
+============================================================
+   Tang Dynasty, V4.1.533
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = D:/Anlogic/TD4.1.533/bin/td.exe
+   Built at =   14:11:35 Apr  4 2018
+   Run by =     Administrator
+   Run Date =   Sun Oct 20 19:19:00 2019
+
+   Run on =     HONGXY-CYBERLAN
+============================================================
+CMD-005 : finish command "import_device eagle_s20.db -package BG256" in  7.121797s wall, 6.718750s user + 0.312500s system = 7.031250s CPU (98.7%)
+
+CMD-006 : used memory is 186 MB, reserved memory is 149 MB, peak memory is 190 MB

@@ -1,0 +1,43 @@
+library verilog;
+use verilog.vl_types.all;
+entity ahb_mux_s2m is
+    port(
+        HCLK            : in     vl_logic;
+        HRESETn         : in     vl_logic;
+        HRDATAx0        : in     vl_logic_vector(31 downto 0);
+        HRDATAx7        : in     vl_logic_vector(31 downto 0);
+        HRDATAx1        : in     vl_logic_vector(31 downto 0);
+        HRDATAx2        : in     vl_logic_vector(31 downto 0);
+        HRDATAx3        : in     vl_logic_vector(31 downto 0);
+        HRDATAx4        : in     vl_logic_vector(31 downto 0);
+        HRDATAx5        : in     vl_logic_vector(31 downto 0);
+        HRDATAx6        : in     vl_logic_vector(31 downto 0);
+        HSELx0          : in     vl_logic;
+        HSELx7          : in     vl_logic;
+        HSELx1          : in     vl_logic;
+        HSELx2          : in     vl_logic;
+        HSELx3          : in     vl_logic;
+        HSELx4          : in     vl_logic;
+        HSELx5          : in     vl_logic;
+        HSELx6          : in     vl_logic;
+        HREADYx0        : in     vl_logic;
+        HREADYx7        : in     vl_logic;
+        HREADYx1        : in     vl_logic;
+        HREADYx2        : in     vl_logic;
+        HREADYx3        : in     vl_logic;
+        HREADYx4        : in     vl_logic;
+        HREADYx5        : in     vl_logic;
+        HREADYx6        : in     vl_logic;
+        HRESPx0         : in     vl_logic_vector(1 downto 0);
+        HRESPx7         : in     vl_logic_vector(1 downto 0);
+        HRESPx1         : in     vl_logic_vector(1 downto 0);
+        HRESPx2         : in     vl_logic_vector(1 downto 0);
+        HRESPx3         : in     vl_logic_vector(1 downto 0);
+        HRESPx4         : in     vl_logic_vector(1 downto 0);
+        HRESPx5         : in     vl_logic_vector(1 downto 0);
+        HRESPx6         : in     vl_logic_vector(1 downto 0);
+        HREADY          : out    vl_logic;
+        HRESP           : out    vl_logic_vector(1 downto 0);
+        HRDATA          : out    vl_logic_vector(31 downto 0)
+    );
+end ahb_mux_s2m;

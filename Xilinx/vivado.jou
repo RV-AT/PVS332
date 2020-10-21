@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Nov 12 14:39:13 2019
+# Process ID: 10052
+# Current directory: D:/projects/FPGA/PVS332/Xilinx
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7584 D:\projects\FPGA\PVS332\Xilinx\PVS332.xpr
+# Log file: D:/projects/FPGA/PVS332/Xilinx/vivado.log
+# Journal file: D:/projects/FPGA/PVS332/Xilinx\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/projects/FPGA/PVS332/Xilinx/PVS332.xpr
+update_compile_order -fileset sources_1
+set_property -dict [list CONFIG.Load_Init_File {true} CONFIG.Coe_File {d:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe} CONFIG.Fill_Remaining_Memory_Locations {true}] [get_ips BOOTROM]
+generate_target all [get_files  D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/BOOTROM/BOOTROM.xci]
+catch { config_ip_cache -export [get_ips -all BOOTROM] }
+export_ip_user_files -of_objects [get_files D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/BOOTROM/BOOTROM.xci] -no_script -sync -force -quiet
+reset_run BOOTROM_synth_1
+launch_runs -jobs 4 BOOTROM_synth_1
+export_simulation -of_objects [get_files D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/BOOTROM/BOOTROM.xci] -directory D:/projects/FPGA/PVS332/Xilinx/PVS332.ip_user_files/sim_scripts -ip_user_files_dir D:/projects/FPGA/PVS332/Xilinx/PVS332.ip_user_files -ipstatic_source_dir D:/projects/FPGA/PVS332/Xilinx/PVS332.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/modelsim} {questa=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/questa} {riviera=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/riviera} {activehdl=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+set_property -dict [list CONFIG.Coe_File {D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe}] [get_ips BOOTROM]
+generate_target all [get_files  D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/BOOTROM/BOOTROM.xci]
+catch { config_ip_cache -export [get_ips -all BOOTROM] }
+export_ip_user_files -of_objects [get_files D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/BOOTROM/BOOTROM.xci] -no_script -sync -force -quiet
+reset_run BOOTROM_synth_1
+launch_runs -jobs 4 BOOTROM_synth_1
+export_simulation -of_objects [get_files D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/BOOTROM/BOOTROM.xci] -directory D:/projects/FPGA/PVS332/Xilinx/PVS332.ip_user_files/sim_scripts -ip_user_files_dir D:/projects/FPGA/PVS332/Xilinx/PVS332.ip_user_files -ipstatic_source_dir D:/projects/FPGA/PVS332/Xilinx/PVS332.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/modelsim} {questa=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/questa} {riviera=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/riviera} {activehdl=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+synth_design -rtl -name rtl_1

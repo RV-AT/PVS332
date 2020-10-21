@@ -1,0 +1,98 @@
+
+TimberWolfMC version:v2.2 date:Mon May 25 21:18:34 EDT 1992
+Authors: Carl Sechen, Bill Swartz, Kai-Win Lee
+         Dahe Chen, and Jimmy Lam
+         Yale University
+
+
+TimberWolfMC switches:
+	Graphics mode on
+	TimberWolfMC will inherit window
+
+
+
+
+
+TimberWolf instructed to do placement of circuit:<prv332sv0>
+track.pitch.x: 240
+track.pitch.y: 200
+chip.aspect.ratio: 0.75
+init_acc: 1.00
+
+The rand generator seed was: 12345
+
+
+The number of nets with  2 pins is 119
+The number of nets with 100 pins or more is 0
+The total number of nets is: 119
+The maximum number of pins on a single net is: 2
+
+Total cell area : 3.53e+10
+mean cell area : 3.53e+10      std deviation cell area : 0.00e+00
+mean short side : 1.68e+05      std deviation short side : 1.19e+05
+maxBinXG automatically set to:4
+maxBinYG automatically set to:3
+bdxlength:216925    bdylength:162694
+
+
+
+THE ROUTE COST OF THE CURRENT PLACEMENT: 2145972229
+THE PENALTY OF THE CURRENT PLACEMENT: 17936
+/usr/lib/graywolf/bin/genrows -w prv332sv0 2097154
+
+Initial Wiring Cost: 2145972229   Final Wiring Cost: 0
+############ Percent Wire Cost Reduction: 100
+
+
+Initial Wire Length: 2145972229   Final Wire Length: 0
+*********** Percent Wire Length Reduction: 100
+
+
+Initial Horiz. Wire: 59500   Final Horiz. Wire: 0
+$$$$$$$$$ Percent H-Wire Length Reduction: 100
+
+
+Initial Vert. Wire: 2145912729   Final Vert. Wire: 0
+@@@@@@@@@ Percent V-Wire Length Reduction: 100
+
+
+Statistics:
+Number of Cells: 1
+Number of Pads: 119
+Number of Nets: 119 
+Number of Pins: 238 
+
+
+************************************ 
+
+TimberWolf has completed its mission
+
+
+************************************ 
+
+
+
+Runtime Statistics
+-------------------------
+Machine name: DESKTOP-UTR8NDJ
+Date        : Fri Apr 17 10:22:39 2020
+
+User    time:   0.1 seconds
+System  time:   0.1 seconds
+Elapsed time:   0.4 seconds
+
+Average resident text size       =     0K
+Average resident data+stack size =     0K
+Maximum resident size            =  1456K
+Virtual memory size              = -606399K
+Virtual memory limit             = -2147483648K (-2147483648K)
+
+Major page faults = 0
+Minor page faults = 794
+Swaps = 0
+
+Input blocks = 0
+Output blocks = 0
+
+Context switch (voluntary) = 0
+Context switch (involuntary) = 0

@@ -1,0 +1,3 @@
+用于fpga创新设计竞赛
+
+python和verilog代码不方便全部开源

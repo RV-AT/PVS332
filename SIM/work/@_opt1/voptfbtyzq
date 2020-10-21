@@ -1,0 +1,9 @@
+library verilog;
+use verilog.vl_types.all;
+entity PERI_DECODE is
+    port(
+        HSEL            : in     vl_logic;
+        HADDR           : in     vl_logic_vector(16 downto 6);
+        SSEL            : out    vl_logic_vector(31 downto 0)
+    );
+end PERI_DECODE;

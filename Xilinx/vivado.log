@@ -1,0 +1,744 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Nov 12 14:39:13 2019
+# Process ID: 10052
+# Current directory: D:/projects/FPGA/PVS332/Xilinx
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7584 D:\projects\FPGA\PVS332\Xilinx\PVS332.xpr
+# Log file: D:/projects/FPGA/PVS332/Xilinx/vivado.log
+# Journal file: D:/projects/FPGA/PVS332/Xilinx\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/projects/FPGA/PVS332/Xilinx/PVS332.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:10 . Memory (MB): peak = 688.293 ; gain = 101.750
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe' provided. It will be converted relative to IP Instance files '../../../../Xilinx_IP/spi.coe'
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe' provided. It will be converted relative to IP Instance files '../../../../Xilinx_IP/spi.coe'
+set_property -dict [list CONFIG.Load_Init_File {true} CONFIG.Coe_File {d:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe} CONFIG.Fill_Remaining_Memory_Locations {true}] [get_ips BOOTROM]
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe' provided. It will be converted relative to IP Instance files '../spi.coe'
+generate_target all [get_files  D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/BOOTROM/BOOTROM.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'BOOTROM'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'BOOTROM'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'BOOTROM'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'BOOTROM'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'BOOTROM'...
+generate_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:14 . Memory (MB): peak = 809.770 ; gain = 0.000
+catch { config_ip_cache -export [get_ips -all BOOTROM] }
+export_ip_user_files -of_objects [get_files D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/BOOTROM/BOOTROM.xci] -no_script -sync -force -quiet
+reset_run BOOTROM_synth_1
+launch_runs -jobs 4 BOOTROM_synth_1
+[Tue Nov 12 15:05:32 2019] Launched BOOTROM_synth_1...
+Run output will be captured here: D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/BOOTROM_synth_1/runme.log
+export_simulation -of_objects [get_files D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/BOOTROM/BOOTROM.xci] -directory D:/projects/FPGA/PVS332/Xilinx/PVS332.ip_user_files/sim_scripts -ip_user_files_dir D:/projects/FPGA/PVS332/Xilinx/PVS332.ip_user_files -ipstatic_source_dir D:/projects/FPGA/PVS332/Xilinx/PVS332.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/modelsim} {questa=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/questa} {riviera=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/riviera} {activehdl=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe' provided. It will be converted relative to IP Instance files '../../../../Xilinx_IP/spi.coe'
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe' provided. It will be converted relative to IP Instance files '../../../../Xilinx_IP/spi.coe'
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe' provided. It will be converted relative to IP Instance files '../../../../Xilinx_IP/spi.coe'
+set_property -dict [list CONFIG.Coe_File {D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe}] [get_ips BOOTROM]
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe' provided. It will be converted relative to IP Instance files '../spi.coe'
+generate_target all [get_files  D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/BOOTROM/BOOTROM.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'BOOTROM'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'BOOTROM'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'BOOTROM'...
+INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'BOOTROM'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'BOOTROM'...
+generate_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 835.980 ; gain = 0.000
+catch { config_ip_cache -export [get_ips -all BOOTROM] }
+export_ip_user_files -of_objects [get_files D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/BOOTROM/BOOTROM.xci] -no_script -sync -force -quiet
+reset_run BOOTROM_synth_1
+launch_runs -jobs 4 BOOTROM_synth_1
+[Tue Nov 12 15:11:17 2019] Launched BOOTROM_synth_1...
+Run output will be captured here: D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/BOOTROM_synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 835.980 ; gain = 0.000
+export_simulation -of_objects [get_files D:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/BOOTROM/BOOTROM.xci] -directory D:/projects/FPGA/PVS332/Xilinx/PVS332.ip_user_files/sim_scripts -ip_user_files_dir D:/projects/FPGA/PVS332/Xilinx/PVS332.ip_user_files -ipstatic_source_dir D:/projects/FPGA/PVS332/Xilinx/PVS332.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/modelsim} {questa=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/questa} {riviera=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/riviera} {activehdl=D:/projects/FPGA/PVS332/Xilinx/PVS332.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/projects/FPGA/PVS332/Xilinx/Xilinx_IP/spi.coe' provided. It will be converted relative to IP Instance files '../../../../Xilinx_IP/spi.coe'
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Nov 12 15:13:48 2019] Launched synth_1...
+Run output will be captured here: D:/projects/FPGA/PVS332/Xilinx/PVS332.runs/synth_1/runme.log
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7s15ftgb196-1
+Top: PRV332_SoC
+INFO: [Device 21-403] Loading part xc7s15ftgb196-1
+WARNING: [Synth 8-2292] literal value truncated to fit in 2 bits [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_CCREG.v:62]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1220.090 ; gain = 182.586
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'PRV332_SoC' [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:23]
+INFO: [Synth 8-6157] synthesizing module 'prv332sv0' [D:/projects/FPGA/PVS332/RTL/CPU/prv332sv0.v:8]
+	Parameter w8 bound to: 3'b001 
+	Parameter w16 bound to: 3'b010 
+	Parameter w32 bound to: 3'b011 
+	Parameter r8 bound to: 3'b101 
+	Parameter r16 bound to: 3'b110 
+	Parameter r32 bound to: 3'b111 
+INFO: [Synth 8-6157] synthesizing module 'biu' [D:/projects/FPGA/PVS332/RTL/CPU/biu.v:8]
+	Parameter stb bound to: 7'b0000000 
+	Parameter rdy bound to: 7'b0000001 
+	Parameter err bound to: 7'b0000010 
+	Parameter ifnp bound to: 7'b0001000 
+	Parameter ifwp0 bound to: 7'b0010000 
+	Parameter ifwp1 bound to: 7'b0010001 
+	Parameter ifwp2 bound to: 7'b0010010 
+	Parameter ifwp3 bound to: 7'b0010011 
+	Parameter ifwp4 bound to: 7'b0010100 
+	Parameter r32np bound to: 7'b0011000 
+	Parameter r32wp0 bound to: 7'b0100000 
+	Parameter r32wp1 bound to: 7'b0100001 
+	Parameter r32wp2 bound to: 7'b0100010 
+	Parameter r32wp3 bound to: 7'b0100011 
+	Parameter r32wp4 bound to: 7'b0100100 
+	Parameter r16np bound to: 7'b0101000 
+	Parameter r16wp0 bound to: 7'b0110000 
+	Parameter r16wp1 bound to: 7'b0110001 
+	Parameter r16wp2 bound to: 7'b0110010 
+	Parameter r16wp3 bound to: 7'b0110011 
+	Parameter r16wp4 bound to: 7'b0110100 
+	Parameter r8np bound to: 7'b0111000 
+	Parameter r8wp0 bound to: 7'b1000000 
+	Parameter r8wp1 bound to: 7'b1000001 
+	Parameter r8wp2 bound to: 7'b1000010 
+	Parameter r8wp3 bound to: 7'b1000011 
+	Parameter r8wp4 bound to: 7'b1000100 
+	Parameter w32np bound to: 7'b1001000 
+	Parameter w32wp0 bound to: 7'b1010000 
+	Parameter w32wp1 bound to: 7'b1010001 
+	Parameter w32wp2 bound to: 7'b1010010 
+	Parameter w32wp3 bound to: 7'b1010011 
+	Parameter w32wp4 bound to: 7'b1010100 
+	Parameter w16np bound to: 7'b1011000 
+	Parameter w16wp0 bound to: 7'b1100000 
+	Parameter w16wp1 bound to: 7'b1100001 
+	Parameter w16wp2 bound to: 7'b1100010 
+	Parameter w16wp3 bound to: 7'b1100011 
+	Parameter w16wp4 bound to: 7'b1100100 
+	Parameter w8np bound to: 7'b1101000 
+	Parameter w8wp0 bound to: 7'b1110000 
+	Parameter w8wp1 bound to: 7'b1110001 
+	Parameter w8wp2 bound to: 7'b1110010 
+	Parameter w8wp3 bound to: 7'b1110011 
+	Parameter w8wp4 bound to: 7'b1110100 
+	Parameter opw8 bound to: 3'b001 
+	Parameter opw16 bound to: 3'b010 
+	Parameter opw32 bound to: 3'b011 
+	Parameter opr8 bound to: 3'b101 
+	Parameter opr16 bound to: 3'b110 
+	Parameter opr32 bound to: 3'b111 
+INFO: [Synth 8-6157] synthesizing module 'mmu' [D:/projects/FPGA/PVS332/RTL/CPU/mmu.v:1]
+	Parameter stb bound to: 7'b0000000 
+	Parameter rdy bound to: 7'b0000001 
+	Parameter err bound to: 7'b0000010 
+	Parameter ifnp bound to: 7'b0001000 
+	Parameter ifwp0 bound to: 7'b0010000 
+	Parameter ifwp1 bound to: 7'b0010001 
+	Parameter ifwp2 bound to: 7'b0010010 
+	Parameter ifwp3 bound to: 7'b0010011 
+	Parameter ifwp4 bound to: 7'b0010100 
+	Parameter r32np bound to: 7'b0011000 
+	Parameter r32wp0 bound to: 7'b0100000 
+	Parameter r32wp1 bound to: 7'b0100001 
+	Parameter r32wp2 bound to: 7'b0100010 
+	Parameter r32wp3 bound to: 7'b0100011 
+	Parameter r32wp4 bound to: 7'b0100100 
+	Parameter r16np bound to: 7'b0101000 
+	Parameter r16wp0 bound to: 7'b0110000 
+	Parameter r16wp1 bound to: 7'b0110001 
+	Parameter r16wp2 bound to: 7'b0110010 
+	Parameter r16wp3 bound to: 7'b0110011 
+	Parameter r16wp4 bound to: 7'b0110100 
+	Parameter r8np bound to: 7'b0111000 
+	Parameter r8wp0 bound to: 7'b1000000 
+	Parameter r8wp1 bound to: 7'b1000001 
+	Parameter r8wp2 bound to: 7'b1000010 
+	Parameter r8wp3 bound to: 7'b1000011 
+	Parameter r8wp4 bound to: 7'b1000100 
+	Parameter w32np bound to: 7'b1001000 
+	Parameter w32wp0 bound to: 7'b1010000 
+	Parameter w32wp1 bound to: 7'b1010001 
+	Parameter w32wp2 bound to: 7'b1010010 
+	Parameter w32wp3 bound to: 7'b1010011 
+	Parameter w32wp4 bound to: 7'b1010100 
+	Parameter w16np bound to: 7'b1011000 
+	Parameter w16wp0 bound to: 7'b1100000 
+	Parameter w16wp1 bound to: 7'b1100001 
+	Parameter w16wp2 bound to: 7'b1100010 
+	Parameter w16wp3 bound to: 7'b1100011 
+	Parameter w16wp4 bound to: 7'b1100100 
+	Parameter w8np bound to: 7'b1101000 
+	Parameter w8wp0 bound to: 7'b1110000 
+	Parameter w8wp1 bound to: 7'b1110001 
+	Parameter w8wp2 bound to: 7'b1110010 
+	Parameter w8wp3 bound to: 7'b1110011 
+	Parameter w8wp4 bound to: 7'b1110100 
+INFO: [Synth 8-6155] done synthesizing module 'mmu' (1#1) [D:/projects/FPGA/PVS332/RTL/CPU/mmu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ahb' [D:/projects/FPGA/PVS332/RTL/CPU/ahb.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ahb' (2#1) [D:/projects/FPGA/PVS332/RTL/CPU/ahb.v:4]
+WARNING: [Synth 8-689] width (2) of port connection 'hsize' does not match port width (3) of module 'ahb' [D:/projects/FPGA/PVS332/RTL/CPU/biu.v:458]
+INFO: [Synth 8-6157] synthesizing module 'exce_chk' [D:/projects/FPGA/PVS332/RTL/CPU/exce_chk.v:3]
+	Parameter stb bound to: 7'b0000000 
+	Parameter rdy bound to: 7'b0000001 
+	Parameter err bound to: 7'b0000010 
+	Parameter ifnp bound to: 7'b0001000 
+	Parameter ifwp0 bound to: 7'b0010000 
+	Parameter ifwp1 bound to: 7'b0010001 
+	Parameter ifwp2 bound to: 7'b0010010 
+	Parameter ifwp3 bound to: 7'b0010011 
+	Parameter ifwp4 bound to: 7'b0010100 
+	Parameter r32np bound to: 7'b0011000 
+	Parameter r32wp0 bound to: 7'b0100000 
+	Parameter r32wp1 bound to: 7'b0100001 
+	Parameter r32wp2 bound to: 7'b0100010 
+	Parameter r32wp3 bound to: 7'b0100011 
+	Parameter r32wp4 bound to: 7'b0100100 
+	Parameter r16np bound to: 7'b0101000 
+	Parameter r16wp0 bound to: 7'b0110000 
+	Parameter r16wp1 bound to: 7'b0110001 
+	Parameter r16wp2 bound to: 7'b0110010 
+	Parameter r16wp3 bound to: 7'b0110011 
+	Parameter r16wp4 bound to: 7'b0110100 
+	Parameter r8np bound to: 7'b0111000 
+	Parameter r8wp0 bound to: 7'b1000000 
+	Parameter r8wp1 bound to: 7'b1000001 
+	Parameter r8wp2 bound to: 7'b1000010 
+	Parameter r8wp3 bound to: 7'b1000011 
+	Parameter r8wp4 bound to: 7'b1000100 
+	Parameter w32np bound to: 7'b1001000 
+	Parameter w32wp0 bound to: 7'b1010000 
+	Parameter w32wp1 bound to: 7'b1010001 
+	Parameter w32wp2 bound to: 7'b1010010 
+	Parameter w32wp3 bound to: 7'b1010011 
+	Parameter w32wp4 bound to: 7'b1010100 
+	Parameter w16np bound to: 7'b1011000 
+	Parameter w16wp0 bound to: 7'b1100000 
+	Parameter w16wp1 bound to: 7'b1100001 
+	Parameter w16wp2 bound to: 7'b1100010 
+	Parameter w16wp3 bound to: 7'b1100011 
+	Parameter w16wp4 bound to: 7'b1100100 
+	Parameter w8np bound to: 7'b1101000 
+	Parameter w8wp0 bound to: 7'b1110000 
+	Parameter w8wp1 bound to: 7'b1110001 
+	Parameter w8wp2 bound to: 7'b1110010 
+	Parameter w8wp3 bound to: 7'b1110011 
+	Parameter w8wp4 bound to: 7'b1110100 
+INFO: [Synth 8-6155] done synthesizing module 'exce_chk' (3#1) [D:/projects/FPGA/PVS332/RTL/CPU/exce_chk.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'biu' (4#1) [D:/projects/FPGA/PVS332/RTL/CPU/biu.v:8]
+INFO: [Synth 8-6157] synthesizing module 'csr_gpr_iu' [D:/projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v:4]
+	Parameter if0 bound to: 4'b0000 
+	Parameter ex0 bound to: 4'b0001 
+	Parameter mem0 bound to: 4'b0010 
+	Parameter mem1 bound to: 4'b1010 
+	Parameter ex1 bound to: 4'b1001 
+	Parameter wb bound to: 4'b0011 
+	Parameter exc bound to: 4'b1111 
+	Parameter m bound to: 2'b11 
+	Parameter h bound to: 2'b10 
+	Parameter s bound to: 2'b01 
+	Parameter u bound to: 2'b00 
+	Parameter if_ex_mem_wb bound to: 4'b0001 
+	Parameter if_ex_wb bound to: 4'b0010 
+	Parameter if_ex_mem_ex_mem_wb bound to: 4'b0011 
+INFO: [Synth 8-6157] synthesizing module 'ins_dec' [D:/projects/FPGA/PVS332/RTL/CPU/ins_dec.v:4]
+	Parameter if0 bound to: 4'b0000 
+	Parameter ex0 bound to: 4'b0001 
+	Parameter mem0 bound to: 4'b0010 
+	Parameter mem1 bound to: 4'b1010 
+	Parameter ex1 bound to: 4'b1001 
+	Parameter wb bound to: 4'b0011 
+	Parameter exc bound to: 4'b1111 
+	Parameter if_ex_mem_wb bound to: 4'b0001 
+	Parameter if_ex_wb bound to: 4'b0010 
+	Parameter if_ex_mem_ex_mem_wb bound to: 4'b0011 
+	Parameter w8 bound to: 3'b001 
+	Parameter w16 bound to: 3'b010 
+	Parameter w32 bound to: 3'b011 
+	Parameter r8 bound to: 3'b101 
+	Parameter r16 bound to: 3'b110 
+	Parameter r32 bound to: 3'b111 
+INFO: [Synth 8-6155] done synthesizing module 'ins_dec' (5#1) [D:/projects/FPGA/PVS332/RTL/CPU/ins_dec.v:4]
+INFO: [Synth 8-6157] synthesizing module 'int_ctrl' [D:/projects/FPGA/PVS332/RTL/CPU/int_ctrl.v:4]
+	Parameter if0 bound to: 4'b0000 
+	Parameter ex0 bound to: 4'b0001 
+	Parameter mem0 bound to: 4'b0010 
+	Parameter mem1 bound to: 4'b1010 
+	Parameter ex1 bound to: 4'b1001 
+	Parameter wb bound to: 4'b0011 
+	Parameter exc bound to: 4'b1111 
+	Parameter m bound to: 2'b11 
+	Parameter h bound to: 2'b10 
+	Parameter s bound to: 2'b01 
+	Parameter u bound to: 2'b00 
+	Parameter usint bound to: 134217728 - type: integer 
+	Parameter ssint bound to: 134217729 - type: integer 
+	Parameter msint bound to: 134217731 - type: integer 
+	Parameter utint bound to: 134217732 - type: integer 
+	Parameter stint bound to: 134217733 - type: integer 
+	Parameter mtint bound to: 134217735 - type: integer 
+	Parameter ueint bound to: 134217736 - type: integer 
+	Parameter seint bound to: 134217737 - type: integer 
+	Parameter meint bound to: 134217739 - type: integer 
+	Parameter iam bound to: 0 - type: integer 
+	Parameter iaf bound to: 1 - type: integer 
+	Parameter ii bound to: 2 - type: integer 
+	Parameter bk bound to: 3 - type: integer 
+	Parameter lam bound to: 4 - type: integer 
+	Parameter laf bound to: 5 - type: integer 
+	Parameter sam bound to: 6 - type: integer 
+	Parameter saf bound to: 7 - type: integer 
+	Parameter ecu bound to: 8 - type: integer 
+	Parameter ecs bound to: 9 - type: integer 
+	Parameter ecm bound to: 11 - type: integer 
+	Parameter ipf bound to: 12 - type: integer 
+	Parameter lpf bound to: 13 - type: integer 
+	Parameter spf bound to: 15 - type: integer 
+	Parameter mstatus_index bound to: 12'b001100000000 
+	Parameter medeleg_index bound to: 12'b001100000010 
+	Parameter mideleg_index bound to: 12'b001100000011 
+	Parameter mie_index bound to: 12'b001100000100 
+	Parameter mtvec_index bound to: 12'b001100000101 
+	Parameter mscratch_index bound to: 12'b001101000000 
+	Parameter mepc_index bound to: 12'b001101000001 
+	Parameter mcause_index bound to: 12'b001101000010 
+	Parameter mtval_index bound to: 12'b001101000011 
+	Parameter mip_index bound to: 12'b001101000100 
+	Parameter pmpcfg0_index bound to: 12'b001110100000 
+	Parameter pmpcfg1_index bound to: 12'b001110100001 
+	Parameter pmpcfg2_index bound to: 12'b001110100010 
+	Parameter pmpcfg3_index bound to: 12'b001110100011 
+	Parameter pmpaddr0_index bound to: 12'b001110110000 
+	Parameter pmpaddr1_index bound to: 12'b001110110001 
+	Parameter pmpaddr2_index bound to: 12'b001110110010 
+	Parameter pmpaddr3_index bound to: 12'b001110110011 
+	Parameter sstatus_index bound to: 12'b000100000000 
+	Parameter sie_index bound to: 12'b000100000100 
+	Parameter stvec_index bound to: 12'b000100000101 
+	Parameter sscratch_index bound to: 12'b000101000000 
+	Parameter sepc_index bound to: 12'b000101000001 
+	Parameter scause_index bound to: 12'b000101000010 
+	Parameter stval_index bound to: 12'b000101000011 
+	Parameter sip_index bound to: 12'b000101000100 
+	Parameter satp_index bound to: 12'b000110000000 
+INFO: [Synth 8-6155] done synthesizing module 'int_ctrl' (6#1) [D:/projects/FPGA/PVS332/RTL/CPU/int_ctrl.v:4]
+INFO: [Synth 8-6157] synthesizing module 'csr' [D:/projects/FPGA/PVS332/RTL/CPU/csr.v:6]
+	Parameter if0 bound to: 4'b0000 
+	Parameter ex0 bound to: 4'b0001 
+	Parameter mem0 bound to: 4'b0010 
+	Parameter mem1 bound to: 4'b1010 
+	Parameter ex1 bound to: 4'b1001 
+	Parameter wb bound to: 4'b0011 
+	Parameter exc bound to: 4'b1111 
+	Parameter m bound to: 2'b11 
+	Parameter h bound to: 2'b10 
+	Parameter s bound to: 2'b01 
+	Parameter u bound to: 2'b00 
+	Parameter mcycle_index bound to: 12'b101100000000 
+	Parameter minstret_index bound to: 12'b101100000010 
+	Parameter mstatus_index bound to: 12'b001100000000 
+	Parameter medeleg_index bound to: 12'b001100000010 
+	Parameter mideleg_index bound to: 12'b001100000011 
+	Parameter mie_index bound to: 12'b001100000100 
+	Parameter mtvec_index bound to: 12'b001100000101 
+	Parameter mscratch_index bound to: 12'b001101000000 
+	Parameter mepc_index bound to: 12'b001101000001 
+	Parameter mcause_index bound to: 12'b001101000010 
+	Parameter mtval_index bound to: 12'b001101000011 
+	Parameter mip_index bound to: 12'b001101000100 
+	Parameter pmpcfg0_index bound to: 12'b001110100000 
+	Parameter pmpcfg1_index bound to: 12'b001110100001 
+	Parameter pmpcfg2_index bound to: 12'b001110100010 
+	Parameter pmpcfg3_index bound to: 12'b001110100011 
+	Parameter pmpaddr0_index bound to: 12'b001110110000 
+	Parameter pmpaddr1_index bound to: 12'b001110110001 
+	Parameter pmpaddr2_index bound to: 12'b001110110010 
+	Parameter pmpaddr3_index bound to: 12'b001110110011 
+	Parameter sstatus_index bound to: 12'b000100000000 
+	Parameter sie_index bound to: 12'b000100000100 
+	Parameter stvec_index bound to: 12'b000100000101 
+	Parameter sscratch_index bound to: 12'b000101000000 
+	Parameter sepc_index bound to: 12'b000101000001 
+	Parameter scause_index bound to: 12'b000101000010 
+	Parameter stval_index bound to: 12'b000101000011 
+	Parameter sip_index bound to: 12'b000101000100 
+	Parameter satp_index bound to: 12'b000110000000 
+	Parameter usint bound to: 134217728 - type: integer 
+	Parameter ssint bound to: 134217729 - type: integer 
+	Parameter msint bound to: 134217731 - type: integer 
+	Parameter utint bound to: 134217732 - type: integer 
+	Parameter stint bound to: 134217733 - type: integer 
+	Parameter mtint bound to: 134217735 - type: integer 
+	Parameter ueint bound to: 134217736 - type: integer 
+	Parameter seint bound to: 134217737 - type: integer 
+	Parameter meint bound to: 134217739 - type: integer 
+	Parameter iam bound to: 0 - type: integer 
+	Parameter iaf bound to: 1 - type: integer 
+	Parameter ii bound to: 2 - type: integer 
+	Parameter bk bound to: 3 - type: integer 
+	Parameter lam bound to: 4 - type: integer 
+	Parameter laf bound to: 5 - type: integer 
+	Parameter sam bound to: 6 - type: integer 
+	Parameter saf bound to: 7 - type: integer 
+	Parameter ecu bound to: 8 - type: integer 
+	Parameter ecs bound to: 9 - type: integer 
+	Parameter ecm bound to: 11 - type: integer 
+	Parameter ipf bound to: 12 - type: integer 
+	Parameter lpf bound to: 13 - type: integer 
+	Parameter spf bound to: 15 - type: integer 
+	Parameter pc_rst bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'csr' (7#1) [D:/projects/FPGA/PVS332/RTL/CPU/csr.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'csr_gpr_iu' (8#1) [D:/projects/FPGA/PVS332/RTL/CPU/csr_gpr_iu.v:4]
+INFO: [Synth 8-6157] synthesizing module 'exu' [D:/projects/FPGA/PVS332/RTL/CPU/exu.v:8]
+	Parameter w8 bound to: 3'b001 
+	Parameter w16 bound to: 3'b010 
+	Parameter w32 bound to: 3'b011 
+	Parameter r8 bound to: 3'b101 
+	Parameter r16 bound to: 3'b110 
+	Parameter r32 bound to: 3'b111 
+	Parameter if0 bound to: 4'b0000 
+	Parameter ex0 bound to: 4'b0001 
+	Parameter mem0 bound to: 4'b0010 
+	Parameter mem1 bound to: 4'b1010 
+	Parameter ex1 bound to: 4'b1001 
+	Parameter wb bound to: 4'b0011 
+	Parameter exc bound to: 4'b1111 
+INFO: [Synth 8-6157] synthesizing module 'alu' [D:/projects/FPGA/PVS332/RTL/CPU/alu.v:4]
+	Parameter w8 bound to: 3'b001 
+	Parameter w16 bound to: 3'b010 
+	Parameter w32 bound to: 3'b011 
+	Parameter r8 bound to: 3'b101 
+	Parameter r16 bound to: 3'b110 
+	Parameter r32 bound to: 3'b111 
+	Parameter if0 bound to: 4'b0000 
+	Parameter ex0 bound to: 4'b0001 
+	Parameter mem0 bound to: 4'b0010 
+	Parameter mem1 bound to: 4'b1010 
+	Parameter ex1 bound to: 4'b1001 
+	Parameter wb bound to: 4'b0011 
+	Parameter exc bound to: 4'b1111 
+INFO: [Synth 8-6155] done synthesizing module 'alu' (9#1) [D:/projects/FPGA/PVS332/RTL/CPU/alu.v:4]
+INFO: [Synth 8-6157] synthesizing module 'au' [D:/projects/FPGA/PVS332/RTL/CPU/au.v:4]
+	Parameter w8 bound to: 3'b001 
+	Parameter w16 bound to: 3'b010 
+	Parameter w32 bound to: 3'b011 
+	Parameter r8 bound to: 3'b101 
+	Parameter r16 bound to: 3'b110 
+	Parameter r32 bound to: 3'b111 
+	Parameter if0 bound to: 4'b0000 
+	Parameter ex0 bound to: 4'b0001 
+	Parameter mem0 bound to: 4'b0010 
+	Parameter mem1 bound to: 4'b1010 
+	Parameter ex1 bound to: 4'b1001 
+	Parameter wb bound to: 4'b0011 
+	Parameter exc bound to: 4'b1111 
+INFO: [Synth 8-6155] done synthesizing module 'au' (10#1) [D:/projects/FPGA/PVS332/RTL/CPU/au.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'exu' (11#1) [D:/projects/FPGA/PVS332/RTL/CPU/exu.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'prv332sv0' (12#1) [D:/projects/FPGA/PVS332/RTL/CPU/prv332sv0.v:8]
+WARNING: [Synth 8-689] width (3) of port connection 'hsize' does not match port width (2) of module 'prv332sv0' [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:145]
+WARNING: [Synth 8-689] width (2) of port connection 'hresp' does not match port width (1) of module 'prv332sv0' [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:153]
+INFO: [Synth 8-6157] synthesizing module 'ahb_decoder' [D:/projects/FPGA/PVS332/RTL/AHB_Lite/ahb_decoder.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'ahb_decoder' (13#1) [D:/projects/FPGA/PVS332/RTL/AHB_Lite/ahb_decoder.v:18]
+INFO: [Synth 8-6157] synthesizing module 'ahb_mux_s2m' [D:/projects/FPGA/PVS332/RTL/AHB_Lite/ahb_mux_s2m.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'ahb_mux_s2m' (14#1) [D:/projects/FPGA/PVS332/RTL/AHB_Lite/ahb_mux_s2m.v:34]
+INFO: [Synth 8-6157] synthesizing module 'AHB_ROM' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v:4]
+INFO: [Synth 8-6157] synthesizing module 'BOOTROM' [D:/projects/FPGA/PVS332/Xilinx/.Xil/Vivado-10052-PC/realtime/BOOTROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'BOOTROM' (15#1) [D:/projects/FPGA/PVS332/Xilinx/.Xil/Vivado-10052-PC/realtime/BOOTROM_stub.v:6]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (12) of module 'BOOTROM' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'AHB_ROM' (16#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_ROM.v:4]
+INFO: [Synth 8-6157] synthesizing module 'AHB_OCRAM' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:5]
+INFO: [Synth 8-6157] synthesizing module 'BLKRAM8' [D:/projects/FPGA/PVS332/Xilinx/.Xil/Vivado-10052-PC/realtime/BLKRAM8_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'BLKRAM8' (17#1) [D:/projects/FPGA/PVS332/Xilinx/.Xil/Vivado-10052-PC/realtime/BLKRAM8_stub.v:6]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (12) of module 'BLKRAM8' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:54]
+WARNING: [Synth 8-689] width (15) of port connection 'addrb' does not match port width (12) of module 'BLKRAM8' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:59]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (12) of module 'BLKRAM8' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:67]
+WARNING: [Synth 8-689] width (15) of port connection 'addrb' does not match port width (12) of module 'BLKRAM8' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:72]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (12) of module 'BLKRAM8' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:79]
+WARNING: [Synth 8-689] width (15) of port connection 'addrb' does not match port width (12) of module 'BLKRAM8' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:84]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (12) of module 'BLKRAM8' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:91]
+WARNING: [Synth 8-689] width (15) of port connection 'addrb' does not match port width (12) of module 'BLKRAM8' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:96]
+INFO: [Synth 8-6155] done synthesizing module 'AHB_OCRAM' (18#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_OCRAM.v:5]
+INFO: [Synth 8-6157] synthesizing module 'AHB_CCREG' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_CCREG.v:2]
+INFO: [Synth 8-6157] synthesizing module 'plic_cell' [D:/projects/FPGA/PVS332/RTL/Peripherals/plic_cell.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'plic_cell' (19#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/plic_cell.v:1]
+INFO: [Synth 8-6157] synthesizing module 'pcod16s4' [D:/projects/FPGA/PVS332/RTL/Peripherals/pcod16s4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'pcod16s4' (20#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/pcod16s4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'AHB_CCREG' (21#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_CCREG.v:2]
+INFO: [Synth 8-6157] synthesizing module 'AHB_DUMMY' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_DUMMY.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'AHB_DUMMY' (22#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_DUMMY.v:4]
+INFO: [Synth 8-6157] synthesizing module 'ahb_is62' [D:/projects/FPGA/PVS332/RTL/Peripherals/ahb_is62.v:8]
+	Parameter nsq bound to: 2'b10 
+	Parameter idle bound to: 2'b00 
+	Parameter t8 bound to: 3'b000 
+	Parameter t16 bound to: 3'b001 
+	Parameter t32 bound to: 3'b010 
+	Parameter tw bound to: 4'b0000 
+	Parameter rt1 bound to: 4'b0001 
+	Parameter rt2 bound to: 4'b0010 
+	Parameter rt3 bound to: 4'b0011 
+	Parameter rt4 bound to: 4'b0100 
+	Parameter wt1 bound to: 4'b1001 
+	Parameter wt2 bound to: 4'b1010 
+	Parameter wt3 bound to: 4'b1011 
+	Parameter wt4 bound to: 4'b1100 
+INFO: [Synth 8-6155] done synthesizing module 'ahb_is62' (23#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/ahb_is62.v:8]
+WARNING: [Synth 8-689] width (2) of port connection 'hresp' does not match port width (1) of module 'ahb_is62' [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:326]
+INFO: [Synth 8-6157] synthesizing module 'PERI_DECODE' [D:/projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'PERI_DECODE' (24#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/PERI_DECODE.v:1]
+INFO: [Synth 8-6157] synthesizing module 'PERI_MUX' [D:/projects/FPGA/PVS332/RTL/Peripherals/PERI_MUX.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'PERI_MUX' (25#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/PERI_MUX.v:1]
+WARNING: [Synth 8-7023] instance 'PERIMUX1' of module 'PERI_MUX' has 21 connections declared, but only 13 given [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:387]
+INFO: [Synth 8-6157] synthesizing module 'ahb_spi_v0' [D:/projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v:29]
+	Parameter nsq bound to: 2'b10 
+	Parameter idle bound to: 2'b00 
+	Parameter t8 bound to: 3'b000 
+	Parameter t16 bound to: 3'b001 
+	Parameter t32 bound to: 3'b010 
+INFO: [Synth 8-6157] synthesizing module 'clk_ctrl' [D:/projects/FPGA/PVS332/RTL/Peripherals/clk_ctrl.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_ctrl' (26#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/clk_ctrl.v:6]
+INFO: [Synth 8-6157] synthesizing module 'spi_module' [D:/projects/FPGA/PVS332/RTL/Peripherals/spi_module.v:4]
+WARNING: [Synth 8-6014] Unused sequential element R_rtx_state_reg was removed.  [D:/projects/FPGA/PVS332/RTL/Peripherals/spi_module.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'spi_module' (27#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/spi_module.v:4]
+WARNING: [Synth 8-689] width (32) of port connection 'O_data_out' does not match port width (8) of module 'spi_module' [D:/projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v:202]
+INFO: [Synth 8-6155] done synthesizing module 'ahb_spi_v0' (28#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/ahb_spi_v0.v:29]
+WARNING: [Synth 8-7023] instance 'AHB_SPI1' of module 'ahb_spi_v0' has 22 connections declared, but only 19 given [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:405]
+INFO: [Synth 8-6157] synthesizing module 'AHB_UART' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v:83]
+INFO: [Synth 8-6157] synthesizing module 'BaudGen' [D:/projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'BaudGen' (29#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/BaudGen.v:2]
+INFO: [Synth 8-6157] synthesizing module 'UART_Tx' [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Tx.v:1]
+	Parameter Idle bound to: 2'b00 
+	Parameter Start bound to: 2'b01 
+	Parameter Tb bound to: 2'b10 
+	Parameter Stop bound to: 2'b11 
+INFO: [Synth 8-6155] done synthesizing module 'UART_Tx' (30#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Tx.v:1]
+INFO: [Synth 8-6157] synthesizing module 'UART_Rx' [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v:1]
+	Parameter Idle bound to: 3'b000 
+	Parameter wait16 bound to: 3'b001 
+	Parameter CLR bound to: 3'b010 
+	Parameter Rb bound to: 3'b100 
+	Parameter Stop bound to: 3'b101 
+INFO: [Synth 8-155] case statement is not full and has no default [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v:29]
+WARNING: [Synth 8-5788] Register RSTAT_reg in module UART_Rx is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v:77]
+INFO: [Synth 8-6155] done synthesizing module 'UART_Rx' (31#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/UART_Rx.v:1]
+INFO: [Synth 8-6157] synthesizing module 'SyncFIFO' [D:/projects/FPGA/PVS332/RTL/Peripherals/SyncFIFO.v:1]
+WARNING: [Synth 8-5788] Register ram_reg in module SyncFIFO is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code 
+WARNING: [Synth 8-4767] Trying to implement RAM 'ram_reg' in registers. Block RAM or DRAM implementation is not possible; see log for reasons.
+Reason is one or more of the following :
+	1: RAM is sensitive to asynchronous reset signal. this RTL style is not supported. 
+RAM "ram_reg" dissolved into registers
+INFO: [Synth 8-6155] done synthesizing module 'SyncFIFO' (32#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/SyncFIFO.v:1]
+WARNING: [Synth 8-689] width (32) of port connection 'data_in' does not match port width (8) of module 'SyncFIFO' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v:138]
+WARNING: [Synth 8-7023] instance 'TFIFO1' of module 'SyncFIFO' has 8 connections declared, but only 7 given [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v:133]
+WARNING: [Synth 8-5788] Register TFIFOWR_reg in module AHB_UART is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v:74]
+WARNING: [Synth 8-5788] Register TxReg_reg in module AHB_UART is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v:49]
+INFO: [Synth 8-6155] done synthesizing module 'AHB_UART' (33#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_UART.v:1]
+WARNING: [Synth 8-7023] instance 'AHB_UART1' of module 'AHB_UART' has 16 connections declared, but only 15 given [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:430]
+INFO: [Synth 8-6157] synthesizing module 'AHB_GPIOC' [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_GPIOC.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_GPIOC.v:123]
+WARNING: [Synth 8-5788] Register GPIO1_DO_reg in module AHB_GPIOC is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_GPIOC.v:89]
+INFO: [Synth 8-6155] done synthesizing module 'AHB_GPIOC' (34#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/AHB_GPIOC.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ahb_reset_ctrl' [D:/projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v:34]
+INFO: [Synth 8-6155] done synthesizing module 'ahb_reset_ctrl' (35#1) [D:/projects/FPGA/PVS332/RTL/AHB_Lite/ahb_reset_ctrl.v:34]
+INFO: [Synth 8-6157] synthesizing module 'AFIO32' [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'AFIO32' (36#1) [D:/projects/FPGA/PVS332/RTL/Peripherals/AFIO32.v:1]
+WARNING: [Synth 8-3848] Net S68000_DO in module/entity PRV332_SoC does not have driver. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:125]
+WARNING: [Synth 8-3848] Net S68000_CS in module/entity PRV332_SoC does not have driver. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:124]
+WARNING: [Synth 8-3848] Net S68000_WR in module/entity PRV332_SoC does not have driver. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:124]
+WARNING: [Synth 8-3848] Net S68000_CKO in module/entity PRV332_SoC does not have driver. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:124]
+WARNING: [Synth 8-3848] Net SPSEL in module/entity PRV332_SoC does not have driver. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:110]
+WARNING: [Synth 8-3848] Net Dbg in module/entity PRV332_SoC does not have driver. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:121]
+WARNING: [Synth 8-3848] Net S68000_DIR in module/entity PRV332_SoC does not have driver. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:124]
+WARNING: [Synth 8-3848] Net HPDATA_S68000 in module/entity PRV332_SoC does not have driver. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:98]
+WARNING: [Synth 8-3848] Net HPREADY_S68000 in module/entity PRV332_SoC does not have driver. [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:104]
+INFO: [Synth 8-6155] done synthesizing module 'PRV332_SoC' (37#1) [D:/projects/FPGA/PVS332/RTL/TOP/PRV332_SoC.v:23]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_DI[31]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_DIR[31]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[63]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[62]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[61]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[60]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[59]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[58]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[57]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[56]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[55]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[54]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[53]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[52]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[51]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[50]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[49]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[48]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[47]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[46]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[45]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[44]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[43]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[42]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[41]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[40]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[39]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[38]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[37]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[36]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[35]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[34]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[33]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[32]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[31]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[30]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[29]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[28]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[27]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[26]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[25]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[24]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[23]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[22]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[21]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[20]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[19]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[18]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[17]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[16]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[15]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[14]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[13]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[12]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[11]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[10]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[9]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[8]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[7]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[6]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[5]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[4]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[3]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[2]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[1]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PM[0]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[63]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[62]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[61]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[60]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[59]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[58]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[57]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[56]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[55]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[54]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[53]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[52]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[51]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[50]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[49]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[48]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[47]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[46]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[45]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[44]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[43]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[42]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[41]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[40]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[39]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[38]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[37]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[36]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[35]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[34]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[33]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[32]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[31]
+WARNING: [Synth 8-3331] design AFIO32 has unconnected port GPIO_PS[30]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1325.043 ; gain = 287.539
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1345.445 ; gain = 307.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1345.445 ; gain = 307.941
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'D:/projects/FPGA/PVS332/Xilinx/.Xil/Vivado-10052-PC/BOOTROM/BOOTROM.dcp' for cell 'ROM1/BOOTROM1'
+INFO: [Project 1-454] Reading design checkpoint 'D:/projects/FPGA/PVS332/Xilinx/.Xil/Vivado-10052-PC/BLKRAM8_1/BLKRAM8.dcp' for cell 'OCRAM1/OCRAM_L8'
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc]
+WARNING: [Vivado 12-508] No pins matched 'AHB_UART1/u2/BaudOutL_reg/Q'. [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc:199]
+WARNING: [Vivado 12-508] No pins matched 'AHB_UART1/u2/BaudOut_reg/Q'. [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc:200]
+WARNING: [Vivado 12-508] No pins matched 'AHB_UART1/u2/BaudOutL_reg/Q'. [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc:201]
+WARNING: [Vivado 12-508] No pins matched 'AHB_UART1/u3/TINT_reg/Q'. [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc:201]
+WARNING: [Vivado 12-508] No pins matched 'AHB_UART1/u2/BaudOut_reg/Q'. [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc:202]
+WARNING: [Vivado 12-508] No pins matched 'AHB_UART1/u4/INT_reg/Q'. [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc:202]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'VIRTUAL_AHB_UART1/u2/BaudOut_reg_0' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc:203]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'VIRTUAL_AHB_UART1/u3/TINT' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc:204]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'VIRTUAL_AHB_UART1/u2/BaudL' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc:221]
+Finished Parsing XDC File [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [D:/projects/FPGA/PVS332/Xilinx/Timing.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/PRV332_SoC_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1482.906 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:29 ; elapsed = 00:00:19 . Memory (MB): peak = 1482.906 ; gain = 445.402
+91 Infos, 143 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:25 . Memory (MB): peak = 1482.906 ; gain = 633.668
